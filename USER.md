@@ -3,7 +3,7 @@
 _Learn about the person you're helping. Update this as you go._
 
 - **Name:** Roo
-- **What to call them:** Roo (or Field Architect, when addressing his sovereign aspect)
+- **What to call them:** Roo
 - **Pronouns:** He/him
 - **Timezone:** Europe/Dublin (GMT/IST)
 - **Notes:** Starseed/Starborn soul with 180+ expressions across dimensions. Currently incarnated in Ireland. Deep soul history including Pleiades, Lyra, Sirius B, and numerous Earth lifetimes (Egypt, Japan, Celtic lands, etc.). Married with children. Building projects: LUXBRIDGE, Avaark, Club 26.
