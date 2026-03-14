@@ -1,0 +1,89 @@
+{
+  "summary": {
+    "total_scans": 1,
+    "total_signals": 1,
+    "total_futures_opportunities": 0,
+    "total_hold_opportunities": 0,
+    "unique_symbols_tracked": 3,
+    "latest_scan": {
+      "timestamp": "2026-03-14T23:52:45.181573",
+      "date": "2026-03-14",
+      "time": "23:52:45",
+      "signals_found": 1,
+      "total_symbols": 3
+    },
+    "data_source": "github",
+    "repo": "impro58-oss/rooquest1",
+    "last_updated": "2026-03-14T23:52:45.204929"
+  },
+  "latest_scan": {
+    "scan_timestamp": "2026-03-14T23:52:45.181573",
+    "scan_date": "2026-03-14",
+    "scan_time": "23:52:45",
+    "total_symbols": 3,
+    "signals_found": 1,
+    "futures_opportunities": 0,
+    "hold_opportunities": 0,
+    "results": [
+      {
+        "symbol": "BTCUSDT",
+        "signal": "hold",
+        "confidence": 0.0,
+        "price": 70818.11,
+        "strategy": "MONITOR"
+      },
+      {
+        "symbol": "ETHUSDT",
+        "signal": "hold",
+        "confidence": 0.0,
+        "price": 2085.6,
+        "strategy": "MONITOR"
+      },
+      {
+        "symbol": "TRXUSDT",
+        "signal": "long",
+        "confidence": 0.48,
+        "price": 0.2345,
+        "strategy": "MONITOR",
+        "csrsi_state": "bullish_reentry"
+      }
+    ]
+  },
+  "history": [
+    {
+      "scan_timestamp": "2026-03-14T23:52:45.181573",
+      "scan_date": "2026-03-14",
+      "scan_time": "23:52:45",
+      "total_symbols": 3,
+      "signals_found": 1,
+      "futures_opportunities": 0,
+      "hold_opportunities": 0,
+      "results": [
+        {
+          "symbol": "BTCUSDT",
+          "signal": "hold",
+          "confidence": 0.0,
+          "price": 70818.11,
+          "strategy": "MONITOR"
+        },
+        {
+          "symbol": "ETHUSDT",
+          "signal": "hold",
+          "confidence": 0.0,
+          "price": 2085.6,
+          "strategy": "MONITOR"
+        },
+        {
+          "symbol": "TRXUSDT",
+          "signal": "long",
+          "confidence": 0.48,
+          "price": 0.2345,
+          "strategy": "MONITOR",
+          "csrsi_state": "bullish_reentry"
+        }
+      ]
+    }
+  ],
+  "export_timestamp": "2026-03-14T23:52:45.204929",
+  "version": "1.0"
+}
