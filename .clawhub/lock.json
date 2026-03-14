@@ -24,6 +24,10 @@
     "blogwatcher": {
       "version": "1.0.0",
       "installedAt": 1773503938554
+    },
+    "pdf-tools": {
+      "version": "0.1.0",
+      "installedAt": 1773506510331
     }
   }
 }
