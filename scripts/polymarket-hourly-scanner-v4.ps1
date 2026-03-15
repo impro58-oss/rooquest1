@@ -160,15 +160,15 @@ Write-Host "  Saved $($AllMarkets.Count) markets"
 
 # Generate alert content
 if ($HotBets.Count -gt 0) {
-    # Sort by odds (closest to 50% first)
-    $TopBets = $HotBets | Sort-Object @{Expression={[math]::Abs($_.OddsNum - 50)}} | Select-Object -First 5
+    # Sort by odds (closest to 50% first) - for ALL bets
+    $SortedBets = $HotBets | Sort-Object @{Expression={[math]::Abs($_.OddsNum - 50)}}
     
     $AlertContent = @()
     $AlertContent += "HOT BETS - $Timestamp"
     $AlertContent += "Found $($HotBets.Count) opportunities with 20-80% odds"
     $AlertContent += ""
     
-    foreach ($Bet in $TopBets) {
+    foreach ($Bet in $SortedBets) {
         $AlertContent += "---"
         $AlertContent += "[$($Bet.Category.ToUpper())] $($Bet.Name)"
         $AlertContent += "Outcome: $($Bet.Outcome)"
