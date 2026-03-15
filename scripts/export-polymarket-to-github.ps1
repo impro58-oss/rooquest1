@@ -60,8 +60,13 @@ for ($i = 2; $i -lt $Lines.Count; $i++) {
             Odds = ""
             OddsNum = 0
             EdgeType = ""
+            Outcome = ""
             Url = ""
         }
+    }
+    # Outcome line (new in v4)
+    elseif ($Line -match '^Outcome:\s+(.+)$') {
+        $CurrentBet.Outcome = $Matches[1]
     }
     # Odds line
     elseif ($Line -match 'Odds:\s+(\d+)%') {

@@ -8,8 +8,8 @@ Write-Host "=== POLYMARKET HOURLY SCAN ==="
 Write-Host "Time: $Timestamp"
 Write-Host ""
 
-# Run the improved scanner (v3 with JSON-LD parsing)
-$AlertFile = & "$WorkingDir\polymarket-hourly-scanner-v3.ps1"
+# Run the improved scanner (v4 with outcome descriptions)
+$AlertFile = & "$WorkingDir\polymarket-hourly-scanner-v4.ps1"
 
 if ($AlertFile -and (Test-Path $AlertFile)) {
     Write-Host ""
@@ -21,6 +21,8 @@ if ($AlertFile -and (Test-Path $AlertFile)) {
     # Export to GitHub for dashboard
     Write-Host "Exporting to GitHub..."
     & "$WorkingDir\export-polymarket-to-github.ps1"
+    
+    Write-Host "Done!"
 } else {
     Write-Host "No alert file generated (no hot bets or error)"
 }

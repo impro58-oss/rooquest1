@@ -149,6 +149,7 @@ if poly_data:
                 col1, col2 = st.columns([3, 1])
                 with col1:
                     st.markdown(f"**[{bet['Category'].upper()}]** {bet['Name']}")
+                    st.markdown(f"🎯 Outcome: {bet.get('Outcome', 'Check link')}")
                     st.markdown(f"📊 Odds: {bet['Odds']} | Type: {bet['EdgeType']}")
                 with col2:
                     st.markdown(f"[View Market]({bet['Url']})")
