@@ -17,11 +17,12 @@ $JsonFile = "$FullPath\markets-$Timestamp.json"
 
 Write-Host "Scanning Polymarket at $Timestamp..."
 
-# Categories to scan (EXCLUDING sports)
+# Categories to scan (ALL categories including sports)
 $Categories = @(
     @{Url="https://polymarket.com/predictions/trending-markets"; Name="trending"},
     @{Url="https://polymarket.com/predictions/politics"; Name="politics"},
     @{Url="https://polymarket.com/predictions/crypto"; Name="crypto"},
+    @{Url="https://polymarket.com/predictions/sports"; Name="sports"},
     @{Url="https://polymarket.com/predictions/finance"; Name="finance"},
     @{Url="https://polymarket.com/predictions/entertainment"; Name="entertainment"}
 )
