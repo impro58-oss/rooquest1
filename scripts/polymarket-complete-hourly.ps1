@@ -18,7 +18,9 @@ if ($AlertFile -and (Test-Path $AlertFile)) {
     # Send alert using v5 (enhanced with recommendations)
     & "$WorkingDir\polymarket-alert-telegram-v5.ps1" -AlertFile $AlertFile
     
-    Write-Host "Done!"
+    # Export to GitHub for dashboard
+    Write-Host "Exporting to GitHub..."
+    & "$WorkingDir\export-polymarket-to-github.ps1"
 } else {
     Write-Host "No alert file generated (no hot bets or error)"
 }

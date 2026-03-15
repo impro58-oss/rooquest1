@@ -1,0 +1,47 @@
+﻿{
+    "scan_time":  "2026-03-15 11:46:16",
+    "total_opportunities":  45,
+    "timestamp":  "2026-03-15-1100",
+    "hot_bets":  [
+                     {
+                         "OddsNum":  50,
+                         "Name":  "Club Atltico de Madrid vs. FK Bod/Glimt - More Markets",
+                         "Odds":  "50%",
+                         "EdgeType":  "CLOSE_CALL",
+                         "Category":  "ENTERTAINMENT",
+                         "Url":  "https://polymarket.com/event/ucl-atm-bog1-2026-01-28-more-markets"
+                     },
+                     {
+                         "OddsNum":  50,
+                         "Name":  "FCSB vs. Fenerbahe SK - More Markets",
+                         "Odds":  "50%",
+                         "EdgeType":  "CLOSE_CALL",
+                         "Category":  "ENTERTAINMENT",
+                         "Url":  "https://polymarket.com/event/uel-ste-fen1-2026-01-29-more-markets"
+                     },
+                     {
+                         "OddsNum":  50,
+                         "Name":  "FC Barcelona vs. FC Kbenhavn - More Markets",
+                         "Odds":  "50%",
+                         "EdgeType":  "CLOSE_CALL",
+                         "Category":  "ENTERTAINMENT",
+                         "Url":  "https://polymarket.com/event/ucl-fcb1-kob1-2026-01-28-more-markets"
+                     },
+                     {
+                         "OddsNum":  50,
+                         "Name":  "Atalanta BC vs. Athletic Club - More Markets",
+                         "Odds":  "50%",
+                         "EdgeType":  "CLOSE_CALL",
+                         "Category":  "ENTERTAINMENT",
+                         "Url":  "https://polymarket.com/event/ucl-ata-ath1-2026-01-21-more-markets"
+                     },
+                     {
+                         "OddsNum":  50,
+                         "Name":  "FC Bayern Mnchen vs. RU Saint-Gilloise - More Markets",
+                         "Odds":  "50%",
+                         "EdgeType":  "CLOSE_CALL",
+                         "Category":  "SPORTS",
+                         "Url":  "https://polymarket.com/event/ucl-bay-usg1-2026-01-21-more-markets"
+                     }
+                 ]
+}

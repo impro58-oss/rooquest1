@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polymarket Trading Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0f;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 1px solid #333;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        
+        .last-updated {
+            color: #888;
+            font-size: 0.9em;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-card {
+            background: #151520;
+            border-radius: 12px;
+            padding: 25px;
+            border: 1px solid #2a2a3a;
+            transition: transform 0.2s;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-2px);
+            border-color: #667eea;
+        }
+        
+        .stat-label {
+            color: #888;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        
+        .positive { color: #4ade80; }
+        .negative { color: #f87171; }
+        .neutral { color: #e0e0e0; }
+        
+        .section {
+            background: #151520;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            border: 1px solid #2a2a3a;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.3em;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            text-align: left;
+            padding: 12px;
+            border-bottom: 1px solid #2a2a3a;
+        }
+        
+        th {
+            color: #888;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.85em;
+            letter-spacing: 0.5px;
+        }
+        
+        tr:hover {
+            background: #1a1a2a;
+        }
+        
+        .market-link {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        .market-link:hover {
+            text-decoration: underline;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+        
+        .badge-hot { background: #7c3aed; color: white; }
+        .badge-contrarian { background: #059669; color: white; }
+        .badge-flip { background: #d97706; color: white; }
+        
+        .opportunity-card {
+            background: #1a1a2a;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .opportunity-card h3 {
+            color: #e0e0e0;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        
+        .opportunity-meta {
+            display: flex;
+            gap: 20px;
+            color: #888;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+        
+        .action-btn {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+        
+        .action-btn:hover {
+            background: #5a67d8;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: #888;
+        }
+        
+        .error {
+            background: #3a1f1f;
+            border: 1px solid #5a2f2f;
+            color: #f87171;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Polymarket Trading Dashboard</h1>
+            <div class="last-updated">Last updated: <span id="lastUpdated">Loading...</span></div>
+        </header>
+        
+        <div id="stats" class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-label">Total Invested</div>
+                <div class="stat-value neutral" id="totalInvested">-</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Current Value</div>
+                <div class="stat-value neutral" id="currentValue">-</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Total P&L</div>
+                <div class="stat-value" id="totalPnL">-</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Active Positions</div>
+                <div class="stat-value neutral" id="activePositions">-</div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Current Positions</h2>
+            <div id="positionsTable">
+                <div class="loading">Loading positions...</div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Latest Opportunities</h2>
+            <div id="opportunities">
+                <div class="loading">Loading opportunities...</div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Quick Links</h2>
+            <p>
+                <a href="https://polymarket.com" class="action-btn" target="_blank">Polymarket</a>
+                <a href="https://polymarket.com/portfolio" class="action-btn" target="_blank">My Portfolio</a>
+                <a href="https://notion.so" class="action-btn" target="_blank">Notion Database</a>
+            </p>
+        </div>
+    </div>
+    
+    <script>
+        // Load data from JSON files
+        async function loadData() {
+            try {
+                // Load portfolio data
+                const portfolioRes = await fetch('portfolio-data.json');
+                const portfolio = await portfolioRes.json();
+                
+                // Load opportunities data
+                const oppRes = await fetch('opportunities-data.json');
+                const opportunities = await oppRes.json();
+                
+                // Update stats
+                document.getElementById('lastUpdated').textContent = new Date(portfolio.lastUpdated).toLocaleString();
+                document.getElementById('totalInvested').textContent = '$' + portfolio.totalInvested.toFixed(2);
+                document.getElementById('currentValue').textContent = '$' + portfolio.totalCurrent.toFixed(2);
+                
+                const pnlEl = document.getElementById('totalPnL');
+                pnlEl.textContent = (portfolio.totalPnL >= 0 ? '+' : '') + '$' + portfolio.totalPnL.toFixed(2) + 
+                    ' (' + ((portfolio.totalPnL / portfolio.totalInvested) * 100).toFixed(2) + '%)';
+                pnlEl.className = 'stat-value ' + (portfolio.totalPnL >= 0 ? 'positive' : 'negative');
+                
+                document.getElementById('activePositions').textContent = portfolio.totalPositions;
+                
+                // Render positions table
+                renderPositions(portfolio.positions);
+                
+                // Render opportunities
+                renderOpportunities(opportunities);
+                
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('positionsTable').innerHTML = 
+                    '<div class="error">Error loading data. Please check that data files exist.</div>';
+            }
+        }
+        
+        function renderPositions(positions) {
+            if (!positions || positions.length === 0) {
+                document.getElementById('positionsTable').innerHTML = '<p>No active positions.</p>';
+                return;
+            }
+            
+            let html = '<table><thead><tr>';
+            html += '<th>Market</th><th>Outcome</th><th>Shares</th>';
+            html += '<th>Avg Price</th><th>Current</th><th>P&L</th><th>Action</th>';
+            html += '</tr></thead><tbody>';
+            
+            positions.forEach(pos => {
+                const pnlClass = pos.pnl >= 0 ? 'positive' : 'negative';
+                html += `<tr>
+                    <td><a href="${pos.marketUrl}" class="market-link" target="_blank">${pos.market}</a></td>
+                    <td>${pos.outcome}</td>
+                    <td>${pos.shares}</td>
+                    <td>$${pos.avgPrice.toFixed(4)}</td>
+                    <td>$${pos.curPrice.toFixed(4)}</td>
+                    <td class="${pnlClass}">${pos.pnl >= 0 ? '+' : ''}$${pos.pnl.toFixed(2)} (${pos.pnlPercent.toFixed(1)}%)</td>
+                    <td><a href="${pos.marketUrl}" class="action-btn" target="_blank">Trade</a></td>
+                </tr>`;
+            });
+            
+            html += '</tbody></table>';
+            document.getElementById('positionsTable').innerHTML = html;
+        }
+        
+        function renderOpportunities(opps) {
+            let html = '';
+            
+            if (opps.hotBets) {
+                html += `<div class="opportunity-card">
+                    <span class="badge badge-hot">HOT BET</span>
+                    <h3>${opps.hotBets.file}</h3>
+                    <pre>${opps.hotBets.content}</pre>
+                </div>`;
+            }
+            
+            if (opps.contrarianPlays) {
+                html += `<div class="opportunity-card">
+                    <span class="badge badge-contrarian">CONTRARIAN</span>
+                    <h3>${opps.contrarianPlays.file}</h3>
+                    <pre>${opps.contrarianPlays.content}</pre>
+                </div>`;
+            }
+            
+            if (!opps.hotBets && !opps.contrarianPlays) {
+                html = '<p>No new opportunities found.</p>';
+            }
+            
+            document.getElementById('opportunities').innerHTML = html;
+        }
+        
+        // Load data on page load
+        loadData();
+        
+        // Refresh every 5 minutes
+        setInterval(loadData, 5 * 60 * 1000);
+    </script>
+</body>
+</html>
