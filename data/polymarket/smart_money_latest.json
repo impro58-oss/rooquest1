@@ -1,14 +1,90 @@
 ﻿{
-    "markets_with_movement":  0,
-    "timestamp":  "2026-03-15 14:06:11",
-    "scan_file":  "markets-2026-03-15-1405.json",
-    "top_opportunities":  {
-
-                          },
+    "markets_with_movement":  4,
+    "timestamp":  "2026-03-15 15:00:24",
+    "scan_file":  "markets-2026-03-15-1500.json",
+    "top_opportunities":  [
+                              {
+                                  "Market":  "Crystal Palace FC vs. Leeds United FC",
+                                  "Category":  "sports",
+                                  "Url":  "https://polymarket.com/event/epl-cry-lee-2026-03-15",
+                                  "PreviousOdds":  35,
+                                  "CurrentOdds":  53,
+                                  "Movement":  18,
+                                  "MovementPercent":  18,
+                                  "Direction":  "UP",
+                                  "Confidence":  "HIGH",
+                                  "PreviousTime":  "2026-03-15 14:06:11",
+                                  "CurrentTime":  "2026-03-15 15:00:24"
+                              },
+                              {
+                                  "Market":  "Manchester United FC vs. Aston Villa FC",
+                                  "Category":  "sports",
+                                  "Url":  "https://polymarket.com/event/epl-mun-ast-2026-03-15",
+                                  "PreviousOdds":  56,
+                                  "CurrentOdds":  47,
+                                  "Movement":  -9,
+                                  "MovementPercent":  9,
+                                  "Direction":  "DOWN",
+                                  "Confidence":  "MEDIUM",
+                                  "PreviousTime":  "2026-03-15 14:06:11",
+                                  "CurrentTime":  "2026-03-15 15:00:24"
+                              }
+                          ],
     "total_markets":  120,
     "threshold":  5,
     "movements":  [
-
+                      {
+                          "Market":  "RCD Mallorca vs. RCD Espanyol de Barcelona",
+                          "Category":  "sports",
+                          "Url":  "https://polymarket.com/event/lal-mal-esp-2026-03-15",
+                          "PreviousOdds":  12,
+                          "CurrentOdds":  100,
+                          "Movement":  88,
+                          "MovementPercent":  88,
+                          "Direction":  "UP",
+                          "Confidence":  "HIGH",
+                          "PreviousTime":  "2026-03-15 14:06:11",
+                          "CurrentTime":  "2026-03-15 15:00:24"
+                      },
+                      {
+                          "Market":  "Crystal Palace FC vs. Leeds United FC",
+                          "Category":  "sports",
+                          "Url":  "https://polymarket.com/event/epl-cry-lee-2026-03-15",
+                          "PreviousOdds":  35,
+                          "CurrentOdds":  53,
+                          "Movement":  18,
+                          "MovementPercent":  18,
+                          "Direction":  "UP",
+                          "Confidence":  "HIGH",
+                          "PreviousTime":  "2026-03-15 14:06:11",
+                          "CurrentTime":  "2026-03-15 15:00:24"
+                      },
+                      {
+                          "Market":  "Manchester United FC vs. Aston Villa FC",
+                          "Category":  "sports",
+                          "Url":  "https://polymarket.com/event/epl-mun-ast-2026-03-15",
+                          "PreviousOdds":  56,
+                          "CurrentOdds":  47,
+                          "Movement":  -9,
+                          "MovementPercent":  9,
+                          "Direction":  "DOWN",
+                          "Confidence":  "MEDIUM",
+                          "PreviousTime":  "2026-03-15 14:06:11",
+                          "CurrentTime":  "2026-03-15 15:00:24"
+                      },
+                      {
+                          "Market":  "Counter-Strike: FUT Esports vs Astralis (BO3) - ESL Pro League Playoffs",
+                          "Category":  "sports",
+                          "Url":  "https://polymarket.com/event/cs2-fut-ast10-2026-03-15",
+                          "PreviousOdds":  51,
+                          "CurrentOdds":  76,
+                          "Movement":  25,
+                          "MovementPercent":  25,
+                          "Direction":  "UP",
+                          "Confidence":  "HIGH",
+                          "PreviousTime":  "2026-03-15 14:06:11",
+                          "CurrentTime":  "2026-03-15 15:00:24"
+                      }
                   ],
-    "smart_money_alerts":  0
+    "smart_money_alerts":  2
 }

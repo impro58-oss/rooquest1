@@ -1,0 +1,341 @@
+=== Page 2 ===
+HTW_fm01.qxp 8/22/08 8:52 AM Page ii
+
+=== Page 3 ===
+HWC_IFC.qxp 7/29/08 7:51 AM Page 101
+The Five-Way Access System
+The five-way access system of the Handbook of Technical Writing
+provides readers with multiple ways of retrieving information:
+1.Alphabetically Organized Entries
+The alphabetically organized entries with color tabs enable
+readers to find information quickly. Within the entries, terms
+shown as links refer to other entries that contain definitions of
+key concepts or further information on related topics.
+2.Contents by Topic
+The complete Contents by Topic, on the inside front cover,
+groups the entries into categories and serves as a quick refer-
+ence for finding all topics covered in the book. The Contents
+by Topic allows a writer focusing on a specific task or problem
+to locate helpful entries; it is also useful for instructors who
+want to correlate the Handbook with standard textbooks or
+their own course materials. The list of Commonly Misused
+Words and Phrases extends this topical key by listing all the
+usage entries in the book.
+3.Checklistof the Writing Process
+The Checklist helps readers to reference all writing-process-
+related entries.
+4.Comprehensive Index
+The Index lists all the topics covered in the book, including
+subtopics within the main entries in the alphabetical arrange-
+ment.
+5.Model Documents and Figures by Topic
+The list of Model Documents and Figures by Topic, on the in-
+side back cover, makes it easier to find the abundant “real-
+world” examples and sample documents throughout the text
+that provide models for effective technical communication.
+
+=== Page 4 ===
+HWC_IFC.qxp 7/29/08 7:51 AM Page 102
+Contents by Topic
+Use this list as a quick reference for finding entries by topic. To search
+this book in more detail, see the Index.
+Technical Writing Documents Graphs 235
+Maps 319
+and Elements
+Mathematical Equations 320
+Brochures 54 Organizational Charts 362
+Description 120 Photographs 377
+Tables 519
+Environmental Impact Statements 174
+Web Design 561
+FAQs (Frequently Asked
+Questions) 183
+Correspondence
+Forms 218
+Indexing 250 Acknowledgment Letters 11
+Instructions 258 Adjustment Letters 14
+Job Descriptions 285 Complaint Letters 87
+Manuals 315 Correspondence 102
+Mathematical Equations 320 Cover Letters 111
+Newsletter Articles 341 E-mail 162
+Newsletters 343 Inquiries and Responses 253
+Process Explanation 401 Instant Messaging 256
+Proposals 412 International Correspondence 265
+Requests for Proposals 456 Letters 301
+Questionnaires 437 Memos 328
+Report Components Reference Letters 449
+Abstracts 7 Refusal Letters 449
+Appendixes 34
+Conclusions 93 Job Search and Application
+Executive Summaries 181
+Glossaries 233 Acceptance/Refusal Letters
+Introductions 276 (for Employment) 9
+Tables of Contents 519 Application Letters 35
+Titles 529 Interviewing for a Job 272
+Reports 454
+Job Search 286
+Feasibility Reports 185
+Resignation Letters 467
+Formal Reports 195
+Résumés 471
+Investigative Reports 281
+Laboratory Reports 293 Salary Negotiations 491
+Progress and Activity Reports 402
+Test Reports 527 Presentations and Meetings
+Trip Reports 539
+Listening 307
+Trouble Reports 541
+Specifications 510 Meetings 323
+Trade Journal Articles 533 Minutes of Meetings 332
+Literature Reviews 310 Presentations 391
+Usability Testing 543
+White Papers 565 Research and Documentation
+Writing for the Web 570 Bibliographies 48
+Brainstorming 53
+Copyright 101
+Design and Visuals
+Documenting Sources 129
+Layout and Design 295 Interviewing for Information 270
+Forms 218 Literature Reviews 310
+Headers and Footers 241 Note-Taking 347
+Headings 242
+Paraphrasing 372
+Lists 309
+Plagiarism 383
+Visuals 552
+Drawings 154 Questionnaires 437
+Flowcharts 192 Quotations 445
+Global Graphics 230 Research 449
+
+=== Page 5 ===
+HWC_IFC.qxp 7/29/08 7:51 AM Page 103
+Organization,Writing, Articles 39
+and Revision Biased Language 46
+Clauses 70
+Blogs 49 Comma Splice 77
+Collaborative Writing 72 Commas 77
+Content Management 97 Double Negatives 153
+Description 120 English as a Second Language 169
+Ethics in Writing 177 Gender 226
+Exposition 182 Idioms 248
+Global Communication 228 Mood 336
+Logic Errors 312 Nouns 349
+Methods of Development 329 Number (Grammar) 351
+Cause-and-Effect 66 Numbers 352
+Chronological 68
+Periods 375
+Comparison 85
+Phrases 380
+Definition 117
+Division-and-Classification 126 Plagiarism 383
+General and Specific 227 Point of View 385
+Order-of-Importance 358 Possessive Case 387
+Sequential 507 Prepositions 390
+Spatial 510 Pronouns 405
+Narration 339 Quotation Marks 443
+Organization 361 Run-on Sentences 490
+Outlining 362 Sentence Construction 498
+Persuasion 377 Sentence Fragments 504
+Preparation 389 Spelling 512
+Audience 42 Style 513
+Brainstorming 53
+Syntax 518
+Context 98
+Tense 523
+Purpose 435
+Readers 448 Transition 537
+Scope 493 Verbals 546
+Selecting the Medium 494 Verbs 549
+Proofreading 411 Voice 557
+Repurposing 455
+Revision 488
+ESL Tips
+Writing a Draft 569
+Assigning Gender 226
+Digital Tips Avoiding Shifts in Voice, Mood,
+or Tense 551
+Conducting Meetings from Remote
+Choosing Voice 560
+Locations 324
+Determining Mood 337
+Creating an Index 252
+Punctuating Numbers 354
+Creating an Outline 365
+Stating an Opinion 386
+Creating Styles and Templates 200
+Understanding the Requirements
+Incorporating Tracked Changes 489
+of a Sentence 502
+Leaving an Away-from-Desk
+Understanding the Subject
+Message 166
+of a Sentence 499
+Preparing an ASCII Résumé 487
+Using Adjectives 15
+Proofreading for Format
+Using Articles 40
+Consistency 412
+Using Possessive Pronouns 407
+Reviewing Collaborative
+Using the Progressive Form 526
+Documents 74
+Sending an E-mail Attachment 164
+Testing Your Web Site 562 Style and Language
+Using PDF Files 574
+Style 513
+Wikis for Collaborative Documents 72
+Affectation 22
+Allusions 30
+ESL Trouble Spots Ambiguity 32
+Awkwardness 44
+Adjectives 12 Biased Language 46
+Agreement 23 Clarity 68
+
+=== Page 6 ===
+HTW_fm01.qxp 8/22/08 8:52 AM Page i
+Style (cont.) Sentence Fragments 504
+Clichés 71 Paragraphs 367
+Comparison 84 Coherence 71
+Conciseness 90 Transition 537
+Contractions 101 Unity 543
+Defining Terms 116
+Direct Address 126
+Parts of Speech and Grammar
+Double Negatives 153
+Emphasis 167 Grammar 234
+English, Varieties of 173 Agreement 23
+Euphemisms 180 Case 62
+Expletives 182 English as a Second Language 169
+Figures of Speech 189 Gender 226
+Gobbledygook 233 Mood 336
+Idioms 248 Number (Grammar) 351
+Intensifiers 264 Person 376
+Jargon 285 Possessive Case 387
+Nominalizations 346 Pronoun Reference 405
+Pace 367 Tense 523
+Parallel Structure 370 Voice 557
+Point of View 385 Parts of Speech 374
+Positive Writing 386
+Adjectives 12
+Repetition 453
+Adverbs 19
+Rhetorical Questions 490
+Articles 39
+Sentence Variety 505
+Conjunctions 95
+Subordination 516
+Functional Shift 224
+Technical Writing Style 521
+Interjections 264
+Telegraphic Style 522
+Nouns 349
+Tone 532
+Prepositions 390
+“You” Viewpoint 575
+Pronouns 405
+Word Choice 568
+Verbals 546
+Abstract / Concrete Words 6 Verbs 549
+Antonyms 33
+Buzzwords 57
+Connotation / Denotation 96 Punctuation and Mechanics
+Dictionaries 123
+Mechanics
+Foreign Words in English 194
+Functional Shift 224 Abbreviations 2
+Malapropisms 315 Acronyms and Initialisms 11
+Synonyms 518 Ampersands 33
+Thesaurus 529 Capitalization 59
+Vague Words 546 Compound Words 90
+Contractions 101
+Dates 115
+Usage
+Italics 283
+See page 545. Numbers 352
+Prefixes 389
+Sentences and Paragraphs Proofreaders’ Marks 410
+Proofreading 411
+Sentence Construction 498 Spelling 512
+Appositives 39 Suffixes 517
+Clauses 70 Punctuation 434
+Complements 88 Apostrophes 34
+Expletives 182 Brackets 52
+Modifiers 334 Colons 75
+Objects 356 Commas 77
+Phrases 380 Dashes 114
+Restrictive and Nonrestrictive Ellipses 161
+Elements 470 Exclamation Marks 180
+Syntax 518 Hyphens 245
+Sentence Faults 503 Parentheses 373
+Comma Splice 77 Periods 375
+Dangling Modifiers 113 Question Marks 436
+Garbled Sentences 225 Quotation Marks 443
+Mixed Constructions 334 Semicolons 497
+Run-on Sentences 490 Slashes 508
+
+=== Page 7 ===
+HWC_IFC.qxp 7/29/08 7:51 AM Page 101
+The Five-Way Access System
+The five-way access system of the Handbook of Technical Writing
+provides readers with multiple ways of retrieving information:
+1.Alphabetically Organized Entries
+The alphabetically organized entries with color tabs enable
+readers to find information quickly. Within the entries, terms
+shown as links refer to other entries that contain definitions of
+key concepts or further information on related topics.
+2.Contents by Topic
+The complete Contents by Topic, on the inside front cover,
+groups the entries into categories and serves as a quick refer-
+ence for finding all topics covered in the book. The Contents
+by Topic allows a writer focusing on a specific task or problem
+to locate helpful entries; it is also useful for instructors who
+want to correlate the Handbook with standard textbooks or
+their own course materials. The list of Commonly Misused
+Words and Phrases extends this topical key by listing all the
+usage entries in the book.
+3.Checklistof the Writing Process
+The Checklist helps readers to reference all writing-process-
+related entries.
+4.Comprehensive Index
+The Index lists all the topics covered in the book, including
+subtopics within the main entries in the alphabetical arrange-
+ment.
+5.Model Documents and Figures by Topic
+The list of Model Documents and Figures by Topic, on the in-
+side back cover, makes it easier to find the abundant “real-
+world” examples and sample documents throughout the text
+that provide models for effective technical communication.
+
+=== Page 8 ===
+HTW_fm01.qxp 8/22/08 8:52 AM Page ii
+
+=== Page 9 ===
+HTW_fm01.qxp 8/22/08 8:52 AM Page iv
+Aboutthe Authors
+Gerald J. Alred is Professor of English at the University of Wisconsin–
+Milwaukee, where he teaches courses in the Graduate Professional
+Writing Program. He is author of numerous scholarly articles and sev-
+eral standard bibliographies on business and technical communication.
+He is Associate Editor of the Journal of Business Communication and a
+recipient of the prestigious Jay R. Gould Award for “profound schol-
+arly and textbook contributions to the teaching of business and techni-
+cal writing.”
+Charles T. Brusaw was a faculty member at NCR Corporation’s Man-
+agement College, where he developed and taught courses in profes-
+sional writing, editing, and presentation skills for the corporation
+worldwide. Previously, he worked in advertising, technical writing, and
+public relations. He has been a communications consultant, an invited
+speaker at academic conferences, and a teacher of business writing at
+Sinclair Community College.
+Walter E. Oliu served as Chief of the Publishing Services Branch at the
+U.S. Nuclear Regulatory Commission, where he managed the agency’s
+printing, graphics, editing, and publishing programs. He also developed
+the public-access standards for and managed daily operations of the
+agency’s public Web site. He has taught at Miami University of Ohio,
+Slippery Rock State University, and as an adjunct faculty member at
+Montgomery College and George Mason University.
+
+=== Page 10 ===
+HTW_fm01.qxp 8/22/08 8:52 AM Page iii
+Handbook of
+Technical Writing

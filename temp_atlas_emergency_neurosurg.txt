@@ -1,0 +1,384 @@
+=== Page 3 ===
+Atlas o f Em e rg e ncy Ne uro surg e ry
+TH_Ullman_FM.indd 1 3/24/15 9:50 PM
+
+=== Page 4 ===
+TH_Ullman_FM.indd 2 3/24/15 9:50 PM
+
+=== Page 5 ===
+Atlas o f Em e rg e ncy Ne uro surg e ry
+Jam ie S. Ullm an, MD, FAANS, FACS
+Associate Professor, Departm ent of Neurosurgery
+Hofstra North Shore-LIJ School of Medicine
+Director of Neurotraum a
+North Shore University Hospital
+Manhasset, New York
+P.B. Raksin, MD, FAANS
+Assistant Professor, Departm ent of Neurosurgery
+Rush University Medical Center
+Director, Neurosurgery ICU
+Chief, Section Neurotraum a & Neurocritical Care
+John H. Stroger Jr Hospital of Cook Count y
+(form erly Cook County Hospital)
+Chicago, Illinois
+Medical Illustrator: Jennifer Pryll
+Thiem e
+New York · Stuttgart · Dehli · Rio de Janeiro
+TH_Ullman_FM.indd 3 3/24/15 9:50 PM
+
+=== Page 6 ===
+Executive Editor: Timothy Hiscock
+Managing Editor: Elizabeth Palumbo
+Director, Editorial Services: Mary Jo Casey
+Editorial Assistant: Haley Paskalides
+Production Editor: Heidi Grauel
+International Production Director: Andreas Schabert
+Vice President, Editorial and E-Product Development: Vera Spillner
+International Marketing Director: Fiona Henderson
+International Sales Director: Louisa Turrell
+Director of Sales, North America: Mike Roseman
+Senior Vice President and Chief Operating O cer: Sarah Vanderbilt
+President: Brian D. Scanlan
+Printer: Asia Paci c O set
+Library of Congress Cataloging-in-Publication Data
+Atlas of emergency neurosurgery / [edited by] Jamie Ullman, P.B. Raksin.
+p. ; cm.
+Includes bibliographical references and index.
+ISBN 978-1-60406-368-4 — ISBN 978-1-60406-369-1 (eISBN)
+I. Ullman, Jamie, editor. II. Raksin, P. B. (Patricia B.), editor.
+[DNLM: 1. Emergencies—Atlases. 2. Neurosurgical Procedures—methods—Atlases. 3. Central Nervous System—surgery—Atlases.
+4. Central Nervous System Diseases—surgery—Atlases. 5. Craniocerebral Trauma—surgery—Atlases.
+6. Spinal Cord Injuries—surgery—Atlases. 7. Spinal Injuries—surgery—Atlases. WL 17]
+RD593
+617.4’8—dc23
+2015005194
+© 2015 Thieme Medical Publishers, Inc.
+Thieme Publishers New York
+333 Seventh Avenue, New York, NY 10001 USA, 1-800-782-3488
+customerservice@thieme.com
+Thieme Publishers Stuttgart
+Rüdigerstrasse 14, 70469 Stuttgart, Germany, +49 [0]711 8931 421
+customerservice@thieme.de
+Thieme Publishers Delhi
+A-12, Second Floor, Sector -2, NOIDA -201301, Uttar Pradesh, India, +91 120 45 566 00
+customerservice@thieme.in
+Thieme Publishers Rio de Janeiro, Thieme Publicações Ltda.
+Argentina Building 16th oor, Ala A, 228 Praia do Botafogo Rio de Janeiro 22250-040 Brazil, +55 21 3736-3631
+Printed in China
+5 4 3 2 1
+ISBN 978-1-60406-368-4
+Also available as an e-book:
+eISBN 978-1-60406-369-1
+Important note: Medicine is an ever-changing science undergoing continual development. Research and clinical experience are continually
+expanding our knowledge, in particular our knowledge of proper treatment and drug therapy. Insofar as this book mentions any dosage or
+application, readers may rest assured that the authors, editors, and publishers have made every e ort to ensure that such references are in
+accordance with the state of knowledge at the time of production of the book.
+Nevertheless, this does not involve, imply, or express any guarantee or responsibility on the part of the publishers in respect to any dosage
+instructions and forms of applications stated in the book. Every user is requested to examine carefully the manufacturers’ lea ets
+accompanying each drug and to check, if necessary in consultation with a physician or specialist, whether the dosage schedules mentioned
+therein or the contraindications stated by the manufacturers di er from the statements made in the present book. Such examination is
+particularly important with drugs that are either rarely used or have been newly released on the market. Every dosage schedule or every
+form of application used is entirely at the user’s own risk and responsibility. The authors and publishers request every user to report to the
+publishers any discrepancies or inaccuracies noticed. If errors in this work are found after publication, errata will be posted at www.thieme.
+com on the product description page.
+Some of the product names, patents, and registered designs referred to in this book are in fact registered trademarks or proprietary names
+even though speci c reference to this fact is not always made in the text. Therefore, the appearance of a name without designation as
+proprietary is not to be construed as a representation by the publisher that it is in the public domain.
+This book, including all parts thereof, is legally protected by copyright. Any use, exploitation, or commercialization outside the narrow limits
+set by copyright legislation, with¬out the publisher’s consent, is illegal and liable to prosecution. This applies in particular to photostat
+reproduction, copying, mimeographing, preparation of micro lms, and electronic data processing and storage.
+TH_Ullman_FM.indd 4 3/24/15 9:50 PM
+
+=== Page 7 ===
+Co nte nt s
+Foreword . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .xi
+Acknowledgm ents . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . xii
+Preface . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . xiii
+Contributors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . xv
+I Cerebral Traum a and Stroke . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+Chapter 1: S urgery for Epidural and Subdural Hem atom as
+Shelly D. Tim m ons . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+Chapter 2: C hronic Subdural Hem atom as
+Branko Skovrlj, Jonathan Rasouli, A. Stewart Levy,
+P. B. Raksin, and Jam ie S. Ullm an . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .16
+Chapter 3: S urgery for Cerebral Contusions of the Frontal and
+Temporal Lobes, Including Lobar Resections
+Pal S. Randhawa and Craig Rabb . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .33
+Chapter 4: D ecompressive Craniectomy for Intracranial Hypertension and
+Stroke, Including Bone Flap Storage in Abdom inal Fat Layer
+Roberto Rey-Dios and Dom enic P. Esposito . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .53
+Chapter 5: S urgery for Cerebellar Stroke and Suboccipital Traum a
+Faiz U. Ahm ad and Ross Bullock . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .73
+Chapter 6: E levation of Depressed Skull Fractures
+Anand Veeravagu, Bowen Jiang, and Odette A. Harris . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .90
+Chapter 7: I nvasive Neurom onitoring Techniques
+Mathieu Laroche, Michael C. Huang, and Geo rey T. Manley . . . . . . . . . . . . . . . . . . . . . . . . . . . 101
+Chapter 8: S urgical Debridem ent of Penetrating Injuries
+Roland A. Torres and P. B. Raksin . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 119
+Chapter 9: M anagem ent of Traum atic Neurovascular Injuries
+Boyd F. Richards and Mark R. Harrigan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 133
+Chapter 10: Managem ent of Venous Sinus Injuries
+Laurence Davidson and Rocco A. Arm onda . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 153
+TH_Ullman_FM.indd 5 3/24/15 9:50 PM
+
+=== Page 8 ===
+vi Contents
+II Spinal Em ergency Procedures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 169
+Chapter 11: A pplication of Closed Spinal Traction
+Nirit Weiss . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 170
+Chapter 12: E m ergency Managem ent of Odontoid Fractures
+Sanjay Yadla, Benjam in M. Zussm an, and Jam es S. Harrop . . . . . . . . . . . . . . . . . . . . . . . . . . . . 179
+Chapter 13: C ervical Burst Fractures
+Teresa S. Purzner, Jam es G. Purzner, and Michael G. Fehlings . . . . . . . . . . . . . . . . . . . . . . . . . . 197
+Chapter 14: C ervical Facet Dislocation
+Daniel Resnick and Casey Madura . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 214
+Chapter 15: C lassi cation and Treatm ent of Thoracic Fractures
+Joseph Hsieh, Doniel Drazin, Michael Turner, Ali Shirzadi,
+Kee Kim , and J. Patrick Johnson . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 237
+Chapter 16: T horacolum bar Fractures
+Michael Y. Wang and Brian Hood . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 266
+Chapter 17: S pinal Epidural Compression
+Asha Iyer and Arthur Jenkins . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 286
+Chapter 18: T reatm ent of Acute Cauda Equina Syndrom e
+Harel Deutsch . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 302
+III Nontraum atic Em ergencies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 311
+Chapter 19: R em oval of Spontaneous Intracerebral Hem orrhages
+Justin Mascitelli, Yakov Gologorsky, and Joshua Bederson . . . . . . . . . . . . . . . . . . . . . . . . . . . . 312
+Chapter 20: S urgery for Acute Intracranial Infection
+P. B. Raksin . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 330
+Chapter 21: V entricular Shunt Malfunction
+Sergey Abeshaus, Sam uel R. Brow d, and Richard G. Ellenbogen . . . . . . . . . . . . . . . . . . . . . . . . 349
+Chapter 22: P ituitary Apoplexy
+Kalm on D. Post and Soriaya Motivala . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 370
+IV Em ergency Operations in Com bat . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 385
+Chapter 23: C om bat Cranial Operations
+Leon E. Moores . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 386
+Chapter 24: C om bat-Associated Penetrating Spine Injury
+Corey M. Mossop, Christopher J. Neal, Michael K. Rosner, and
+Paul Klim o Jr. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 398
+V Reconstructive Surgery . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 411
+Chapter 25: R eplacem ent of Cranial Bone Flap
+Jam ie S. Ullm an . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 412
+Chapter 26: T echniques of Alloplastic Cranioplasty
+Erin N. Kiehna and John A. Jane Jr. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 424
+Chapter 27: S urgery for Frontal Sinus Injuries
+Abilash Haridas and Peter J. Taub . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 444
+TH_Ullman_FM.indd 6 3/24/15 9:50 PM
+
+=== Page 9 ===
+Contents vii
+VI Special Considerations in Pediatric Em ergency Neurosurgery . . . . . . . . . . . . . . . . . . . . . . . . . . . . 457
+Chapter 28: Special Considerations in the Surgical Managem ent of
+Pediatric Traum atic Brain Injury
+Anthony Figaji and P. David Adelson . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .458
+Chapter 29: Special Considerations in Pediatric Cervical Spine Injury
+Paul Klim o Jr., Nelson Astur Neto, W illiam C. Warner Jr., and
+Michael S. Muhlbauer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .470
+Index . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 491
+TH_Ullman_FM.indd 7 3/24/15 9:50 PM
+
+=== Page 10 ===
+Co ntinuing Me dical Educatio n Cre dit
+Info rm atio n and Obje ctive s
+Obje ctive s
+1. Identify neurosurgical conditions which require emergent or urgent intervention
+2. Evaluate the various options for managing spine trauma in the cervical, thoracic, and thoracolumbar regions.
+3. Apply provided techniques when performing urgent interventions for the brain and spine
+4. Recognize key issues of applying brain and spinal trauma surgical techniques to military and pediatric populations.
+Accre ditatio n and De sig natio n
+The AANS is accredited by the Accreditation Council for Continuing Medical Education (ACCME) to provide continuing medical
+education for physicians.
+The AANS designates this enduring material for a maximum of 15 AMA PRA Category 1 creditsTM. Physicians should claim only the
+credits commensurate with the extent of their participation in the activity.
+Method of physician participation in the learning process for this text book: The Home Study Examination is online on the AANS
+website at: http://www.aans.org/education/books/aonemergency.asp
+Estimated time to complete this activity varies by learner, and activity equaled up to 15 AMA PRA Category 1 creditsTM.
+Release and Termination Dates
+Original Release Date: 05/2/2015
+CME Termination Date: 05/2/2018
+viii
+TH_Ullman_FM.indd 8 3/24/15 9:50 PM
+
+=== Page 11 ===
+Disclo sure Info rm atio n
+The AANS controls the content and production of this CME activity and attempts to ensure the presentation of balanced, objective
+information. In accordance with the Standards for Commercial Support established by the Accreditation Council for Continuing
+Medical Education, authors, planning committee members, sta , and any others involved in planning in education content and the
+signi cant others of those mentioned must disclose any relationship they or their co-authors have with commercial interests which
+may be related to their content. The ACCME de nes, “relevant nancial relationships” as nancial relationships in any amount oc-
+curring within the past 12 months that create a con ict of interest.
+Those (and the signi cant others of those mentioned) who have disclosed a relationship* with commercial interests are
+listed below.
+Samuel R. Browd, MD, PhD, FAANS Aqueduct Neurosciences, Inc., Stock Shareholder (Directly purchased?
+Navisonics, Inc.
+Harel Deutsch, MD FAANS Pioneer Honorarium, Other Financial or Material Support
+Richard G. Ellenbogen, MD, FAANS NIH/NCI Grant - University Research Support
+NFL Grant - University Research Support, Other
+Financial or Material Support
+Paul Allen Family Consultants
+Domenic P. Esposito, MD, FAANS(L) Integra Medical Consultants
+Michael G. Fehlings, MD, PhD, FAANS, FRCS Depuy Synthes, Medtronic Consultants, Grant - University Research Support
+Anthony Figaji, MD Codman Johnson & Johnson, Integra Speaker’s Bureau
+Neurosciences
+Abilash Haridas, MD Uptodate, Hydrocephalus Pediatric Honorarium
+James S. Harrop, MD, FAANS Depuy Spine Consultants
+Tejin, Globus Spine, AO SPine Other Financial or Material Support
+Globus spine Honorarium
+Kee D. Kim, MD, FAANS Stryker Consultants
+LDR Grant - University Research Support, Other
+Financial or Material Support
+Globus Consultants, Grant - University Research Support,
+Asubio , Other Financial o Grant - University Research
+Support r Material Support
+Icon Interventional Systems Consultants
+Lanx, Mesoblast Grant - University Research Support
+Geof rey T. Manley, MD, PhD, FAANS NIH, DoD Grant - University Research Support
+GE/NFL Consultants
+Shelly D. Timmons, MD, PhD, FAANS AO Neuro Resident Neurotrauma Course Honorarium
+Michael Turner, Md, PhD Acuity Surgical Consultant
+Michael Y. Wang, MD, FAANS Depuy Spine Consultants, Other Financial or Material Support
+Aesculap Spine, Globus Medical Consultant
+Neuro Consulting, LLC Other Financial or Material Support
+ix
+TH_Ullman_FM.indd 9 3/24/15 9:50 PM
+
+=== Page 12 ===
+Disclosure Information
+*Relationship refers to receipt of royalties, consultantship, funding by research grant, receiving honoraria for educational services else-
+where, or any other relationship to a commercial interest that provides su cient reason for disclosure.
+Those (and the signi cant others of those mentioned) who have reported they do not have any relationship with c ommercial
+interests:
+Name:
+Sergey Abeshaus, MD Leon E. Moores, MD, FAANS
+P. David Adelson, MD, FAANS Corey Michael Mossop
+Faiz U. Ahmad, MD Soriaya Motivala, MD
+Rocco A. Armonda, MD, FAANS Michael S. Muhlbauer, MD, FAANS
+Nelson Astur, MD Christopher J. Neal, MD FAANS
+Joshua B. Bederson, MD, FAANS Kalmon D. Post, MD, FAANS
+M. Ross Bullock, MD, PhD Craig H. Rabb, MD, FAANS
+Laurence Davidson, MD, FAANS Patricia B. Raksin, MD, FAANS#
+Doniel Gabriel Drazin, MD Pal Randhawa, MD
+Yakov Gologorsky, MD Jonathan Rasouli, MD
+Mark R. Harrigan, MD, FAANS Daniel K. Resnick, MD, FAANS
+Odette Althea Harris, MD, MPH, FAANS Roberto Rey-Dios, MD
+Brian James Hood, MD Boyd Richards, DO
+Joseph C. Hsieh, MD Michael K. Rosner, MD, FAANS
+Michael C. Huang, MD Ali Shirzadi, MD
+Asha Muthuraman Iyer, MD Branko Skorvlj, MD
+John A. Jane, Jr., MD, FAANS Peter J. Taub, MD, FACS, FAAP
+Arthur L. Jenkins III, MD, FAANS Roland A. Torres, MD, FAANS
+Bowen Jiang, MD Jamie S. Ullman, MD, FAANS#
+J. Patrick Johnson, MD, FAANS Anand Veeravagu, MD
+Erin Kiehna, MD William C. Warner, Jr., MD
+Paul Klimo, Jr., MD, FAANS Nirit Weiss, MD, FAANS
+Mathieu Laroche, MD Sanjay Yadla, MD
+Andrew Steward Levy, MD Benjamin M. Zussman, MD
+Justin Robert Mascitelli, MD Casey Madura, MD
+#Educational Content Planners.
+x
+TH_Ullman_FM.indd 10 3/24/15 9:50 PM
+
+=== Page 13 ===
+Fo re w o rd
+Simplicity is the ultimate sophistication.
+– Leonardo da Vinci, circa 1519
+This atlas edited by Drs. Ullman and Raksin is clearly a very able guide for both residents as well as for more experienced
+valuable contribution to the neurosurgical literature and neurosurgeons. It will serve as a quick reference before one
+may be best described as a quick reference atlas. Both of embarks on treating a patient with a traumatic neurosurgi-
+the editors are experienced neurosurgeons who have had cal disorder, or in preparing to take an examination.
+decades of experience in treating patients with head and
+spinal injury. In this volume, they have brought together Although there are other texts that deal with neurotrauma,
+many experts in the eld to describe their approach to the none of them are as digestible as this one. I could wax elo-
+spectrum of traumatic disorders that a ict the brain and quent on the many merits of this book. I don’t need to. As
+spine. you simply ip through its pages, you will see for yourself
+that this is a book worth having—not just to display on your
+The illustrations are magni cent and the text is direct and bookshelf, but to keep handy and to use on an everyday ba-
+easy to follow. This style ensures that this book will be a valu- sis. You will have no trouble putting it to good use.
+Raj K. Narayan, MD, FACS, FAANS
+Professor and Chairman
+Department of Neurosurgery
+Hofstra North Shore LIJ School of Medicine and
+Director, Cushing Neuroscience Institute
+Manhasset, New York
+xi
+TH_Ullman_FM.indd 11 3/26/15 5:30 PM
+
+=== Page 14 ===
+Ackno w le dg m e nt s
+We would like to acknowledge and thank the authors—kind I (JSU) want to, personally, dedicate this book to my daughter
+colleagues, mentors, and dedicated residents and fellows—for Sara (future singer/dancer, pediatrician, and/or neurosurgeon)
+lending their extraordinary expertise and experience to this and my husband Mark for their love and patience; my dear
+project. family; and to the AANS/CNS Section on Neurotrauma and Crit-
+ical Care, of which I have been an Executive Committee member
+We would like to thank Dr. Mark Linskey, past chair of the AANS for more than 16 years and proud to be its Chair (2014-2016).
+Publications Committee, for supporting the concept of this at- I would also like to thank my co-editor, P.B. Raksin, for her
+las, and Dr. James Rutka, then AANS secretary, for champion- collaboration, patience, and diligence throughout the book’s
+ing this atlas to the AANS Board of Directors. We are grateful to production—a perfect meld of mind and spirit. Finally, I would
+the AANS for its generous grant—matched by Thieme Publish- like to thank my colleagues and residents at the Icahn School
+ers (to whom we are also grateful)—to fund the illustrations. of Medicine at Mount Sinai for their support and contributions
+Thanks also go to the Executive Committee of the AANS/CNS to this atlas and over the years; and the ne attending and
+Section on Neurotrauma and Critical Care for its support and resident sta of the Hofstra North Shore-LIJ School of Medicine
+from which many of the authors were selected. We are grateful who spend long nights on call treating emergency neurosurgi-
+to Dr. Michael Fehlings for his review and counsel regarding the cal patients.
+spine topics. We acknowledge and thank the Thieme editorial
+sta , past and present, for their hard work and dedication to I (PBR) would like to acknowledge the many patients whose
+this project. adversity has informed and enhanced my clinical experience
+(and digital image collection) in acute care neurosurgery over
+Illustrations form the backbone of this book and, so, a special the past two decades. I would also like to thank my co-editor,
+thank you goes to Jennifer Pryll, our ne illustrator, for her Jamie Ullman, for inviting me to partner with her in this project
+tireless e orts in producing high-quality artwork. Ms. Pryll and entrusting me to help execute her vision. And, to my wife
+demonstrated an extraordinary level of attention to detail and Lisa—who held down the fort while I pored over manuscripts—
+responsiveness to the editors and authors. my eternal gratitude and a ection (and a promise to clean the
+o ce now that this task is complete).
+Jamie S. Ullman, MD, FAANS, FACS
+P.B. Raksin, MD, FAANS
+xii
+TH_Ullman_FM.indd 12 3/24/15 9:50 PM
+
+=== Page 15 ===
+Pre face
+Neurosurgery is not so simple. Drilling bur holes in the emer- The book is divided into six sections. Section I (Chapters 1–10)
+gency department may relieve pressure from an expand- covers the basic procedures that form the bread and butter of
+ing epidural hematoma, but the ensuing uncontrolled arte- cranial neurosurgery for trauma and stroke, including crani-
+rial bleeding may result in signi cant blood loss, hypotension, otomies for intra- and extra-axial hematoma, management of
+and death if one is not skilled in handling this situation. And, penetrating injuries, and decompressive craniectomy. Excellent,
+although trauma may be one of the more common reasons comprehensive reviews of neuromonitoring and management
+for emergent neurosurgical intervention, acute care for neu- of neurovascular injuries complement these chapters.
+rosurgical diseases is as widely varied as the discipline itself.
+The very eclectic nature of these emergent and urgent condi- Section II (Chapters 11–18) focuses on spinal emergency pro-
+tions continually challenges the skills obtained during the long cedures—both traumatic and nontraumatic. The important role
+neurosurgery residency training period, demanding not only of early surgery for acute traumatic spine and spinal cord in-
+broad knowledge and evolving technical skills, but pre-, intra-, juries is increasingly recognized; several chapters are devoted
+and postoperative clinical judgment that can take a lifetime to to operative management of these injuries. While open proce-
+master—all for the goal of improving patient outcomes. dures still predominate in the emergency management of these
+entities, the increasing application of minimally invasive tech-
+Appreciation of this weighty task must be coupled with the idea niques in this setting cannot be ignored. Chapter 16 outlines
+that “learning” in neurosurgery is a decidedly visual pursuit. the minimally invasive approach to thoracolumbar trauma.
+Neurosurgeons-in-training study anatomic representations, Nontraumatic emergencies, including epidural spinal compres-
+dissect cadavers, and observe their mentors in the operating sion and cauda equina syndrome, are also addressed.
+room. With clinical experience and knowledge acquisition,
+there eventually comes the ability to translate the written Section III (Chapters 19–22) discusses the surgical management
+words in a textbook into mental images, or to imagine one’s of nontraumatic emergencies including spontaneous intracra-
+way—step-by-step and with variations—through a procedure nial hemorrhage, intracranial infection, pituitary apoplexy, and
+before entering the operating theater. the ever-haunting ventricular shunt malfunction. While the
+sequelae of aneurysmal rupture sometimes require emergent
+The true value of a surgical atlas, then, lies in the presentation: the surgical intervention, de nitive management often is under-
+telling of a procedure in pictures. Historically, atlases have been taken more electively within a 12- to 72-hour period. The tech-
+designed to guide the learner through interventions in a step- nique of aneurysm clipping is the subject of several important
+wise fashion. In 1960, James Leonard Poppen, MD, published his tomes and is beyond the general scope of this atlas. Similarly,
+famed atlas entitled, An Atlas of Neurosurgical Techniques. This while surgery for ruptured arteriovenous malformations is of-
+tome presented procedures in diagrammatic fashion—useful ten deferred for a period of time to permit resorption of hemor-
+to any neurosurgeon beginning to hone his or her craft. In that rhage, patients may present with life-threatening acute bleeds
+spirit, and in the spirit of great surgical atlases such as Zollinger’s that necessitate emergent intervention for relief of mass e ect.
+Atlas of Surgical Operations, we have set out to create a similar These clinical scenarios are addressed in Chapter 19.
+volume devoted to emergency neurosurgical procedures.
+While only a select few neurosurgeons have participated in the
+This book was written for neurosurgeons-in-training, as well theater of war, we felt it would be valuable to include a section
+as for those already in practice who desire to meet the chal- addressing emergency interventions for neurologic injuries in
+lenge of whatever comes into the emergency department. combat (Section IV, Chapters 23 and 24). Key lessons learned
+Critical care practitioners may also nd this book bene - over the past two decades of con ict have led to increased sur-
+cial to understanding the surgical management of neurologic vival from these devastating injuries. With the looming threat
+conditions that will d emand their medical expertise in the of terrorism, we must be prepared to apply these techniques in
+postoperative period. civilian populations should the need arise.
+xiii
+TH_Ullman_FM.indd 13 3/24/15 9:50 PM

@@ -1,0 +1,203 @@
+=== Page 1 ===
+www.it-ebooks.info
+
+=== Page 2 ===
+www.it-ebooks.info
+
+=== Page 3 ===
+Praise for Lean Customer Development
+“Cindy has done us a great service. Lean Customer Development shines
+the light on the discipline of developing a clear understanding of the
+customer. By understanding who the customer is, what their real needs
+are and developing clear hypotheses; product, design, and engineering
+can design, build, and test what customers really want. This frees teams
+to focus on the business of bringing the best experiences to life instead of
+a product nobody wants. Whether you are a startup or a large enterprise
+you need to develop this discipline and this way of thinking about the
+customer. I recommend this book.”
+Bill Scott—Senior Director UIE, PayPal
+“Cindy drives home the case for maintaining a continuous dialog with our
+customers. This book is chock full of actionable steps to make the most
+out of every conversation, user test, and feedback session. She opens up the
+research process encouraging teams to build a shared understanding of their
+users’ needs and the validity of their hypotheses. Make sure you add this
+terrific step-by-step guide to your arsenal of product development tools.”
+Jeff Gothelf—Author, Lean UX
+“Companies are learning that the only competitive advantage is the ability
+to make continuous learning and iteration part of their culture. For many
+large organizations, including Microsoft, this means re-learning how to
+engage with customers as partners. Lean Customer Development offers a
+view of how companies of any size can practice deep customer learning in
+parallel with product development.”
+Adam Pisoni—Corporate Vice President, Microsoft
+“This is a daunting book. It’s so packed with concrete steps, hard facts,
+and proven techniques that it removes any excuses you might have around
+building the right product for the right market. When I finished it, the first
+thing I wanted to do was go read it again. The second thing was to get out
+of the building and test five startup ideas. It’s that good.”
+Alistair Croll—Founder, Solve for Interesting
+www.it-ebooks.info
+
+=== Page 4 ===
+“Understanding what your customers need and will buy is easier said than
+done when your customers are Fortune 100 companies. Lean Customer
+Development is full of practical, hands-on guidance that allows our
+entrepreneurs to immediately ‘get out of the building’ and validate (or
+invalidate) their market and assumptions.”
+Ravi Belani—Managing Director, Alchemist Accelerator;
+Fenwick & West Lecturer of Entrepreneurship, Stanford University
+www.it-ebooks.info
+
+=== Page 5 ===
+Lean Customer
+Development
+Building Products Your
+Customers Will Buy
+Cindy Alvarez
+Beijing · Cambridge · Farnham · Köln · Sebastopol · Tokyo
+www.it-ebooks.info
+
+=== Page 6 ===
+Lean Customer Development
+by Cindy Alvarez
+Copyright © 2014 Cindy Alvarez. All rights reserved.
+Printed in the United States of America.
+Published by O’Reilly Media, Inc., 1005 Gravenstein Highway North, Sebastopol, CA
+95472.
+O’Reilly books may be purchased for educational, business, or sales promotional
+use. Online editions are also available for most titles (safari.oreilly.com). For more
+information, contact our corporate/institutional sales department: (800) 998-9938 or
+corporate@oreilly.com.
+Editor: Mary Treseler Cover Designer: Mark Paglietti
+Production Editor: Kara Ebrahim Interior Designers: Ron Bilodeau and
+Copyeditor: Jasmine Kwityn Monica Kamsvaag
+Proofreader: Becca Freed Illustrator: Kara Ebrahim
+Indexer: Bob Pfahler Compositor: Kara Ebrahim
+June 2014: First Edition.
+Revision History for the First Edition:
+2014-05-08 First release
+See http://www.oreilly.com/catalog/errata.csp?isbn=0636920028253 for release details.
+Nutshell Handbook, the Nutshell Handbook logo, and the O’Reilly logo are registered
+trademarks of O’Reilly Media, Inc. Lean Customer Development and related trade
+dress are trademarks of O’Reilly Media, Inc.
+Many of the designations used by manufacturers and sellers to distinguish their
+products are claimed as trademarks. Where those designations appear in this book,
+and O’Reilly Media, Inc., was aware of a trademark claim, the designations have been
+printed in caps or initial caps.
+Although the publisher and author have used reasonable care in preparing this book,
+the information it contains is distributed “as is” and without warranties of any kind.
+This book is not intended as legal or financial advice, and not all of the recommen-
+dations may be suitable for your situation. Professional legal and financial advisors
+should be consulted, as needed. Neither the publisher nor the author shall be liable for
+any costs, expenses, or damages resulting from use of or reliance on the information
+contained in this book.
+ISBN: 978-1-449-35635-4
+[CW]
+www.it-ebooks.info
+
+=== Page 7 ===
+Contents
+Foreword .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . vii
+Preface .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . xi
+Chapter 1
+Why You Need Customer Developmen .t  .  .  .  .  .  .  .  .  .  .  .  . . 1
+Chapter 2
+Where Should I Start? .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 17
+Chapter 3
+Who Should I Be Talking To? .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 29
+Chapter 4
+What Should I Be Learning? .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 59
+Chapter 5
+Get Out of the Building .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 81
+Chapter 6
+What Does a Validated Hypothesis Look Like? .  .  .  .  .  .  . 107
+Chapter 7
+What Kind of Minimum Viable Product Should I Build? .  . 131
+Chapter 8
+How Does Customer Development Work When You
+Already Have Customers? .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 149
+Chapter 9
+Ongoing Customer Development .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 181
+Appendix
+Questions That Work .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 195
+Index .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 207
+v
+www.it-ebooks.info
+
+=== Page 8 ===
+www.it-ebooks.info
+
+=== Page 9 ===
+Foreword
+Steve Blank’s ideas are so well known today that some may not realize that
+when he first self-published The Four Steps to the Epiphany, he was very
+much a voice in the wilderness. Steve, with whom I’ve been fortunate to
+work as an investor, mentor, and friend, was courageous enough to call for
+bringing the rigorous approach of product development to the business and
+marketing functions of startups—long before mainstream entrepreneurs
+and VCs caught on; in so doing, he inspired many of us to rethink our
+beliefs about startups. He called that theory Customer Development.
+Now that these ideas have taken hold well beyond the San Francisco Bay
+Area and become an integral part of the Lean Startup movement, it’s
+high time to revisit them and share some of the success stories, tips, and
+tricks from the trenches. It’s fitting that Cindy Alvarez, an early Lean
+Startup evangelist, has drawn upon her experience at early-stage startups
+and Fortune 500s alike—most recently, for Microsoft as Director of
+User Experience at Yammer—to write a nuts-and-bolts guide for a new
+generation of entrepreneurs.
+The word “entrepreneur” may bring to mind the image of college kids
+working on some new technology in a garage, but my meaning is a little
+different. A startup includes any human enterprise designed to create a
+new product or service under conditions of extreme uncertainty, and an
+entrepreneur is anyone tasked with ushering in that change. Whether
+they’re building a company in their garage, working for a VC-backed
+startup, or trying to drive innovation at an enterprise or nonprofit, what all
+entrepreneurs share is the need for a process that converts the raw materials
+of innovation into real-world success.
+vii
+www.it-ebooks.info
+
+=== Page 10 ===
+Companies both large and small have been drawn to a more nimble,
+iterative approach to innovation and growth, but as they soon discover,
+doing so requires a different way of interacting with current and prospective
+customers. The goal of any startup is to figure out the right thing to
+build as quickly as possible, and the Lean Startup is a set of practices for
+helping entrepreneurs increase their odds of success. How do we know if
+we’re building the right thing? How should a cross-functional team work
+together? How do we hold people accountable? These are the questions the
+Lean Startup methodology was designed to answer.
+Customer Development is different from traditional marketing research
+methods. While those techniques can help us understand customer needs
+and preferences, and take us inside the user experience to show us how
+customers use a product or service, this goes a step beyond—using scientific
+experimentation to put what we’ve learned to the test. Our goal is to not
+simply understand customer behavior, but to learn how to change customer
+behavior and build a sustainable business.
+The process involves running many tests at microscale in order to get the
+engine of growth turning, so that a startup can achieve hypergrowth. This
+is one of the reasons the methodology is so challenging: it requires people to
+work in a truly cross-functional way to synthesize what they’ve learned. It
+means working hand-in-hand with colleagues from marketing, engineering,
+operations, and customer service—in other words, everyone. Engineers
+and scientists without traditional marketing or sales backgrounds now
+find themselves hearing straight from the customer’s mouth what he thinks
+about the product. People on sales teams who’ve been used to presenting
+final products recognize that the feedback they receive in sales calls can be
+of tremendous value to the innovation process. People in customer support
+positions are empowered to better meet customer requests rather than
+simply trying to put out fires.
+But even after they’ve prepared themselves to speak to customers or
+potential customers, many who are new to the Lean Startup methodology
+have plenty of questions: “How can I convince people to spend their time
+talking to me about a product we haven’t even finished building?” “How do
+we get information from our best customers without potentially alienating
+them?” “If a customer cannot place an order, how can we assess whether
+we’re on the right track?”
+Cindy provides answers to those questions and more, offering techniques
+to help entrepreneurs stay grounded in reality even in the discovery
+phase of the process: rather than relying on what customers tells us they
+would like to do in the future, she provides strategies for finding out how
+customers actually behave. “Actually changing behaviors, spending money,
+viii Foreword
+www.it-ebooks.info
