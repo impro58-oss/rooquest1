@@ -1,0 +1,1789 @@
+[2026-03-14 18:49:58] [INFO] === Starting Music Duplicate Scan ===
+[2026-03-14 18:49:58] [INFO] Source: E:\2025 Music merge
+[2026-03-14 18:49:58] [INFO] Created duplicates folder: E:\2025 Music merge\00-DUPLICATES-FOR-DELETION
+[2026-03-14 18:49:58] [INFO] Scanning for music files...
+[2026-03-14 18:49:59] [INFO] Found 3949 music files
+[2026-03-14 18:49:59] [INFO] Computing file hashes to find duplicates...
+[2026-03-14 18:50:09] [WARN] Found macOS resource fork: ._Adapted Records - The Next Episode (Staunch Rmx) (1).mp3
+[2026-03-14 18:50:09] [WARN] Found macOS resource fork: ._Afrojack Feat. Eva Simons - Take Over Control (Extended Vocal Mix).mp3
+[2026-03-14 18:50:09] [WARN] Found macOS resource fork: ._Bodyrox vs Run DMC - It's Like My Bodyrox (G.reg Vocal Edit).mp3
+[2026-03-14 18:50:09] [WARN] Found macOS resource fork: ._CAZZETTE vs Baauer - Harlem Shake (CAZZETTE's Ultra Bootleg).mp3
+[2026-03-14 18:50:09] [WARN] Found macOS resource fork: ._David Guetta and Chris Willis - everytime we touch (chuckie remix).mp3
+[2026-03-14 18:50:09] [WARN] Found macOS resource fork: ._Kidsos (Wippenberg Remix).mp3
+[2026-03-14 18:50:09] [WARN] Found macOS resource fork: ._MDA & Spherical - The Ultimate Prodigy Megamix.mp3
+[2026-03-14 18:50:09] [WARN] Found macOS resource fork: ._Money for Nothin (SAVOY Remix).mp3
+[2026-03-14 18:50:09] [WARN] Found macOS resource fork: ._Paul van Dyk - We Are Alive (Vandit Vocal Mix).mp3
+[2026-03-14 18:50:09] [WARN] Found macOS resource fork: ._Robbie Rivera feat. Fast Eddie - Let Me Sip My Drink (Chuckie Remix).mp3
+[2026-03-14 18:50:09] [WARN] Found macOS resource fork: ._The Chemical Brothers - Block Rockin Beats (Cazzette Live Bootleg).mp3
+[2026-03-14 18:50:31] [INFO] Progress: 200 / 3949 files scanned
+[2026-03-14 18:50:32] [WARN] Found macOS resource fork: ._01 21 Questions (SNBRN Remix).mp3
+[2026-03-14 18:50:32] [WARN] Found macOS resource fork: ._01 Return Of The Mack (SNBRN Remix).mp3
+[2026-03-14 18:50:32] [WARN] Found macOS resource fork: ._C-Media USB Audio Device    20141111 1538.mp3
+[2026-03-14 18:50:32] [WARN] Found macOS resource fork: ._Deorro vs MAKJ - READY!.mp3
+[2026-03-14 18:50:32] [WARN] Found macOS resource fork: ._Klingande - Jubel (Tube & Berger Remix) www.livingelectro.com.mp3
+[2026-03-14 18:50:32] [WARN] Found macOS resource fork: ._Let It Go (Instrumental Karaoke) - Frozen (OST).mp3
+[2026-03-14 18:50:32] [WARN] Found macOS resource fork: ._Paul van Dyk & Ummet Ozcan - Come With Me (We Are One) (Paul van Dyk Festival Mix).mp3
+[2026-03-14 18:50:32] [WARN] Found macOS resource fork: ._robbie-emotions-intro-hey-everybody.mp3
+[2026-03-14 18:50:32] [WARN] Found macOS resource fork: ._Timmy Trumpet - Freaks (Original Mix).mp3
+[2026-03-14 18:50:32] [WARN] Found macOS resource fork: ._Tiësto feat. Matthew Koma - Wasted (Ummet Ozcan Club Mix) www.Only-Music.co.il(1).mp3
+[2026-03-14 18:50:32] [WARN] Found macOS resource fork: ._Tiësto feat. Matthew Koma - Wasted (Ummet Ozcan Club Mix) www.Only-Music.co.il.mp3
+[2026-03-14 18:50:32] [WARN] Found macOS resource fork: ._Ummet Ozcan vs. David Guetta ft Sam Martin vs Showtek - Lovers On Your Hands (Kaiser Mashup) www.livingelectro.com.mp3
+[2026-03-14 18:50:41] [INFO] DUPLICATE: Tiësto feat. Matthew Koma - Wasted (Ummet Ozcan Club Mix) www.Only-Music.co.il.mp3 matches Tiësto feat. Matthew Koma - Wasted (Ummet Ozcan Club Mix) www.Only-Music.co.il(1).mp3
+[2026-03-14 18:50:50] [INFO] Progress: 300 / 3949 files scanned
+[2026-03-14 18:51:03] [INFO] DUPLICATE: Changes (Stefan Dabruck Remix).mp3 matches Changes (Stefan Dabruck Remix).mp3
+[2026-03-14 18:51:04] [INFO] DUPLICATE: Falling (Duke Dumont Remix).mp3 matches Falling (Duke Dumont Remix).mp3
+[2026-03-14 18:51:04] [INFO] DUPLICATE: Got A Feeling (Bontan Vs Pleasurekraft Vs Vicious Game).mp3 matches Got A Feeling (Bontan Vs Pleasurekraft Vs Vicious Game).mp3
+[2026-03-14 18:51:04] [INFO] DUPLICATE: Happy (Kayliox Remix).mp3 matches Happy (Kayliox Remix).mp3
+[2026-03-14 18:51:06] [INFO] DUPLICATE: Waves Say It Right (Full Version).mp3 matches Waves Say It Right (Full Version).mp3
+[2026-03-14 18:51:09] [INFO] Progress: 400 / 3949 files scanned
+[2026-03-14 18:51:18] [WARN] Found macOS resource fork: ._Bump and Grind 2014 (Extended Mix).mp3
+[2026-03-14 18:51:36] [INFO] Progress: 500 / 3949 files scanned
+[2026-03-14 18:51:39] [INFO] DUPLICATE: 03 Footloose (Footloose).mp3 matches 03 Footloose (Footloose).mp3
+[2026-03-14 18:51:40] [INFO] DUPLICATE: Don_Henley_-_the_boys_of_summer.mp3 matches Don_Henley_-_the_boys_of_summer.mp3
+[2026-03-14 18:51:51] [INFO] Progress: 600 / 3949 files scanned
+[2026-03-14 18:52:00] [WARN] Found macOS resource fork: ._!Mixdown.mp3
+[2026-03-14 18:52:00] [WARN] Found macOS resource fork: ._!Mixdown.mp3
+[2026-03-14 18:52:00] [WARN] Found macOS resource fork: ._!Mixdown.mp3
+[2026-03-14 18:52:00] [WARN] Found macOS resource fork: ._!Mixdown.mp3
+[2026-03-14 18:52:01] [WARN] Found macOS resource fork: ._!Mixdown.mp3
+[2026-03-14 18:52:01] [WARN] Found macOS resource fork: ._!Mixdown.mp3
+[2026-03-14 18:52:01] [WARN] Found macOS resource fork: ._Drums Demo.mp3
+[2026-03-14 18:52:01] [WARN] Found macOS resource fork: ._Full Demo.mp3
+[2026-03-14 18:52:01] [INFO] DUPLICATE: 09 All Star.mp3 matches 09 All Star.mp3
+[2026-03-14 18:52:02] [WARN] Found macOS resource fork: ._Timmy And Tommy - Escape To Fiji (Original Mix).mp3
+[2026-03-14 18:52:06] [INFO] Progress: 700 / 3949 files scanned
+[2026-03-14 18:52:14] [INFO] DUPLICATE: Paul van Dyk - For an Angel 2009 (Spencer and Hill Remix).mp3 matches Paul van Dyk - For an Angel 2009 (Spencer and Hill Remix).mp3
+[2026-03-14 18:52:21] [INFO] Progress: 800 / 3949 files scanned
+[2026-03-14 18:52:29] [WARN] Found macOS resource fork: ._05 That's What I Like.mp3
+[2026-03-14 18:52:29] [WARN] Found macOS resource fork: ._14 Highway To Hell.mp3
+[2026-03-14 18:52:29] [WARN] Found macOS resource fork: ._Garth Brooks - I've Got Friends in L 1.mp3
+[2026-03-14 18:52:29] [WARN] Found macOS resource fork: ._Walk Of Life.mp3
+[2026-03-14 18:52:30] [WARN] Found macOS resource fork: ._01 Cecilia (feat. Louchie Lou & Michie One).m4a
+[2026-03-14 18:52:30] [WARN] Found macOS resource fork: ._01 Iko Iko.m4a
+[2026-03-14 18:52:30] [WARN] Found macOS resource fork: ._03 Just Can't Get Enough.m4a
+[2026-03-14 18:52:30] [WARN] Found macOS resource fork: ._15 I Think We're Alone Now.m4a
+[2026-03-14 18:52:30] [WARN] Found macOS resource fork: ._3-10 Girls Just Want to Have Fun.m4a
+[2026-03-14 18:52:30] [WARN] Found macOS resource fork: ._3-11 99 Red Balloons.m4a
+[2026-03-14 18:52:34] [INFO] Progress: 900 / 3949 files scanned
+[2026-03-14 18:52:34] [WARN] Found macOS resource fork: ._01 Set You Free (Original Radio Edit).m4a
+[2026-03-14 18:52:34] [WARN] Found macOS resource fork: ._02 The Logical Song.m4a
+[2026-03-14 18:52:34] [WARN] Found macOS resource fork: ._03 Mr. Vain (Original Radio Edit).m4a
+[2026-03-14 18:52:42] [WARN] Found macOS resource fork: ._01 (Is This The Way To) Amarillo (Single Version).m4a
+[2026-03-14 18:52:42] [WARN] Found macOS resource fork: ._01 Accidentally In Love.m4a
+[2026-03-14 18:52:42] [WARN] Found macOS resource fork: ._01 Drive By.m4a
+[2026-03-14 18:52:43] [WARN] Found macOS resource fork: ._01 Grace Kelly.m4a
+[2026-03-14 18:52:43] [WARN] Found macOS resource fork: ._01 Hey, Soul Sister.m4a
+[2026-03-14 18:52:43] [WARN] Found macOS resource fork: ._01 Wild Heart.m4a
+[2026-03-14 18:52:43] [WARN] Found macOS resource fork: ._02 Budapest.m4a
+[2026-03-14 18:52:43] [WARN] Found macOS resource fork: ._02 We Can't Stop.m4a
+[2026-03-14 18:52:43] [WARN] Found macOS resource fork: ._1-01 Moves Like Jagger 2.m4a
+[2026-03-14 18:52:43] [WARN] Found macOS resource fork: ._1-02 We Found Love.m4a
+[2026-03-14 18:52:43] [WARN] Found macOS resource fork: ._1-03 What Makes You Beautiful.m4a
+[2026-03-14 18:52:43] [WARN] Found macOS resource fork: ._1-04 Marry You.m4a
+[2026-03-14 18:52:43] [WARN] Found macOS resource fork: ._1-05 Take A Chance On Me 1.m4a
+[2026-03-14 18:52:43] [WARN] Found macOS resource fork: ._1-08 Heart Skips A Beat 1.m4a
+[2026-03-14 18:52:43] [WARN] Found macOS resource fork: ._1-09 Lightning 1.m4a
+[2026-03-14 18:52:43] [WARN] Found macOS resource fork: ._1-10 All About Tonight.m4a
+[2026-03-14 18:52:43] [WARN] Found macOS resource fork: ._1-11 All Fired Up.m4a
+[2026-03-14 18:52:43] [WARN] Found macOS resource fork: ._1-12 The Edge Of Glory.m4a
+[2026-03-14 18:52:43] [WARN] Found macOS resource fork: ._1-15 You Need Me, I Don't Need You.m4a
+[2026-03-14 18:52:43] [WARN] Found macOS resource fork: ._18 Forever.m4a
+[2026-03-14 18:52:45] [INFO] Progress: 1000 / 3949 files scanned
+[2026-03-14 18:52:59] [INFO] Progress: 1100 / 3949 files scanned
+[2026-03-14 18:53:10] [WARN] Found macOS resource fork: ._01 (Is This The Way To) Amarillo (Single Version).m4a
+[2026-03-14 18:53:10] [WARN] Found macOS resource fork: ._02 Knock Three Times.m4a
+[2026-03-14 18:53:10] [WARN] Found macOS resource fork: ._04 Shake Your Tail Feather.m4a
+[2026-03-14 18:53:10] [WARN] Found macOS resource fork: ._05 Everybody Needs Somebody to Love.m4a
+[2026-03-14 18:53:10] [WARN] Found macOS resource fork: ._07 Here Comes the Sun.m4a
+[2026-03-14 18:53:10] [WARN] Found macOS resource fork: ._1-02 Sir Duke.m4a
+[2026-03-14 18:53:10] [WARN] Found macOS resource fork: ._1-02 Spirit In the Sky.m4a
+[2026-03-14 18:53:10] [WARN] Found macOS resource fork: ._1-36 I Wanna Be Like You (From Walt Disney's ''the Jungle Book'').m4a
+[2026-03-14 18:53:10] [WARN] Found macOS resource fork: ._2-04 You Can Call Me Al.m4a
+[2026-03-14 18:53:10] [INFO] DUPLICATE: 01 (Is This The Way To) Amarillo (Single Version).m4a matches 01 (Is This The Way To) Amarillo (Single Version).m4a
+[2026-03-14 18:53:11] [INFO] Progress: 1200 / 3949 files scanned
+[2026-03-14 18:53:14] [WARN] Found macOS resource fork: ._10 Track 10.m4a
+[2026-03-14 18:53:14] [INFO] DUPLICATE: 01 UMBRELLA.m4a matches 01 UMBRELLA.m4a
+[2026-03-14 18:53:15] [INFO] DUPLICATE: 03 Mambo No.5.m4a matches 03 Mambo No.5.m4a
+[2026-03-14 18:53:16] [INFO] DUPLICATE: 15 All Summer Long.m4a matches 15 All Summer Long.m4a
+[2026-03-14 18:53:17] [WARN] Found macOS resource fork: ._01 (I've Had) The Time of My Life.m4a
+[2026-03-14 18:53:17] [WARN] Found macOS resource fork: ._01 Blue Is the Colour.m4a
+[2026-03-14 18:53:17] [WARN] Found macOS resource fork: ._01 Swing the Mood.m4a
+[2026-03-14 18:53:17] [WARN] Found macOS resource fork: ._02 Hey Baby.m4a
+[2026-03-14 18:53:17] [WARN] Found macOS resource fork: ._03 Proud Mary.m4a
+[2026-03-14 18:53:17] [WARN] Found macOS resource fork: ._04 Past the Point of Rescue.m4a
+[2026-03-14 18:53:17] [WARN] Found macOS resource fork: ._05 Dude (Looks Like a Lady).m4a
+[2026-03-14 18:53:17] [WARN] Found macOS resource fork: ._05 I Gotta Feeling.m4a
+[2026-03-14 18:53:17] [WARN] Found macOS resource fork: ._07 You Shook Me All Night Long.m4a
+[2026-03-14 18:53:17] [WARN] Found macOS resource fork: ._1-02 Sweet Home Alabama.m4a
+[2026-03-14 18:53:17] [WARN] Found macOS resource fork: ._1-04 Marry You.m4a
+[2026-03-14 18:53:17] [WARN] Found macOS resource fork: ._1-17 All Night Long (All Night) [Single Version].m4a
+[2026-03-14 18:53:17] [WARN] Found macOS resource fork: ._10 One Step Beyond.m4a
+[2026-03-14 18:53:17] [WARN] Found macOS resource fork: ._14 Rockin' All Over the World.m4a
+[2026-03-14 18:53:17] [WARN] Found macOS resource fork: ._2-02 Dance the Night Away.m4a
+[2026-03-14 18:53:19] [INFO] DUPLICATE: 05 The Liquidator.m4a matches 05 The Liquidator.m4a
+[2026-03-14 18:53:19] [INFO] DUPLICATE: 06 The Best.m4a matches 06 The Best.m4a
+[2026-03-14 18:53:19] [INFO] DUPLICATE: 1-04 Marry You.m4a matches 1-04 Marry You.m4a
+[2026-03-14 18:53:19] [INFO] Progress: 1300 / 3949 files scanned
+[2026-03-14 18:53:19] [INFO] DUPLICATE: 1-15 Dancing Queen.m4a matches 1-15 Dancing Queen.m4a
+[2026-03-14 18:53:20] [INFO] DUPLICATE: 1-16 Rock the Boat.m4a matches 1-16 Rock the Boat.m4a
+[2026-03-14 18:53:20] [INFO] DUPLICATE: 60 The Grease Mega-Mix.m4a matches 60 The Grease Mega-Mix.m4a
+[2026-03-14 18:53:20] [WARN] Found macOS resource fork: ._The Weeknd - Often (NSFW) (Cazzette Bootleg) (Final).wav
+[2026-03-14 18:53:30] [WARN] Found macOS resource fork: ._2014-08-26_16h10m23.wav
+[2026-03-14 18:53:30] [WARN] Found macOS resource fork: ._2014-08-26_16h10m23_01h07m43.wav
+[2026-03-14 18:53:37] [INFO] Progress: 1400 / 3949 files scanned
+[2026-03-14 18:53:39] [INFO] Progress: 1500 / 3949 files scanned
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._01_JTH_Bass_Hit_C.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._02_JTH_Bass_Hit_C.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._03_JTH_Bass_Hit_C.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._04_JTH_Bass_Hit_C.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._05_JTH_Bass_Hit_C.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._06_JTH_Bass_Hit_C.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._07_JTH_Bass_Hit_C.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._08_JTH_Bass_Hit_C.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._09_JTH_Bass_Hit_C.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._10_JTH_Bass_Hit_C.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._01_JTH_Bass_Loop_Dbm_124.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._02_JTH_Bass_Loop_Dm_124.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._03_JTH_Bass_Loop_Cm_124.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._04_JTH_Bass_Loop_Gm_123.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._05_JTH_Bass_Loop_Fm_124.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._06_JTH_Bass_Loop_Gm_124.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._07_JTH_Bass_Loop_Dm_124.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._08_JTH_Bass_Loop_Em_124.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._09_JTH_Bass_Loop_Bm_125.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._10_JTH_Bass_Loop_Em_123.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._01_JTH_Clap.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._02_JTH_Clap.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._03_JTH_Clap.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._04_JTH_Clap.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._05_JTH_Clap.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._06_JTH_Clap.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._07_JTH_Clap.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._08_JTH_Clap.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._09_JTH_Clap.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._10_JTH_Clap.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._01_JTH_Hat.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._02_JTH_Hat.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._03_JTH_Hat.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._04_JTH_Hat.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._05_JTH_Hat.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._06_JTH_Hat.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._07_JTH_Hat.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._08_JTH_Hat.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._09_JTH_Hat.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._10_JTH_Hat.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._01_JTH_Kick.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._02_JTH_Kick.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._03_JTH_Kick.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._04_JTH_Kick.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._05_JTH_Kick.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._06_JTH_Kick.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._07_JTH_Kick.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._08_JTH_Kick.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._09_JTH_Kick.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._10_JTH_Kick.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._01_JTH_Perc.wav
+[2026-03-14 18:53:41] [WARN] Found macOS resource fork: ._02_JTH_Perc.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._03_JTH_Perc.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._04_JTH_Perc.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._05_JTH_Perc.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._06_JTH_Perc.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._07_JTH_Perc.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._08_JTH_Perc.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._09_JTH_Perc.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._10_JTH_Perc.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._01_JTH_Snares.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._02_JTH_Snares.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._03_JTH_Snares.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._04_JTH_Snares.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._05_JTH_Snares.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._06_JTH_Snares.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._07_JTH_Snares.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._08_JTH_Snares.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._09_JTH_Snares.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._10_JTH_Snares.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._01_JTH_Drum_Loop_Full_123.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._01_JTH_Drum_Loop_Kick_Free_123.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._01_JTH_Drum_Loop_Perc_Only_123.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._01_JTH_Drum_Loop_Stripped_123.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._01_JTH_Drum_Loop_Tops_123.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._02_JTH_Drum_Loop_Full_123.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._02_JTH_Drum_Loop_Kick_Free_123.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._02_JTH_Drum_Loop_Perc_Only_123.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._02_JTH_Drum_Loop_Stripped_123.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._02_JTH_Drum_Loop_Tops_123.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._03_JTH_Drum_Loop_Full_123.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._03_JTH_Drum_Loop_Kick_Free_123.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._03_JTH_Drum_Loop_Perc_Only_123.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._03_JTH_Drum_Loop_Stripped_123.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._03_JTH_Drum_Loop_Tops_123.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._04_JTH_Drum_Loop_Full_123.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._04_JTH_Drum_Loop_Kick_Free_123.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._04_JTH_Drum_Loop_Perc_Only_123.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._04_JTH_Drum_Loop_Stripped_123.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._04_JTH_Drum_Loop_Tops_123.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._05_JTH_Drum_Loop_Full_124.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._05_JTH_Drum_Loop_Kick_Free_124.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._05_JTH_Drum_Loop_Perc_Only_124.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._05_JTH_Drum_Loop_Stripped_124.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._05_JTH_Drum_Loop_Tops_124.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._06_JTH_Drum_Loop_Full_124.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._06_JTH_Drum_Loop_Kick_Free_124.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._06_JTH_Drum_Loop_Perc_Only_124.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._06_JTH_Drum_Loop_Stripped_124.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._06_JTH_Drum_Loop_Tops_124.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._07_JTH_Drum_Loop_Full_124.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._07_JTH_Drum_Loop_Kick_Free_124.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._07_JTH_Drum_Loop_Perc_Only_124.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._07_JTH_Drum_Loop_Stripped_124.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._07_JTH_Drum_Loop_Tops_124.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._08_JTH_Drum_Loop_Full_124.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._08_JTH_Drum_Loop_Kick_Free_124.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._08_JTH_Drum_Loop_Perc_Only_124.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._08_JTH_Drum_Loop_Stripped_124.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._08_JTH_Drum_Loop_Tops_124.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._09_JTH_Drum_Loop_Full_124.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._09_JTH_Drum_Loop_Kick_Free_124.wav
+[2026-03-14 18:53:42] [WARN] Found macOS resource fork: ._09_JTH_Drum_Loop_Perc_Only_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._09_JTH_Drum_Loop_Stripped_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._09_JTH_Drum_Loop_Tops_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._10_JTH_Drum_Loop_Full_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._10_JTH_Drum_Loop_Kick_Free_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._10_JTH_Drum_Loop_Perc_Only_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._10_JTH_Drum_Loop_Stripped_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._10_JTH_Drum_Loop_Tops_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._01_JTH_FX.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._02_JTH_FX.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._03_JTH_FX.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._04_JTH_FX.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._05_JTH_FX.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._06_JTH_FX.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._07_JTH_FX.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._08_JTH_FX.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._09_JTH_FX.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._10_JTH_FX.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit1_Bass_Gm_123.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit1_Bass_Synth_Gm_123.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit1_Claps.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit1_Crash_Build_123.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit1_Drum_Loop_Full_123.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit1_Drum_Loop_No_Kick_123.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit1_FX_1.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit1_FX_2.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit1_FX_3.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit1_Hats.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit1_Kick.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit1_Mixdown_Gm_123.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit1_Percs_123.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit1_Synth_FX_123.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit1_Synth_Stab_Hit_Gm_123.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit1_Vox_Build_1_Gm_123.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit1_Vox_Build_2_Gm_123.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit1_Vox_Hook_Gm_123.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit2_Bass_Dmin_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit2_Claps_Dmin_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit2_Crash.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit2_Drum_Loop_Full_Dmin_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit2_Drum_Loop_No_Kick_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit2_FX_1_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit2_FX_2_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit2_FX_3_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit2_FX_4_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit2_Hats.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit2_Kick.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit2_Mixdown_Dmin_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit2_Percs_1_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit2_Percs_2_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit2_Snare_Roll_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit2_Synth_Dmin_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit2_Synth_FX_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit2_Vox_Build_Gmin_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit2_Vox_FX_Gmin_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit2_Vox_Hook_Gmin_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit2_Vox_Loop_Gmin_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit3_Bass_Dm_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit3_Claps.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit3_Crash_Build_Dm_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit3_Drum_Loop_Full_124.wav
+[2026-03-14 18:53:43] [WARN] Found macOS resource fork: ._Kit3_Drum_Loop_No_Kick_124.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._Kit3_FX_124.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._Kit3_FX_2_124.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._Kit3_Hats.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._Kit3_Kick.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._Kit3_Mixdown_Dm_124.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._Kit3_Percs.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._Kit3_Snare_Roll_124.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._Kit3_String_124.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._Kit3_Synth_Stabs_Build_Dm_124.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._Kit3_Vox_FX_Loop_124.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._Kit3_Vox_Hook_124.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._01_JTH_Synth_Hit_C.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._02_JTH_Synth_Hit_C.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._03_JTH_Synth_Hit_C.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._04_JTH_Synth_Hit_C.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._05_JTH_Synth_Hit_C.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._06_JTH_Synth_Hit_C.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._07_JTH_Synth_Hit_C.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._08_JTH_Synth_Hit_C.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._09_JTH_Synth_Hit_C.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._10_JTH_Synth_Hit_C.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._01_JTH_Synth_Loop_123_Em.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._02_JTH_Synth_Loop_123_Gm.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._03_JTH_Synth_Loop_124_Fmin.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._04_JTH_Synth_Loop_124_Cm.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._05_JTH_Synth_Loop_124_Am.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._06_JTH_Synth_Loop_124_Am.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._07_JTH_Synth_Loop_124_Fm.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._08_JTH_Synth_Loop_124_Dm.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._09_JTH_Synth_Loop_124_Fm.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._10_JTH_Synth_Loop_124_Em.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._01_JTH_Vocal_Loop_124.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._02_JTH_Vocal_Loop_123.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._03_JTH_Vocal_Loop_124.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._04_JTH_Vocal_Loop_124.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._05_JTH_Vocal_Loop_124.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._06_JTH_Vocal_Loop_124.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._07_JTH_Vocal_Loop_124.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._08_JTH_Vocal_Loop_123.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._09_JTH_Vocal_Loop_123.wav
+[2026-03-14 18:53:44] [WARN] Found macOS resource fork: ._10_JTH_Vocal_Loop_124.wav
+[2026-03-14 18:53:45] [INFO] Progress: 1800 / 3949 files scanned
+[2026-03-14 18:53:47] [INFO] Progress: 1900 / 3949 files scanned
+[2026-03-14 18:53:50] [INFO] Progress: 2000 / 3949 files scanned
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._01_JH_Bass_Hit_C.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._02_JH_Bass_Hit_A.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._03_JH_Bass_Hit_D.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._04_JH_Bass_Hit_E.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._05_JH_Bass_Hit_G.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._06_JH_Bass_Hit_B.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._07_JH_Bass_Hit_A.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._08_JH_Bass_Hit_E.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._09_JH_Bass_Hit_G.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._10_JH_Bass_Hit_A.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._11_JH_Bass_Hit_G#.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._12_JH_Bass_Hit_D.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._13_JH_Bass_Hit_A.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._14_JH_Bass_Hit_G#.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._15_JH_Bass_Hit_G#.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._16_JH_Bass_Hit_E.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._17_JH_Bass_Hit_C.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._18_JH_Bass_Hit_E.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._19_JH_Bass_Hit_G.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._20_JH_Bass_Hit_F#.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._01_JH_Bass_Loop_C_123.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._02_JH_Bass_Loop_A_124.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._03_JH_Bass_Loop_D_124.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._04_JH_Bass_Loop_G_124.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._05_JH_Bass_Loop_B_125.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._06_JH_Bass_Loop_G_125.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._07_JH_Bass_Loop_A_125.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._08_JH_Bass_Loop_E_126.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._09_JH_Bass_Loop_E_124.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._10_JH_Bass_Loop_C_125.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._11_JH_Bass_Loop_G_125.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._12_JH_Bass_Loop_A_124.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._13_JH_Bass_Loop_B_124.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._14_JH_Bass_Loop_G#_126.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._15_JH_Bass_Loop_D_126.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._16_JH_Bass_Loop_A_126.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._17_JH_Bass_Loop_G#_125.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._18_JH_Bass_Loop_G#_125.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._19_JH_Bass_Loop_E_126.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._20_JH_Bass_Loop_C_126.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._01_JH_Clap.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._02_JH_Clap.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._03_JH_Clap.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._04_JH_Clap.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._05_JH_Clap.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._06_JH_Clap.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._07_JH_Clap.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._08_JH_Clap.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._09_JH_Clap.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._10_JH_Clap.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._11_JH_Clap.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._12_JH_Clap.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._13_JH_Clap.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._14_JH_Clap.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._15_JH_Clap.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._16_JH_Clap.wav
+[2026-03-14 18:53:54] [WARN] Found macOS resource fork: ._17_JH_Clap.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._18_JH_Clap.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._19_JH_Clap.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._20_JH_Clap.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._01_JH_Hat.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._02_JH_Hat.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._03_JH_Hat.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._04_JH_Hat.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._05_JH_Hat.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._06_JH_Hat.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._07_JH_Hat.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._08_JH_Hat.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._09_JH_Hat.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._10_JH_Hat.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._11_JH_Hat.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._12_JH_Hat.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._13_JH_Hat.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._14_JH_Hat.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._15_JH_Hat.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._16_JH_Hat.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._17_JH_Hat.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._18_JH_Hat.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._19_JH_Hat.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._20_JH_Hat.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._01_JH_Kick_F.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._02_JH_Kick_A.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._03_JH_Kick_A.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._04_JH_Kick_G.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._05_JH_Kick_A.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._06_JH_Kick_B.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._07_JH_Kick_C.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._08_JH_Kick_G#.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._09_JH_Kick_C.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._10_JH_Kick_A.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._11_JH_Kick_F#.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._12_JH_Kick_A.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._13_JH_Kick_A.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._14_JH_Kick_D.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._15_JH_Kick_D.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._16_JH_Kick_C.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._17_JH_Kick_C#.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._18_JH_Kick_A#.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._19_JH_Kick_C.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._20_JH_Kick_F.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._01_JH_Snare.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._02_JH_Snare.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._03_JH_Snare.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._04_JH_Snare.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._05_JH_Snare.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._06_JH_Snare.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._07_JH_Snare.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._08_JH_Snare.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._09_JH_Snare.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._10_JH_Snare.wav
+[2026-03-14 18:53:55] [WARN] Found macOS resource fork: ._11_JH_Snare.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._12_JH_Snare.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._13_JH_Snare.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._14_JH_Snare.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._15_JH_Snare.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._16_JH_Snare.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._17_JH_Snare.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._18_JH_Snare.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._19_JH_Snare.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._20_JH_Snare.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._01_JH_Drum_Loop_123_Full.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._01_JH_Drum_Loop_123_No_Kick.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._01_JH_Drum_Loop_123_Stripped.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._01_JH_Drum_Loop_123_Stripped2.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._01_JH_Drum_Loop_123_Top.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._02_JH_Drum_Loop_123_Full.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._02_JH_Drum_Loop_123_No_Kick.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._02_JH_Drum_Loop_123_Stripped.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._02_JH_Drum_Loop_123_Stripped2.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._02_JH_Drum_Loop_123_Top.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._03_JH_Drum_Loop_124_Full.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._03_JH_Drum_Loop_124_No_Kick.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._03_JH_Drum_Loop_124_Stripped.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._03_JH_Drum_Loop_124_Stripped2.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._03_JH_Drum_Loop_124_Top.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._04_JH_Drum_Loop_125_Full.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._04_JH_Drum_Loop_125_No_Kick.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._04_JH_Drum_Loop_125_Stripped.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._04_JH_Drum_Loop_125_Stripped2.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._04_JH_Drum_Loop_125_Top.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._05_JH_Drum_Loop_125_Full.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._05_JH_Drum_Loop_125_No_Kick.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._05_JH_Drum_Loop_125_Stripped.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._05_JH_Drum_Loop_125_Stripped2.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._05_JH_Drum_Loop_125_Top.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._06_JH_Drum_Loop_126_Full.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._06_JH_Drum_Loop_126_No_Kick.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._06_JH_Drum_Loop_126_Stripped.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._06_JH_Drum_Loop_126_Stripped2.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._06_JH_Drum_Loop_126_Top.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._07_JH_Drum_Loop_124_Full.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._07_JH_Drum_Loop_124_NoKick.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._07_JH_Drum_Loop_124_Stripped.1.wav
+[2026-03-14 18:53:56] [WARN] Found macOS resource fork: ._07_JH_Drum_Loop_124_Stripped2.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._07_JH_Drum_Loop_124_Top.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._08_JH_Drum_Loop_125_Full.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._08_JH_Drum_Loop_125_No_Kick.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._08_JH_Drum_Loop_125_Stripped.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._08_JH_Drum_Loop_125_Stripped2.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._08_JH_Drum_Loop_125_Top.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._09_JH_Drum_Loop_124_Full.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._09_JH_Drum_Loop_124_No_Kick.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._09_JH_Drum_Loop_124_Stripped.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._09_JH_Drum_Loop_124_Stripped2.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._09_JH_Drum_Loop_124_Top.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._10_JH_Drum_Loop_126_Full.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._10_JH_Drum_Loop_126_No_Kick.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._10_JH_Drum_Loop_126_Stripped.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._10_JH_Drum_Loop_126_Stripped2.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._10_JH_Drum_Loop_126_Top.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._11_JH_Drum_Loop_126_Full.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._11_JH_Drum_Loop_126_No_Kick.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._11_JH_Drum_Loop_126_Stripped.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._11_JH_Drum_Loop_126_Stripped2.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._11_JH_Drum_Loop_126_Top.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._12_JH_Drum_Loop_125_Full.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._12_JH_Drum_Loop_125_No_Kick.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._12_JH_Drum_Loop_125_Stripped.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._12_JH_Drum_Loop_125_Stripped2.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._12_JH_Drum_Loop_125_Top.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._13_JH_Drum_Loop_125_Full.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._13_JH_Drum_Loop_125_No_Kick.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._13_JH_Drum_Loop_125_Stripped.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._13_JH_Drum_Loop_125_Stripped2.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._13_JH_Drum_Loop_125_Top.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._14_JH_Drum_Loop_124_Full.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._14_JH_Drum_Loop_124_No_Kick.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._14_JH_Drum_Loop_124_Stripped.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._14_JH_Drum_Loop_124_Stripped2.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._14_JH_Drum_Loop_124_Top.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._15_JH_Drum_Loop_124_Full.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._15_JH_Drum_Loop_124_No_Kick.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._15_JH_Drum_Loop_124_Stripped.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._15_JH_Drum_Loop_124_Stripped2.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._15_JH_Drum_Loop_124_Top.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._16_JH_Drum_Loop_124_Full.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._16_JH_Drum_Loop_124_No_Kick.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._16_JH_Drum_Loop_124_Stripped.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._16_JH_Drum_Loop_124_Stripped2.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._16_JH_Drum_Loop_124_Top.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._17_JH_Drum_Loop_125_Full.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._17_JH_Drum_Loop_125_No_Kick.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._17_JH_Drum_Loop_125_Stripped.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._17_JH_Drum_Loop_125_Stripped2.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._17_JH_Drum_Loop_125_Top.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._18_JH_Drum_Loop_125_Full.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._18_JH_Drum_Loop_125_No_Kick.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._18_JH_Drum_Loop_125_Stripped.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._18_JH_Drum_Loop_125_Stripped2.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._18_JH_Drum_Loop_125_Top.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._19_JH_Drum_Loop_124_Full.1.wav
+[2026-03-14 18:53:57] [WARN] Found macOS resource fork: ._19_JH_Drum_Loop_124_No_Kick.1.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._19_JH_Drum_Loop_124_Stripped.1.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._19_JH_Drum_Loop_124_Stripped2.1.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._19_JH_Drum_Loop_124_Top.1.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._20_JH_Drum_Loop_126_Full.1.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._20_JH_Drum_Loop_126_No_Kick.1.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._20_JH_Drum_Loop_126_Stripped.1.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._20_JH_Drum_Loop_126_Stripped2.1.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._20_JH_Drum_Loop_126_Top.1.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._01_JH_FX.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._02_JH_FX.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._03_JH_FX.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._04_JH_FX.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._05_JH_FX.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._06_JH_FX.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._07_JH_FX.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._08_JH_FX.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._09_JH_FX.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._10_JH_FX.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._11_JH_FX.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._12_JH_FX.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._13_JH_FX.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._14_JH_FX.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._15_JH_FX.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._16_JH_FX.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._17_JH_FX.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._18_JH_FX.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._19_JH_FX.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._20_JH_FX.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit1_Arp_Loop_C_124.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit1_Bass_Loop_C_124.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit1_Kick.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit1_Mixdown_C_124.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit1_Riser_C_124.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit1_Snare_Roll_C_124.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit1_String_C_124.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit1_Top_Loop1_C_124.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit1_Top_Loop2_C_124.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit2_Acid_Loop_D#_125.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit2_Bass_Loop_D#_125.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit2_Kick.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit2_Mixdown_D#_125.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit2_Pad_Loop_D#_125.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit2_Reverse_Synth_D#_125.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit2_Synth_Loop_D#_125.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit2_Top_Loop1_D#_125.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit2_Top_Loop2_D#_125.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit2_Vox_FeelMe_Loop_D#_125.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit2_Vox_Loop_D#_125.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit2_WhiteNoise_D#_125.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit2_White_Noise_Uplifter_D#_125.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit3_Bassline_F_125.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit3_FX_Loop_F_125.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit3_Kick.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit3_Mixdown_F_125.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit3_Synth2_Loop_F_125.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit3_Synth_Loop_F_125.wav
+[2026-03-14 18:53:58] [WARN] Found macOS resource fork: ._Kit3_Top_Loop1_F_125.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._Kit3_Top_Loop2_F_125.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._Kit3_White_Noise_F_125.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._Kit4_Bass_Loop_F_126.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._Kit4_Clap_Fill_F_126.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._Kit4_Kick.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._Kit4_Lead_Loop_F_126.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._Kit4_Mixdown_F_126.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._Kit4_Pad_Synth Loop_F_126.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._Kit4_Raw_Synth_Loop_F_126.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._Kit4_Synth_Loop_F_126.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._Kit4_Top_Loop1_F_126.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._Kit4_Top_Loop2_F_126.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._Kit4_Vox_FX_F_126.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._Kit4_Vox_Hit_F.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._01_JH_Synth_Hit_E.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._02_JH_Synth_Hit_A.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._03_JH_Synth_Hit_C.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._04_JH_Synth_Hit_C.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._05_JH_Synth_Hit_G.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._06_JH_Synth_Hit_C.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._07_JH_Synth_Hit_B.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._08_JH_Synth_Hit_E.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._09_JH_Synth_Hit_F.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._10_JH_Synth_Hit_C.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._11_JH_Synth_Hit_A.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._12_JH_Synth_Hit_G.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._13_JH_Synth_Hit_G.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._14_JH_Synth_Hit_D.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._15_JH_Synth_Hit_A.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._16_JH_Synth_Hit_C.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._17_JH_Synth_Hit_D.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._18_JH_Synth_Hit_C.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._19_JH_Synth_Hit_E.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._20_JH_Synth_Hit_C.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._01_JH_Synth_Loop_G_126.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._02_JH_Synth_Loop_B_124.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._03_JH_Synth_Loop_C_125.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._04_JH_Synth_Loop_C_124.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._05_JH_Synth_Loop_G_124.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._06_JH_Synth_Loop_C_124.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._07_JH_Synth_Loop_B_124.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._08_JH_Synth_Loop_A_124.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._09_JH_Synth_Loop_C_126.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._10_JH_Synth_Loop_F_126.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._11_JH_Synth_Loop_C_126.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._12_JH_Synth_Loop_A_126.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._13_JH_Synth_Loop_A_126.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._14_JH_Synth_Loop_G_126.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._15_JH_Synth_Loop_G_125.wav
+[2026-03-14 18:53:59] [WARN] Found macOS resource fork: ._16_JH_Synth_Loop_F_125.wav
+[2026-03-14 18:54:00] [WARN] Found macOS resource fork: ._17_JH_Synth_Loop_C_124.wav
+[2026-03-14 18:54:00] [WARN] Found macOS resource fork: ._18_JH_Synth_Loop_G_124.wav
+[2026-03-14 18:54:00] [WARN] Found macOS resource fork: ._19_JH_Synth_Loop_B_125.wav
+[2026-03-14 18:54:00] [WARN] Found macOS resource fork: ._20_JH_Synth_Loop_C_125.wav
+[2026-03-14 18:54:02] [INFO] Progress: 2500 / 3949 files scanned
+[2026-03-14 18:54:04] [INFO] Progress: 2600 / 3949 files scanned
+[2026-03-14 18:54:09] [INFO] Progress: 2700 / 3949 files scanned
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._01 JH Bass Hit.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._02 JH Bass Hit.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._03 JH Bass Hit.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._04 JH Bass Hit.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._05 JH Bass Hit.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._06 JH Bass Hit.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._07 JH Bass Hit.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._08 JH Bass Hit.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._09 JH Bass Hit.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._10 JH Bass Hit.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._01 JH Bass Loop 123 G.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._02 JH Bass Loop 123 B.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._03 JH Bass Loop 123 D.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._04 JH Bass Loop 123 D.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._05 JH Bass Loop 123 F.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._06 JH Bass Loop 123 D.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._07 JH Bass Loop 123 C#.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._08 JH Bass Loop 124 D.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._09 JH Bass Loop 123 C.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._09 TH Bass Loop 123 C.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._10 JH Bass Loop 123 C.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._10 TH Bass Loop 123 C.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._11 JH Bass Loop 123 A.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._12 JH Bass Loop 123 C#.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._13 JH Bass Loop 123 B.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._14 JH Bass Loop 123 F#.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._15 JH Bass Loop 123 A#.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._16 JH Bass Loop 123 G.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._17 JH Bass Loop 123 G.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._18 JH Bass Loop 123 C#.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._19 JH Bass Loop 123 B.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._20 JH Bass Loop 123 F.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._01 JH Clap.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._02 JH Clap.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._03 JH Clap.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._04 JH Clap.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._05 JH Clap.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._06 JH Clap.wav
+[2026-03-14 18:54:11] [WARN] Found macOS resource fork: ._07 JH Clap.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._08 JH Clap.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._09 JH Clap.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._10 JH Clap.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._11 JH Clap.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._12 JH Clap.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._13 JH Clap.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._14 JH Clap.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._15 JH Clap.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._16 JH Clap.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._17 JH Clap.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._18 JH Clap.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._19 JH Clap.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._20 JH Clap.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._01 JH Hat.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._02 JH Hat.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._03 JH Hat.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._04 JH Hat.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._05 JH Hat.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._06 JH Hat.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._07 JH Hat.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._08 JH Hat.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._09 JH Hat.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._10 JH Hat.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._11 JH Hat.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._12 JH Hat.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._13 JH Hat.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._14 JH Hat.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._15 JH Hat.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._16 JH Hat.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._17 JH Hat.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._18 JH Hat.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._19 JH Hat.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._20 JH Hat.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._01 JH Kick.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._02 JH Kick.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._03 JH Kick.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._04 JH Kick.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._05 JH Kick.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._06 JH Kick.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._07 JH Kick.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._08 JH Kick.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._09 JH Kick.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._10 JH Kick.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._11 JH Kick.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._12 JH Kick.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._13 JH Kick.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._14 JH Kick.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._15 JH Kick.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._16 JH Kick.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._17 JH Kick.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._18 JH Kick.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._19 JH Kick.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._20 JH Kick.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._01 JH Perc.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._02 JH Perc.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._03 JH Perc.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._04 JH Perc.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._05 JH Perc.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._06 JH Perc.wav
+[2026-03-14 18:54:12] [WARN] Found macOS resource fork: ._07 JH Perc.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._08 JH Perc.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._09 JH Perc.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._10 JH Perc.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._11 JH Perc.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._12 JH Perc.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._13 JH Perc.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._14 JH Perc.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._15 JH Perc.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._16 JH Perc.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._17 JH Perc.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._18 JH Perc.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._19 JH Perc.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._20 JH Perc.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._01 JH Snare.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._02 JH Snare.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._03 JH Snare.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._04 JH Snare.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._05 JH Snare.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._06 JH Snare.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._07 JH Snare.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._08 JH Snare.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._09 JH Snare.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._10 JH Snare.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._11 JH Snare.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._12 JH Snare.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._13 JH Snare.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._14 JH Snare.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._15 JH Snare.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._16 JH Snare.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._17 JH Snare.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._18 JH Snare.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._19 JH Snare.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._20 JH Snare.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._01 JH Drum Loop 123 Full.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._01 JH Drum Loop 123 Kick Free.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._01 JH Drum Loop 123 Perc.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._01 JH Drum Loop 123 Stripped.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._01 JH Drum Loop 123 Top.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._02 JH Drum Loop 123 Full.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._02 JH Drum Loop 123 Kick Free.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._02 JH Drum Loop 123 Perc.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._02 JH Drum Loop 123 Stripped .wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._02 JH Drum Loop 123 Top.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._03 JH Drum Loop 123 Full.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._03 JH Drum Loop 123 Kick Free.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._03 JH Drum Loop 123 Perc.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._03 JH Drum Loop 123 Stripped.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._03 JH Drum Loop 123 Top.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._04 JH Drum Loop 123 Full.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._04 JH Drum Loop 123 Kick Free.wav
+[2026-03-14 18:54:13] [WARN] Found macOS resource fork: ._04 JH Drum Loop 123 Perc.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._04 JH Drum Loop 123 Stripped.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._04 JH Drum Loop 123 Top.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._05 JH Drum Loop 123 Full.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._05 JH Drum Loop 123 Kick Free.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._05 JH Drum Loop 123 Perc.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._05 JH Drum Loop 123 Stripped.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._05 JH Drum Loop 123 Top.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._06 JH Drum Loop 123 Full.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._06 JH Drum Loop 123 Kick Free.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._06 JH Drum Loop 123 Perc.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._06 JH Drum Loop 123 Stripped.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._06 JH Drum Loop 123 Top.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._07 JH Drum Loop 123 Full.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._07 JH Drum Loop 123 Kick Free.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._07 JH Drum Loop 123 Perc.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._07 JH Drum Loop 123 Stripped.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._07 JH Drum Loop 123 Top.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._08 JH Drum Loop 123 Full.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._08 JH Drum Loop 123 Kick Free.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._08 JH Drum Loop 123 Perc.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._08 JH Drum Loop 123 Stripped.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._08 JH Drum Loop 123 Top.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._09 JH Drum Loop 123 Full.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._09 JH Drum Loop 123 Kick Free.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._09 JH Drum Loop 123 Perc.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._09 JH Drum Loop 123 Stripped.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._09 JH Drum Loop 123 Top.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._10 JH Drum Loop 123 Full.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._10 JH Drum Loop 123 Kick Free.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._10 JH Drum Loop 123 Perc.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._10 JH Drum Loop 123 Stripped.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._10 JH Drum Loop 123 Top.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._11 JH Drum Loop 123 Full.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._11 JH Drum Loop 123 Kick Free.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._11 JH Drum Loop 123 Perc.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._11 JH Drum Loop 123 Stripped.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._11 JH Drum Loop 123 Top.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._12 JH Drum Loop 123 Full.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._12 JH Drum Loop 123 Kick Free.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._12 JH Drum Loop 123 Perc.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._12 JH Drum Loop 123 Stripped.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._12 JH Drum Loop 123 Top.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._13 JH Drum Loop 123 Full.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._13 JH Drum Loop 123 Kick Free.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._13 JH Drum Loop 123 Perc.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._13 JH Drum Loop 123 Stripped.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._13 JH Drum Loop 123 Top.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._14 JH Drum Loop 123 Full.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._14 JH Drum Loop 123 Kick Free.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._14 JH Drum Loop 123 Perc.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._14 JH Drum Loop 123 Stripped.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._14 JH Drum Loop 123 Top.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._15 JH Drum Loop 123 Full.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._15 JH Drum Loop 123 Kick Free.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._15 JH Drum Loop 123 Perc.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._15 JH Drum Loop 123 Stripped.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._15 JH Drum Loop 123 Top.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._16 JH Drum Loop 123 Full.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._16 JH Drum Loop 123 Kick Free.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._16 JH Drum Loop 123 Perc.wav
+[2026-03-14 18:54:14] [WARN] Found macOS resource fork: ._16 JH Drum Loop 123 Stripped.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._16 JH Drum Loop 123 Top.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._17 JH Drum Loop 123 Full.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._17 JH Drum Loop 123 Kick Free.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._17 JH Drum Loop 123 Perc.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._17 JH Drum Loop 123 Stripped.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._17 JH Drum Loop 123 Top.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._18 JH Drum Loop 123 Full.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._18 JH Drum Loop 123 Kick Free.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._18 JH Drum Loop 123 Perc.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._18 JH Drum Loop 123 Stripped.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._18 JH Drum Loop 123 Top.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._19 JH Drum Loop 123 Full.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._19 JH Drum Loop 123 Kick Free.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._19 JH Drum Loop 123 Perc.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._19 JH Drum Loop 123 Stripped.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._19 JH Drum Loop 123 Top.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._20 JH Drum Loop 123 Full.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._20 JH Drum Loop 123 Kick Free.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._20 JH Drum Loop 123 Perc.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._20 JH Drum Loop 123 Stripped.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._20 JH Drum Loop 123 Top.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._01 JH FX.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._02 JH FX.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._03 JH FX.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._04 JH FX.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._05 JH FX.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._06 JH FX.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._07 JH FX.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._08 JH FX.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._09 JH FX.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._10 JH FX.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._11 JH FX.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._12 JH FX.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._13 JH FX.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._14 JH FX.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._15 JH FX.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._Acid Lead.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._Arp.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._Bass.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._Bleeps.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._Build FX.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._Claps.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._FX 1.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._FX 2.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._Kick.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._Rides.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._Snare Roll.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._Snare.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._Tops.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._Verb Clap.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._909 Snare Roll.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._Arp Layer.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._Bass.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._Brass Pad.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._Claps.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._FX 1.wav
+[2026-03-14 18:54:15] [WARN] Found macOS resource fork: ._Kick.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Main Lead.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Perc Clap.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Perc.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Rides.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Tops.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Bass.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Claps.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Delay Claps.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Hats.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Kick.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Noise FX.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Noise Perc.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Off Beat Clap.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Pad 1.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Perc.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Phone FX.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Rides.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._String.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._909 Kick.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Bass.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Claps.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Drop FX.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Main Pad.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Perc Hit.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Rides.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Snare.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Synth Stabs 2.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Synth Stabs.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Tops.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Vinyl FX.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._808 Perc.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Arp Layer.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Arp.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Bass Pad.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Bass Stabs.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Bass.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Claps.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._FM Donk.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Kick.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Low Pad.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Pad 2.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Pad FX.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Pad Layer.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Pad.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Rides.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Synth Stabs.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Tops.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Bass.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Clap.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Drop FX.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._FX 1.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._FX 2.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Kick.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Perc.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Stab.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Tops.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._Trippy Arp.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._01 JH Synth Loop 123 G.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._02 JH Synth Loop 123 B.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._03 JH Synth Loop 123 E.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._04 JH Synth Loop 123 D.wav
+[2026-03-14 18:54:16] [WARN] Found macOS resource fork: ._05 JH Synth Loop 123 D.wav
+[2026-03-14 18:54:17] [WARN] Found macOS resource fork: ._06 JH Synth Loop 123 C.wav
+[2026-03-14 18:54:17] [WARN] Found macOS resource fork: ._07 JH Synth Loops 123 C#.wav
+[2026-03-14 18:54:17] [WARN] Found macOS resource fork: ._08 JH Synth Loop 123 C.wav
+[2026-03-14 18:54:17] [WARN] Found macOS resource fork: ._09 JH Synth Loop 123 A.wav
+[2026-03-14 18:54:17] [WARN] Found macOS resource fork: ._10 JH Synth Loop 123 D.wav
+[2026-03-14 18:54:17] [WARN] Found macOS resource fork: ._11 JH Synth Loop 123 B.wav
+[2026-03-14 18:54:17] [WARN] Found macOS resource fork: ._12 JH Synth Loop 123 F#.wav
+[2026-03-14 18:54:17] [WARN] Found macOS resource fork: ._13 JH Synth Loop 123 B.wav
+[2026-03-14 18:54:17] [WARN] Found macOS resource fork: ._14 JH Synth Loop 123 B.wav
+[2026-03-14 18:54:17] [WARN] Found macOS resource fork: ._15 JH Synth Loop 123 E.wav
+[2026-03-14 18:54:17] [WARN] Found macOS resource fork: ._16 JH Synth Loop 123 A.wav
+[2026-03-14 18:54:17] [WARN] Found macOS resource fork: ._17 JH Synth Loop 123 B.wav
+[2026-03-14 18:54:17] [WARN] Found macOS resource fork: ._18 JH Synth Loop 123 C.wav
+[2026-03-14 18:54:17] [WARN] Found macOS resource fork: ._19 JH Synth Loop 123 B.wav
+[2026-03-14 18:54:17] [WARN] Found macOS resource fork: ._20 JH Synth Loop 123 C#.wav
+[2026-03-14 18:54:17] [INFO] Progress: 3100 / 3949 files scanned
+[2026-03-14 18:54:20] [INFO] Progress: 3200 / 3949 files scanned
+[2026-03-14 18:54:26] [INFO] Progress: 3300 / 3949 files scanned
+[2026-03-14 18:54:31] [INFO] Progress: 3400 / 3949 files scanned
+[2026-03-14 18:54:34] [WARN] Found macOS resource fork: ._01_Solardo_Kick_G.wav
+[2026-03-14 18:54:34] [WARN] Found macOS resource fork: ._02_Solardo_Kick_G#.wav
+[2026-03-14 18:54:34] [WARN] Found macOS resource fork: ._03_Solardo_Kick_G.wav
+[2026-03-14 18:54:34] [WARN] Found macOS resource fork: ._04_Solardo_Kick_G.wav
+[2026-03-14 18:54:34] [WARN] Found macOS resource fork: ._05_Solardo_Kick_G.wav
+[2026-03-14 18:54:34] [WARN] Found macOS resource fork: ._06_Solardo_Kick_A.wav
+[2026-03-14 18:54:34] [WARN] Found macOS resource fork: ._07_Solardo_Kick_G.wav
+[2026-03-14 18:54:34] [WARN] Found macOS resource fork: ._08_Solardo_Kick_F.wav
+[2026-03-14 18:54:34] [WARN] Found macOS resource fork: ._09_Solardo_Kick_G.wav
+[2026-03-14 18:54:34] [WARN] Found macOS resource fork: ._10_Solardo_Kick_G.wav
+[2026-03-14 18:54:36] [INFO] Progress: 3500 / 3949 files scanned
+[2026-03-14 18:54:40] [INFO] Progress: 3600 / 3949 files scanned
+[2026-03-14 18:54:46] [WARN] Found macOS resource fork: ._11_Solardo_Bass_Hit_Key_A.wav
+[2026-03-14 18:54:46] [WARN] Found macOS resource fork: ._11_Solardo_Bass_Hit_Key_D.wav
+[2026-03-14 18:54:46] [WARN] Found macOS resource fork: ._11_Solardo_Bass_Hit_Key_F.wav
+[2026-03-14 18:54:46] [WARN] Found macOS resource fork: ._12_Solardo_Bass_Hit_Key_A.wav
+[2026-03-14 18:54:46] [WARN] Found macOS resource fork: ._12_Solardo_Bass_Hit_Key_D.wav
+[2026-03-14 18:54:46] [WARN] Found macOS resource fork: ._12_Solardo_Bass_Hit_Key_F.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._13_Solardo_Bass_Hit_Key_A.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._13_Solardo_Bass_Hit_Key_D.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._14_Solardo_Bass_Hit_Key_D.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._14_Solardo_Bass_Hit_Key_F.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._15_Solardo_Bass_Hit_Key_A.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._15_Solardo_Bass_Hit_Key_D.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._15_Solardo_Bass_Hit_Key_F.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._16_Solardo_Bass_Hit_Key_A.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._16_Solardo_Bass_Hit_Key_D.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._16_Solardo_Bass_Hit_Key_F.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._17_Solardo_Bass_Hit_Key_A.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._17_Solardo_Bass_Hit_Key_C.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._17_Solardo_Bass_Hit_Key_C2.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._17_Solardo_Bass_Hit_Key_E.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._18_Solardo_Bass_Hit_Key_A.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._18_Solardo_Bass_Hit_Key_A2.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._18_Solardo_Bass_Hit_Key_B.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._18_Solardo_Bass_Hit_Key_C.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._18_Solardo_Bass_Hit_Key_D.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._18_Solardo_Bass_Hit_Key_F.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._19_Solardo_Bass_Hit_Key_A.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._19_Solardo_Bass_Hit_Key_C.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._19_Solardo_Bass_Hit_Key_C2.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._19_Solardo_Bass_Hit_Key_D.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._19_Solardo_Bass_Hit_Key_E.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._19_Solardo_Bass_Hit_Key_G2.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._20_Solardo_Bass_Hit_Key_A.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._20_Solardo_Bass_Hit_Key_A2.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._20_Solardo_Bass_Hit_Key_C2.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._20_Solardo_Bass_Hit_Key_D.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._20_Solardo_Bass_Hit_Key_F.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._11_Solardo_Bass_Loop_A#_125.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._12_Solardo_Bass_Loop_G_125.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._13_Solardo_Bass_Loop_Fmin_125.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._14_Solardo_Bass_Loop_Amin_125.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._15_Solardo_Bass_Loop_E_125.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._16_Solardo_Bass_Loop_Amin_125.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._17_Solardo_Bass_Loop_D#min_125.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._18_Solardo_Bass_Loop_Amin_125.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._16_Solardo_Clap.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._17_Solardo_Clap.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._18_Solardo_Clap.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._19_Solardo_Clap.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._20_Solardo_Clap.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._21_Solardo_Clap.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._22_Solardo_Clap.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._23_Solardo_Clap.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._24_Solardo_Clap.wav
+[2026-03-14 18:54:47] [WARN] Found macOS resource fork: ._25_Solardo_Clap.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._11_Solardo_Hat.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._12_Solardo_Hat.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._13_Solardo_Hat.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._14_Solardo_Hat.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._15_Solardo_Hat.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._16_Solardo_Hat.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._17_Solardo_Hat.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._18_Solardo_Hat.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._19_Solardo_Hat.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._20_Solardo_Hat.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._11_Solardo_Kick_E.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._12_Solardo_Kick_E.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._13_Solardo_Kick_F.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._14_Solardo_Kick_F.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._15_Solardo_Kick_F.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._16_Solardo_Kick_A.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._17_Solardo_Kick_F.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._18_Solardo_Kick_F.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._19_Solardo_Kick_F.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._20_Solardo_Kick_B.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._16_Solardo_Percs.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._17_Solardo_Percs.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._18_Solardo_Percs.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._19_Solardo_Percs.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._20_Solardo_Percs.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._21_Solardo_Percs.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._22_Solardo_Percs.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._23_Solardo_Percs.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._24_Solardo_Percs.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._25_Solardo_Percs.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._11_Solardo_Snare.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._12_Solardo_Snare.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._13_Solardo_Snare.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._14_Solardo_Snare.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._15_Solardo_Snare.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._16_Solardo_Snare.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._17_Solardo_Snare.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._18_Solardo_Snare.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._19_Solardo_Snare.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._20_Solardo_Snare.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._21_Solardo_Snare.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._22_Solardo_Snare.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._23_Solardo_Snare.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._24_Solardo_Snare.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._25_Solardo_Snare.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._11_Solardo_Drum_Loop_125_Clap.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._11_Solardo_Drum_Loop_125_Full.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._11_Solardo_Drum_Loop_125_Hat.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._11_Solardo_Drum_Loop_125_Hat2.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._11_Solardo_Drum_Loop_125_Kick.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._11_Solardo_Drum_Loop_125_Kick2.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._11_Solardo_Drum_Loop_125_Rim.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._11_Solardo_Drum_Loop_125_Snare.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._11_Solardo_Drum_Loop_125_Top.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._11_Solardo_Drum_Loop_125_Top2.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._12_Solardo_Drum_Loop_125_Clap.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._12_Solardo_Drum_Loop_125_Clap2.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._12_Solardo_Drum_Loop_125_Clap3.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._12_Solardo_Drum_Loop_125_Full.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._12_Solardo_Drum_Loop_125_Hat.wav
+[2026-03-14 18:54:48] [WARN] Found macOS resource fork: ._12_Solardo_Drum_Loop_125_Hat2.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._12_Solardo_Drum_Loop_125_HatFill.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._12_Solardo_Drum_Loop_125_Kick.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._12_Solardo_Drum_Loop_125_Perc.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._12_Solardo_Drum_Loop_125_Rim.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._12_Solardo_Drum_Loop_125_Shaker.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._12_Solardo_Drum_Loop_125_Top.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._12_Solardo_Drum_Loop_125_Top2.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._13_Solardo_Drum_Loop_125_Clap.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._13_Solardo_Drum_Loop_125_Full.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._13_Solardo_Drum_Loop_125_Kick.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._13_Solardo_Drum_Loop_125_Kick2.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._13_Solardo_Drum_Loop_125_OpenHat.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._13_Solardo_Drum_Loop_125_Top.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._13_Solardo_Drum_Loop_125_Top2.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._13_Solardo_Drum_Loop_125_Top3.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._14_Solardo_Drum_Loop_125_Clap.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._14_Solardo_Drum_Loop_125_Clap2.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._14_Solardo_Drum_Loop_125_Clap3.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._14_Solardo_Drum_Loop_125_Full.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._14_Solardo_Drum_Loop_125_Hat.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._14_Solardo_Drum_Loop_125_Kick.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._14_Solardo_Drum_Loop_125_Perc_Clap.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._14_Solardo_Drum_Loop_125_Ride.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._14_Solardo_Drum_Loop_125_Shaker.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._14_Solardo_Drum_Loop_125_Shaker2.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._14_Solardo_Drum_Loop_125_Top.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._14_Solardo_Drum_Loop_125_Top2.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._14_Solardo_Drum_Loop_125_Top3.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._15_Solardo_Drum_Loop_125_Clap.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._15_Solardo_Drum_Loop_125_Full.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._15_Solardo_Drum_Loop_125_Hat.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._15_Solardo_Drum_Loop_125_Kick.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._15_Solardo_Drum_Loop_125_Kick2.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._15_Solardo_Drum_Loop_125_Kick3.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._15_Solardo_Drum_Loop_125_OpenHat.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._15_Solardo_Drum_Loop_125_Ride.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._15_Solardo_Drum_Loop_125_Top.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._15_Solardo_Drum_Loop_125_Top2.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._11_Solardo_FX.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._12_Solardo_FX.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._13_Solardo_FX.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._14_Solardo_FX.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._15_Solardo_FX.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._16_Solardo_FX.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._17_Solardo_FX.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._18_Solardo_FX.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._19_Solardo_FX.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._20_Solardo_FX.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._Kit5_Solardo_Clap_Loop1_125.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._Kit5_Solardo_Clap_Loop2_125.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._Kit5_Solardo_Down_Shifter_125_Fm.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._Kit5_Solardo_Drum_Loop_Full_125.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._Kit5_Solardo_Drum_Loop_Full_No_Ride_125.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._Kit5_Solardo_FX_Synth1_125_Fm.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._Kit5_Solardo_FX_Synth2_125_Fm.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._Kit5_Solardo_FX_Upsweep_125.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._Kit5_Solardo_Hat_Loop1_125.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._Kit5_Solardo_Hat_Loop2_125.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._Kit5_Solardo_Kick_Loop_125.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._Kit5_Solardo_OpenHat_Loop1_125.wav
+[2026-03-14 18:54:49] [WARN] Found macOS resource fork: ._Kit5_Solardo_OpenHat_Loop2_125.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit5_Solardo_Ride_Loop2_125.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit5_Solardo_Ride_Loop_125_DRY.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit5_Solardo_Ride_Loop_125_WET.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit5_Solardo_Shaker_Loop_125.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit5_Solardo_SubBass_Loop_125_Fm_DRY.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit5_Solardo_SubBass_Loop_125_Fm_WET.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit5_Solardo_Sub_Bass_Hit_Fm.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit5_Solardo_SynthBass_Hit_E.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit5_Solardo_SynthBass_Hit_F.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit5_Solardo_SynthBass_Loop1_125_Fm_DRY.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit5_Solardo_SynthBass_Loop1_125_Fm_WET.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit5_Solardo_SynthBass_Loop2_125_Fm_DRY.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit5_Solardo_SynthBass_Loop2_125_Fm_WET.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit5_Solardo_SynthBass_Loop3_125_Fm_DRY.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit5_Solardo_SynthBass_Loop3_125_Fm_WET.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit5_Solardo_TopKick_Loop_125.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit5_Solardo_Toploop_125.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit5_Solardo_Vocal1_125_Fm.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit5_Solardo_Vocal2_125_Fm.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit6_Solardo_BassTop_Loop_128_F_DRY.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit6_Solardo_BassTop_Loop_128_F_WET.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit6_Solardo_Bass_Hit1_F.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit6_Solardo_Bass_Hit2_F.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit6_Solardo_Bass_Loop_128_F.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit6_Solardo_Drum_Loop_Full_128.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit6_Solardo_Drum_Loop_NoKick_128.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit6_Solardo_HatLoop_128.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit6_Solardo_Shaker_Loop1_128.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit6_Solardo_Shaker_Loop2_128.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit6_Solardo_Snare_Loop1_128.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit6_Solardo_Snare_Loop2_128.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit6_Solardo_Synth_Loop_128_F.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit6_Solardo_TopLoop_128.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit7_Solardo_Arp_Loop_130_Fm_DRY.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit7_Solardo_Arp_Loop_130_Fm_WET.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit7_Solardo_Bass_Hit_Fm.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit7_Solardo_Bass_Loop_130_Fm_DRY.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit7_Solardo_Bass_Loop_130_Fm_WET.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit7_Solardo_Clap_Loop1_130.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit7_Solardo_Clap_Loop2_130.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit7_Solardo_Drum_Loop_Full_130.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit7_Solardo_FX_Ambient_130_Fm.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit7_Solardo_FX_Crash_130.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit7_Solardo_FX_Riser_130.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit7_Solardo_Hat_Loop1_130_DRY.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit7_Solardo_Hat_Loop1_130_WET.wav
+[2026-03-14 18:54:50] [WARN] Found macOS resource fork: ._Kit7_Solardo_Hat_Loop2_130.wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._Kit7_Solardo_Kick_Loop_130.wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._Kit7_Solardo_Organ_Synth_130_Fm_DRY.wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._Kit7_Solardo_Organ_Synth_130_Fm_WET.wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._Kit7_Solardo_Organ_Synth_Hit_Fm.wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._Kit7_Solardo_Synth_Stab_130_Fm_DRY.wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._Kit7_Solardo_Synth_Stab_130_Fm_WET.wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._Kit7_Solardo_TopKick_Loop_130.wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._Kit7_Solardo_TopLoop_130.wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._11_Solardo_SynthHit_A.wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._12_Solardo_SynthHit_A.wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._13_Solardo_SynthHit_F.wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._14_Solardo_SynthHit_A.wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._15_Solardo_SynthHit_A.wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._16_Solardo_SynthHit_A.wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._17_Solardo_SynthHit_A.wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._18_Solardo_SynthHit_A.wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._19_Solardo_SynthHit_A.wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._20_Solardo_SynthHit_F.wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._11_Solardo_Synth_Loop_E_125(dry).wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._11_Solardo_Synth_Loop_E_125(wet).wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._12_Solardo_Synth_Loop_Amin_125(dry).wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._12_Solardo_Synth_Loop_Amin_125(wet).wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._13_Solardo_Synth_Loop_Dmin_125(dry).wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._13_Solardo_Synth_Loop_Dmin_125(wet).wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._14_Solardo_Synth_Loop_Amin_125(dry).wav
+[2026-03-14 18:54:51] [WARN] Found macOS resource fork: ._14_Solardo_Synth_Loop_Amin_125(wet).wav
+[2026-03-14 18:54:52] [WARN] Found macOS resource fork: ._saw doctors the joyce country ceile.wav
+[2026-03-14 18:54:52] [INFO] Scan complete. Found 1258 duplicates.
+[2026-03-14 18:54:52] [INFO] 
+[2026-03-14 18:54:52] [INFO] Moving duplicates to E:\2025 Music merge\00-DUPLICATES-FOR-DELETION...
+[2026-03-14 18:54:52] [INFO] MOVED: ._Adapted Records - The Next Episode (Staunch Rmx) (1).mp3 - macOS resource fork
+[2026-03-14 18:54:52] [INFO] MOVED: ._Afrojack Feat. Eva Simons - Take Over Control (Extended Vocal Mix).mp3 - macOS resource fork
+[2026-03-14 18:54:52] [INFO] MOVED: ._Bodyrox vs Run DMC - It's Like My Bodyrox (G.reg Vocal Edit).mp3 - macOS resource fork
+[2026-03-14 18:54:52] [INFO] MOVED: ._CAZZETTE vs Baauer - Harlem Shake (CAZZETTE's Ultra Bootleg).mp3 - macOS resource fork
+[2026-03-14 18:54:52] [INFO] MOVED: ._David Guetta and Chris Willis - everytime we touch (chuckie remix).mp3 - macOS resource fork
+[2026-03-14 18:54:52] [INFO] MOVED: ._Kidsos (Wippenberg Remix).mp3 - macOS resource fork
+[2026-03-14 18:54:52] [INFO] MOVED: ._MDA & Spherical - The Ultimate Prodigy Megamix.mp3 - macOS resource fork
+[2026-03-14 18:54:52] [INFO] MOVED: ._Money for Nothin (SAVOY Remix).mp3 - macOS resource fork
+[2026-03-14 18:54:52] [INFO] MOVED: ._Paul van Dyk - We Are Alive (Vandit Vocal Mix).mp3 - macOS resource fork
+[2026-03-14 18:54:52] [INFO] MOVED: ._Robbie Rivera feat. Fast Eddie - Let Me Sip My Drink (Chuckie Remix).mp3 - macOS resource fork
+[2026-03-14 18:54:52] [INFO] MOVED: ._The Chemical Brothers - Block Rockin Beats (Cazzette Live Bootleg).mp3 - macOS resource fork
+[2026-03-14 18:54:52] [INFO] MOVED: ._01 21 Questions (SNBRN Remix).mp3 - macOS resource fork
+[2026-03-14 18:54:52] [INFO] MOVED: ._01 Return Of The Mack (SNBRN Remix).mp3 - macOS resource fork
+[2026-03-14 18:54:52] [INFO] MOVED: ._C-Media USB Audio Device    20141111 1538.mp3 - macOS resource fork
+[2026-03-14 18:54:52] [INFO] MOVED: ._Deorro vs MAKJ - READY!.mp3 - macOS resource fork
+[2026-03-14 18:54:52] [INFO] MOVED: ._Klingande - Jubel (Tube & Berger Remix) www.livingelectro.com.mp3 - macOS resource fork
+[2026-03-14 18:54:52] [INFO] MOVED: ._Let It Go (Instrumental Karaoke) - Frozen (OST).mp3 - macOS resource fork
+[2026-03-14 18:54:52] [INFO] MOVED: ._Paul van Dyk & Ummet Ozcan - Come With Me (We Are One) (Paul van Dyk Festival Mix).mp3 - macOS resource fork
+[2026-03-14 18:54:52] [INFO] MOVED: ._robbie-emotions-intro-hey-everybody.mp3 - macOS resource fork
+[2026-03-14 18:54:52] [INFO] MOVED: ._Timmy Trumpet - Freaks (Original Mix).mp3 - macOS resource fork
+[2026-03-14 18:54:52] [INFO] MOVED: ._Tiësto feat. Matthew Koma - Wasted (Ummet Ozcan Club Mix) www.Only-Music.co.il(1).mp3 - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._Tiësto feat. Matthew Koma - Wasted (Ummet Ozcan Club Mix) www.Only-Music.co.il.mp3 - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._Ummet Ozcan vs. David Guetta ft Sam Martin vs Showtek - Lovers On Your Hands (Kaiser Mashup) www.livingelectro.com.mp3 - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: Tiësto feat. Matthew Koma - Wasted (Ummet Ozcan Club Mix) www.Only-Music.co.il.mp3 - Exact duplicate (hash match)
+[2026-03-14 18:54:53] [INFO] MOVED: Changes (Stefan Dabruck Remix).mp3 - Exact duplicate (hash match)
+[2026-03-14 18:54:53] [INFO] MOVED: Falling (Duke Dumont Remix).mp3 - Exact duplicate (hash match)
+[2026-03-14 18:54:53] [INFO] MOVED: Got A Feeling (Bontan Vs Pleasurekraft Vs Vicious Game).mp3 - Exact duplicate (hash match)
+[2026-03-14 18:54:53] [INFO] MOVED: Happy (Kayliox Remix).mp3 - Exact duplicate (hash match)
+[2026-03-14 18:54:53] [INFO] MOVED: Waves Say It Right (Full Version).mp3 - Exact duplicate (hash match)
+[2026-03-14 18:54:53] [INFO] MOVED: ._Bump and Grind 2014 (Extended Mix).mp3 - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: 03 Footloose (Footloose).mp3 - Exact duplicate (hash match)
+[2026-03-14 18:54:53] [INFO] MOVED: Don_Henley_-_the_boys_of_summer.mp3 - Exact duplicate (hash match)
+[2026-03-14 18:54:53] [INFO] MOVED: ._!Mixdown.mp3 - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._!Mixdown.mp3 - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._!Mixdown.mp3 - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._!Mixdown.mp3 - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._!Mixdown.mp3 - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._!Mixdown.mp3 - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._Drums Demo.mp3 - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._Full Demo.mp3 - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: 09 All Star.mp3 - Exact duplicate (hash match)
+[2026-03-14 18:54:53] [INFO] MOVED: ._Timmy And Tommy - Escape To Fiji (Original Mix).mp3 - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: Paul van Dyk - For an Angel 2009 (Spencer and Hill Remix).mp3 - Exact duplicate (hash match)
+[2026-03-14 18:54:53] [INFO] MOVED: ._05 That's What I Like.mp3 - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._14 Highway To Hell.mp3 - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._Garth Brooks - I've Got Friends in L 1.mp3 - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._Walk Of Life.mp3 - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._01 Cecilia (feat. Louchie Lou & Michie One).m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._01 Iko Iko.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._03 Just Can't Get Enough.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._15 I Think We're Alone Now.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._3-10 Girls Just Want to Have Fun.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._3-11 99 Red Balloons.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._01 Set You Free (Original Radio Edit).m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._02 The Logical Song.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._03 Mr. Vain (Original Radio Edit).m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._01 (Is This The Way To) Amarillo (Single Version).m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._01 Accidentally In Love.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._01 Drive By.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._01 Grace Kelly.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._01 Hey, Soul Sister.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._01 Wild Heart.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._02 Budapest.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._02 We Can't Stop.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._1-01 Moves Like Jagger 2.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._1-02 We Found Love.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._1-03 What Makes You Beautiful.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._1-04 Marry You.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._1-05 Take A Chance On Me 1.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._1-08 Heart Skips A Beat 1.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._1-09 Lightning 1.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._1-10 All About Tonight.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._1-11 All Fired Up.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._1-12 The Edge Of Glory.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._1-15 You Need Me, I Don't Need You.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._18 Forever.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._01 (Is This The Way To) Amarillo (Single Version).m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._02 Knock Three Times.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._04 Shake Your Tail Feather.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._05 Everybody Needs Somebody to Love.m4a - macOS resource fork
+[2026-03-14 18:54:53] [INFO] MOVED: ._07 Here Comes the Sun.m4a - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._1-02 Sir Duke.m4a - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._1-02 Spirit In the Sky.m4a - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._1-36 I Wanna Be Like You (From Walt Disney's ''the Jungle Book'').m4a - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._2-04 You Can Call Me Al.m4a - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: 01 (Is This The Way To) Amarillo (Single Version).m4a - Exact duplicate (hash match)
+[2026-03-14 18:54:54] [INFO] MOVED: ._10 Track 10.m4a - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: 01 UMBRELLA.m4a - Exact duplicate (hash match)
+[2026-03-14 18:54:54] [INFO] MOVED: 03 Mambo No.5.m4a - Exact duplicate (hash match)
+[2026-03-14 18:54:54] [INFO] MOVED: 15 All Summer Long.m4a - Exact duplicate (hash match)
+[2026-03-14 18:54:54] [INFO] MOVED: ._01 (I've Had) The Time of My Life.m4a - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._01 Blue Is the Colour.m4a - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._01 Swing the Mood.m4a - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._02 Hey Baby.m4a - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._03 Proud Mary.m4a - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._04 Past the Point of Rescue.m4a - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._05 Dude (Looks Like a Lady).m4a - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._05 I Gotta Feeling.m4a - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._07 You Shook Me All Night Long.m4a - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._1-02 Sweet Home Alabama.m4a - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._1-04 Marry You.m4a - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._1-17 All Night Long (All Night) [Single Version].m4a - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._10 One Step Beyond.m4a - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._14 Rockin' All Over the World.m4a - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._2-02 Dance the Night Away.m4a - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: 05 The Liquidator.m4a - Exact duplicate (hash match)
+[2026-03-14 18:54:54] [INFO] MOVED: 06 The Best.m4a - Exact duplicate (hash match)
+[2026-03-14 18:54:54] [INFO] MOVED: 1-04 Marry You.m4a - Exact duplicate (hash match)
+[2026-03-14 18:54:54] [INFO] MOVED: 1-15 Dancing Queen.m4a - Exact duplicate (hash match)
+[2026-03-14 18:54:54] [INFO] MOVED: 1-16 Rock the Boat.m4a - Exact duplicate (hash match)
+[2026-03-14 18:54:54] [INFO] MOVED: 60 The Grease Mega-Mix.m4a - Exact duplicate (hash match)
+[2026-03-14 18:54:54] [INFO] MOVED: ._The Weeknd - Often (NSFW) (Cazzette Bootleg) (Final).wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._2014-08-26_16h10m23.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._2014-08-26_16h10m23_01h07m43.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._01_JTH_Bass_Hit_C.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._02_JTH_Bass_Hit_C.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._03_JTH_Bass_Hit_C.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._04_JTH_Bass_Hit_C.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._05_JTH_Bass_Hit_C.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._06_JTH_Bass_Hit_C.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._07_JTH_Bass_Hit_C.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._08_JTH_Bass_Hit_C.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._09_JTH_Bass_Hit_C.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._10_JTH_Bass_Hit_C.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._01_JTH_Bass_Loop_Dbm_124.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._02_JTH_Bass_Loop_Dm_124.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._03_JTH_Bass_Loop_Cm_124.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._04_JTH_Bass_Loop_Gm_123.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._05_JTH_Bass_Loop_Fm_124.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._06_JTH_Bass_Loop_Gm_124.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._07_JTH_Bass_Loop_Dm_124.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._08_JTH_Bass_Loop_Em_124.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._09_JTH_Bass_Loop_Bm_125.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._10_JTH_Bass_Loop_Em_123.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._01_JTH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._02_JTH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._03_JTH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._04_JTH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._05_JTH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._06_JTH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._07_JTH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._08_JTH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._09_JTH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._10_JTH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:54] [INFO] MOVED: ._01_JTH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._02_JTH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._03_JTH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._04_JTH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._05_JTH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._06_JTH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._07_JTH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._08_JTH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._09_JTH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._10_JTH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._01_JTH_Kick.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._02_JTH_Kick.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._03_JTH_Kick.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._04_JTH_Kick.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._05_JTH_Kick.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._06_JTH_Kick.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._07_JTH_Kick.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._08_JTH_Kick.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._09_JTH_Kick.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._10_JTH_Kick.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._01_JTH_Perc.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._02_JTH_Perc.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._03_JTH_Perc.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._04_JTH_Perc.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._05_JTH_Perc.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._06_JTH_Perc.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._07_JTH_Perc.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._08_JTH_Perc.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._09_JTH_Perc.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._10_JTH_Perc.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._01_JTH_Snares.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._02_JTH_Snares.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._03_JTH_Snares.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._04_JTH_Snares.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._05_JTH_Snares.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._06_JTH_Snares.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._07_JTH_Snares.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._08_JTH_Snares.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._09_JTH_Snares.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._10_JTH_Snares.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._01_JTH_Drum_Loop_Full_123.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._01_JTH_Drum_Loop_Kick_Free_123.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._01_JTH_Drum_Loop_Perc_Only_123.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._01_JTH_Drum_Loop_Stripped_123.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._01_JTH_Drum_Loop_Tops_123.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._02_JTH_Drum_Loop_Full_123.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._02_JTH_Drum_Loop_Kick_Free_123.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._02_JTH_Drum_Loop_Perc_Only_123.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._02_JTH_Drum_Loop_Stripped_123.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._02_JTH_Drum_Loop_Tops_123.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._03_JTH_Drum_Loop_Full_123.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._03_JTH_Drum_Loop_Kick_Free_123.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._03_JTH_Drum_Loop_Perc_Only_123.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._03_JTH_Drum_Loop_Stripped_123.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._03_JTH_Drum_Loop_Tops_123.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._04_JTH_Drum_Loop_Full_123.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._04_JTH_Drum_Loop_Kick_Free_123.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._04_JTH_Drum_Loop_Perc_Only_123.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._04_JTH_Drum_Loop_Stripped_123.wav - macOS resource fork
+[2026-03-14 18:54:55] [INFO] MOVED: ._04_JTH_Drum_Loop_Tops_123.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._05_JTH_Drum_Loop_Full_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._05_JTH_Drum_Loop_Kick_Free_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._05_JTH_Drum_Loop_Perc_Only_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._05_JTH_Drum_Loop_Stripped_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._05_JTH_Drum_Loop_Tops_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._06_JTH_Drum_Loop_Full_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._06_JTH_Drum_Loop_Kick_Free_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._06_JTH_Drum_Loop_Perc_Only_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._06_JTH_Drum_Loop_Stripped_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._06_JTH_Drum_Loop_Tops_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._07_JTH_Drum_Loop_Full_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._07_JTH_Drum_Loop_Kick_Free_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._07_JTH_Drum_Loop_Perc_Only_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._07_JTH_Drum_Loop_Stripped_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._07_JTH_Drum_Loop_Tops_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._08_JTH_Drum_Loop_Full_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._08_JTH_Drum_Loop_Kick_Free_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._08_JTH_Drum_Loop_Perc_Only_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._08_JTH_Drum_Loop_Stripped_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._08_JTH_Drum_Loop_Tops_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._09_JTH_Drum_Loop_Full_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._09_JTH_Drum_Loop_Kick_Free_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._09_JTH_Drum_Loop_Perc_Only_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._09_JTH_Drum_Loop_Stripped_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._09_JTH_Drum_Loop_Tops_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._10_JTH_Drum_Loop_Full_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._10_JTH_Drum_Loop_Kick_Free_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._10_JTH_Drum_Loop_Perc_Only_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._10_JTH_Drum_Loop_Stripped_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._10_JTH_Drum_Loop_Tops_124.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._01_JTH_FX.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._02_JTH_FX.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._03_JTH_FX.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._04_JTH_FX.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._05_JTH_FX.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._06_JTH_FX.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._07_JTH_FX.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._08_JTH_FX.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._09_JTH_FX.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._10_JTH_FX.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._Kit1_Bass_Gm_123.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._Kit1_Bass_Synth_Gm_123.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._Kit1_Claps.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._Kit1_Crash_Build_123.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._Kit1_Drum_Loop_Full_123.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._Kit1_Drum_Loop_No_Kick_123.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._Kit1_FX_1.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._Kit1_FX_2.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._Kit1_FX_3.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._Kit1_Hats.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._Kit1_Kick.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._Kit1_Mixdown_Gm_123.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._Kit1_Percs_123.wav - macOS resource fork
+[2026-03-14 18:54:56] [INFO] MOVED: ._Kit1_Synth_FX_123.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit1_Synth_Stab_Hit_Gm_123.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit1_Vox_Build_1_Gm_123.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit1_Vox_Build_2_Gm_123.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit1_Vox_Hook_Gm_123.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit2_Bass_Dmin_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit2_Claps_Dmin_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit2_Crash.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit2_Drum_Loop_Full_Dmin_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit2_Drum_Loop_No_Kick_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit2_FX_1_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit2_FX_2_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit2_FX_3_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit2_FX_4_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit2_Hats.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit2_Kick.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit2_Mixdown_Dmin_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit2_Percs_1_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit2_Percs_2_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit2_Snare_Roll_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit2_Synth_Dmin_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit2_Synth_FX_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit2_Vox_Build_Gmin_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit2_Vox_FX_Gmin_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit2_Vox_Hook_Gmin_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit2_Vox_Loop_Gmin_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit3_Bass_Dm_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit3_Claps.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit3_Crash_Build_Dm_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit3_Drum_Loop_Full_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit3_Drum_Loop_No_Kick_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit3_FX_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit3_FX_2_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit3_Hats.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit3_Kick.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit3_Mixdown_Dm_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit3_Percs.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit3_Snare_Roll_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit3_String_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit3_Synth_Stabs_Build_Dm_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit3_Vox_FX_Loop_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._Kit3_Vox_Hook_124.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._01_JTH_Synth_Hit_C.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._02_JTH_Synth_Hit_C.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._03_JTH_Synth_Hit_C.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._04_JTH_Synth_Hit_C.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._05_JTH_Synth_Hit_C.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._06_JTH_Synth_Hit_C.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._07_JTH_Synth_Hit_C.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._08_JTH_Synth_Hit_C.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._09_JTH_Synth_Hit_C.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._10_JTH_Synth_Hit_C.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._01_JTH_Synth_Loop_123_Em.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._02_JTH_Synth_Loop_123_Gm.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._03_JTH_Synth_Loop_124_Fmin.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._04_JTH_Synth_Loop_124_Cm.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._05_JTH_Synth_Loop_124_Am.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._06_JTH_Synth_Loop_124_Am.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._07_JTH_Synth_Loop_124_Fm.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._08_JTH_Synth_Loop_124_Dm.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._09_JTH_Synth_Loop_124_Fm.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._10_JTH_Synth_Loop_124_Em.wav - macOS resource fork
+[2026-03-14 18:54:57] [INFO] MOVED: ._01_JTH_Vocal_Loop_124.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._02_JTH_Vocal_Loop_123.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._03_JTH_Vocal_Loop_124.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._04_JTH_Vocal_Loop_124.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._05_JTH_Vocal_Loop_124.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._06_JTH_Vocal_Loop_124.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._07_JTH_Vocal_Loop_124.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._08_JTH_Vocal_Loop_123.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._09_JTH_Vocal_Loop_123.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._10_JTH_Vocal_Loop_124.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._01_JH_Bass_Hit_C.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._02_JH_Bass_Hit_A.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._03_JH_Bass_Hit_D.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._04_JH_Bass_Hit_E.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._05_JH_Bass_Hit_G.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._06_JH_Bass_Hit_B.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._07_JH_Bass_Hit_A.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._08_JH_Bass_Hit_E.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._09_JH_Bass_Hit_G.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._10_JH_Bass_Hit_A.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._11_JH_Bass_Hit_G#.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._12_JH_Bass_Hit_D.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._13_JH_Bass_Hit_A.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._14_JH_Bass_Hit_G#.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._15_JH_Bass_Hit_G#.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._16_JH_Bass_Hit_E.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._17_JH_Bass_Hit_C.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._18_JH_Bass_Hit_E.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._19_JH_Bass_Hit_G.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._20_JH_Bass_Hit_F#.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._01_JH_Bass_Loop_C_123.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._02_JH_Bass_Loop_A_124.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._03_JH_Bass_Loop_D_124.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._04_JH_Bass_Loop_G_124.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._05_JH_Bass_Loop_B_125.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._06_JH_Bass_Loop_G_125.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._07_JH_Bass_Loop_A_125.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._08_JH_Bass_Loop_E_126.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._09_JH_Bass_Loop_E_124.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._10_JH_Bass_Loop_C_125.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._11_JH_Bass_Loop_G_125.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._12_JH_Bass_Loop_A_124.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._13_JH_Bass_Loop_B_124.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._14_JH_Bass_Loop_G#_126.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._15_JH_Bass_Loop_D_126.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._16_JH_Bass_Loop_A_126.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._17_JH_Bass_Loop_G#_125.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._18_JH_Bass_Loop_G#_125.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._19_JH_Bass_Loop_E_126.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._20_JH_Bass_Loop_C_126.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._01_JH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._02_JH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._03_JH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._04_JH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._05_JH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:58] [INFO] MOVED: ._06_JH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._07_JH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._08_JH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._09_JH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._10_JH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._11_JH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._12_JH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._13_JH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._14_JH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._15_JH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._16_JH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._17_JH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._18_JH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._19_JH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._20_JH_Clap.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._01_JH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._02_JH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._03_JH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._04_JH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._05_JH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._06_JH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._07_JH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._08_JH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._09_JH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._10_JH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._11_JH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._12_JH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._13_JH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._14_JH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._15_JH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._16_JH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._17_JH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._18_JH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._19_JH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._20_JH_Hat.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._01_JH_Kick_F.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._02_JH_Kick_A.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._03_JH_Kick_A.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._04_JH_Kick_G.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._05_JH_Kick_A.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._06_JH_Kick_B.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._07_JH_Kick_C.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._08_JH_Kick_G#.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._09_JH_Kick_C.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._10_JH_Kick_A.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._11_JH_Kick_F#.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._12_JH_Kick_A.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._13_JH_Kick_A.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._14_JH_Kick_D.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._15_JH_Kick_D.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._16_JH_Kick_C.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._17_JH_Kick_C#.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._18_JH_Kick_A#.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._19_JH_Kick_C.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._20_JH_Kick_F.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._01_JH_Snare.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._02_JH_Snare.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._03_JH_Snare.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._04_JH_Snare.wav - macOS resource fork
+[2026-03-14 18:54:59] [INFO] MOVED: ._05_JH_Snare.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._06_JH_Snare.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._07_JH_Snare.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._08_JH_Snare.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._09_JH_Snare.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._10_JH_Snare.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._11_JH_Snare.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._12_JH_Snare.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._13_JH_Snare.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._14_JH_Snare.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._15_JH_Snare.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._16_JH_Snare.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._17_JH_Snare.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._18_JH_Snare.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._19_JH_Snare.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._20_JH_Snare.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._01_JH_Drum_Loop_123_Full.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._01_JH_Drum_Loop_123_No_Kick.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._01_JH_Drum_Loop_123_Stripped.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._01_JH_Drum_Loop_123_Stripped2.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._01_JH_Drum_Loop_123_Top.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._02_JH_Drum_Loop_123_Full.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._02_JH_Drum_Loop_123_No_Kick.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._02_JH_Drum_Loop_123_Stripped.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._02_JH_Drum_Loop_123_Stripped2.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._02_JH_Drum_Loop_123_Top.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._03_JH_Drum_Loop_124_Full.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._03_JH_Drum_Loop_124_No_Kick.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._03_JH_Drum_Loop_124_Stripped.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._03_JH_Drum_Loop_124_Stripped2.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._03_JH_Drum_Loop_124_Top.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._04_JH_Drum_Loop_125_Full.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._04_JH_Drum_Loop_125_No_Kick.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._04_JH_Drum_Loop_125_Stripped.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._04_JH_Drum_Loop_125_Stripped2.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._04_JH_Drum_Loop_125_Top.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._05_JH_Drum_Loop_125_Full.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._05_JH_Drum_Loop_125_No_Kick.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._05_JH_Drum_Loop_125_Stripped.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._05_JH_Drum_Loop_125_Stripped2.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._05_JH_Drum_Loop_125_Top.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._06_JH_Drum_Loop_126_Full.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._06_JH_Drum_Loop_126_No_Kick.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._06_JH_Drum_Loop_126_Stripped.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._06_JH_Drum_Loop_126_Stripped2.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._06_JH_Drum_Loop_126_Top.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._07_JH_Drum_Loop_124_Full.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._07_JH_Drum_Loop_124_NoKick.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._07_JH_Drum_Loop_124_Stripped.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._07_JH_Drum_Loop_124_Stripped2.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._07_JH_Drum_Loop_124_Top.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._08_JH_Drum_Loop_125_Full.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._08_JH_Drum_Loop_125_No_Kick.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._08_JH_Drum_Loop_125_Stripped.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._08_JH_Drum_Loop_125_Stripped2.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._08_JH_Drum_Loop_125_Top.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._09_JH_Drum_Loop_124_Full.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._09_JH_Drum_Loop_124_No_Kick.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._09_JH_Drum_Loop_124_Stripped.1.wav - macOS resource fork
+[2026-03-14 18:55:00] [INFO] MOVED: ._09_JH_Drum_Loop_124_Stripped2.1.wav - macOS resource fork
+[2026-03-14 18:55:01] [INFO] MOVED: ._09_JH_Drum_Loop_124_Top.1.wav - macOS resource fork
+[2026-03-14 18:55:01] [INFO] MOVED: ._10_JH_Drum_Loop_126_Full.1.wav - macOS resource fork
+[2026-03-14 18:55:01] [INFO] MOVED: ._10_JH_Drum_Loop_126_No_Kick.1.wav - macOS resource fork

@@ -7,8 +7,8 @@ param(
     [string]$AlertFile
 )
 
-$BotToken = "YOUR_BOT_TOKEN"  # Will be replaced by OpenClaw
-$ChatId = "1018254667"
+$BotToken = "8758242941:AAFga397u6IC3BqT-n866h2cd_XB1xJYQsw"
+$ChatId = "-5026664389"  # Poly2 group chat
 
 if (!(Test-Path $AlertFile)) {
     Write-Error "Alert file not found: $AlertFile"
@@ -18,20 +18,13 @@ if (!(Test-Path $AlertFile)) {
 $Content = Get-Content $AlertFile -Raw
 
 # Format for Telegram
-$Message = @"
-🔥 POLYMARKET HOT BETS ALERT
-
-$Content
-
-Check full links in Documents/Polymarket-Scans/
-"@
+$Message = "POLYMARKET HOT BETS ALERT" + "`n`n" + $Content + "`n`nCheck full links in Documents/Polymarket-Scans/"
 
 # Send via Telegram API
 $Url = "https://api.telegram.org/bot$BotToken/sendMessage"
 $Body = @{
     chat_id = $ChatId
     text = $Message
-    parse_mode = "HTML"
 } | ConvertTo-Json
 
 try {

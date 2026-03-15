@@ -1,0 +1,77 @@
+╔══════════════════════════════════════════════════════════════════╗
+║     OPENCLAW SYSTEM - QUICK RESTART REFERENCE CARD              ║
+║                    Roo Woo - 2026-03-14                          ║
+╚══════════════════════════════════════════════════════════════════╝
+
+┌──────────────────────────────────────────────────────────────────┐
+│ ⚡ 30-SECOND CHECK                                                │
+└──────────────────────────────────────────────────────────────────┘
+
+  openclaw status
+
+  ✅ If "Gateway: healthy" → You're done!
+  ❌ If "unreachable" → Continue below
+
+┌──────────────────────────────────────────────────────────────────┐
+│ 🔧 RESTART GATEWAY                                                │
+└──────────────────────────────────────────────────────────────────┘
+
+  openclaw gateway start
+
+  Wait 10 seconds, then check: http://127.0.0.1:18789/
+
+┌──────────────────────────────────────────────────────────────────┐
+│ 📊 CHECK CRYPTO SCANNER                                           │
+└──────────────────────────────────────────────────────────────────┘
+
+  Get-ScheduledTask -TaskName "TrojanLogic4H Auto Scanner"
+
+  State should be: Ready
+  LastRunTime should be: Recent (within 4 hours)
+
+┌──────────────────────────────────────────────────────────────────┐
+│ 🚀 RUN MANUAL SCAN (If needed NOW)                                │
+└──────────────────────────────────────────────────────────────────┘
+
+  cd C:\Users\impro\.openclaw\workspace\skills\tradingview-claw-v2
+  & "C:\Users\impro\AppData\Local\Programs\Python\Python311\python.exe" analyze_top_50.py
+
+┌──────────────────────────────────────────────────────────────────┐
+│ 🔗 ESSENTIAL URLS                                                 │
+└──────────────────────────────────────────────────────────────────┘
+
+  OpenClaw Dashboard    → http://127.0.0.1:18789/
+  Crypto Dashboard      → https://notion.so/3230491758dd819c90e4fce960777521
+  Intelligence Database → https://notion.so/3230491758dd81d8a31efe277bf4b0d1
+  Control Room          → https://notion.so/3230491758dd80a08614d4808e0af030
+
+┌──────────────────────────────────────────────────────────────────┐
+│ 🆘 EMERGENCY FIXES                                                │
+└──────────────────────────────────────────────────────────────────┘
+
+  Gateway stuck?        → openclaw gateway restart
+  Task missing?         → Run setup_auto_scan.ps1 as Admin
+  Python broken?        → Check: python.exe --version
+  Notion failing?       → Check token in .config\notion\api_key
+
+┌──────────────────────────────────────────────────────────────────┐
+│ 📁 KEY LOCATIONS                                                  │
+└──────────────────────────────────────────────────────────────────┘
+
+  Workspace:     C:\Users\impro\.openclaw\workspace\
+  Crypto System: C:\Users\impro\.openclaw\workspace\skills\tradingview-claw-v2\
+  Logs:          C:\Users\impro\.openclaw\workspace\skills\tradingview-claw-v2\logs\
+  Full Protocol: C:\Users\impro\.openclaw\workspace\RESTART_PROTOCOL.md
+
+┌──────────────────────────────────────────────────────────────────┐
+│ 📱 TELEGRAM GROUP                                                 │
+└──────────────────────────────────────────────────────────────────┘
+
+  If bot not responding:
+  1. Check gateway: openclaw status
+  2. Restart: openclaw gateway restart
+  3. Verify groupPolicy is "open" in openclaw.json
+
+╚══════════════════════════════════════════════════════════════════╝
+
+  Keep this card handy. Most issues solved with: openclaw gateway restart

@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "BTCUSDT",
+    "price": 70691.44,
+    "volume": 1051521751.8257653
+  },
+  {
+    "symbol": "ETHUSDT",
+    "price": 2083.67,
+    "volume": 354241896.597927
+  },
+  {
+    "symbol": "USDCUSDT",
+    "price": 0.9999,
+    "volume": 337435052.1372
+  },
+  {
+    "symbol": "SOLUSDT",
+    "price": 87.0,
+    "volume": 135925682.60326
+  },
+  {
+    "symbol": "NIGHTUSDT",
+    "price": 0.05007,
+    "volume": 121673242.59728
+  },
+  {
+    "symbol": "TRUMPUSDT",
+    "price": 3.978,
+    "volume": 102655369.197947
+  },
+  {
+    "symbol": "XRPUSDT",
+    "price": 1.3926,
+    "volume": 84324523.51907
+  },
+  {
+    "symbol": "DOGEUSDT",
+    "price": 0.09481,
+    "volume": 62744361.55143
+  }
+]
