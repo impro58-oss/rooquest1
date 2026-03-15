@@ -261,6 +261,64 @@ if poly_data:
 else:
     st.error("Polymarket data unavailable. Check back later.")
 
+# Signal Engine Comparison Section
+st.markdown("---")
+st.header("📊 Signal Engine Comparison")
+st.markdown("*Compare TrojanLogic4H vs TradingView-Claw Original signals*")
+
+COMPARISON_URL = "https://raw.githubusercontent.com/impro58-oss/rooquest1/master/data/crypto/signal_comparison.json"
+
+@st.cache_data(ttl=300)
+def load_comparison_data():
+    """Load signal comparison data from GitHub."""
+    try:
+        response = requests.get(COMPARISON_URL, timeout=15)
+        response.raise_for_status()
+        content = response.content.decode('utf-8-sig')
+        return json.loads(content)
+    except:
+        return None
+
+comparison_data = load_comparison_data()
+
+if comparison_data:
+    # Summary metrics
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.metric("Symbols Analyzed", comparison_data.get('symbols_analyzed', 0))
+    with col2:
+        st.metric("Agreement Rate", f"{comparison_data.get('agreement_rate', 0):.1f}%")
+    with col3:
+        disagreements = len([r for r in comparison_data.get('results', []) if r['agreement'] == 'DIFF'])
+        st.metric("Disagreements", disagreements)
+    
+    # Comparison table
+    st.subheader("Signal Comparison Table")
+    df_comp = pd.DataFrame(comparison_data.get('results', []))
+    
+    if not df_comp.empty:
+        # Style the dataframe
+        def color_agreement(val):
+            if val == 'MATCH':
+                return 'background-color: #d4edda; color: #155724'
+            else:
+                return 'background-color: #f8d7da; color: #721c24'
+        
+        styled_df = df_comp[['symbol', 'price', 'trojan_signal', 'trojan_confidence', 'tv_signal', 'tv_confidence', 'agreement']].style.applymap(color_agreement, subset=['agreement'])
+        st.dataframe(styled_df, use_container_width=True)
+        
+        # Disagreements detail
+        disagreements = df_comp[df_comp['agreement'] == 'DIFF']
+        if not disagreements.empty:
+            st.subheader("⚠️ Signal Disagreements")
+            for _, row in disagreements.iterrows():
+                st.markdown(f"**{row['symbol']}**: Trojan {row['trojan_signal']} ({row['trojan_confidence']}%) vs TV-Claw {row['tv_signal']} ({row['tv_confidence']}%)")
+                st.markdown(f"- RSI: {row.get('rsi_14', 'N/A')} | MACD Hist: {row.get('macd_hist', 'N/A')} | BB: {row.get('bb_position', 'N/A')}")
+    else:
+        st.info("No comparison data available")
+else:
+    st.error("Signal comparison data unavailable. Run comparison scan to generate.")
+
 # Footer
 st.markdown("---")
 st.markdown(
