@@ -15,8 +15,8 @@ if ($AlertFile -and (Test-Path $AlertFile)) {
     Write-Host ""
     Write-Host "Sending Telegram alert..."
     
-    # Send alert
-    & "$WorkingDir\polymarket-alert-telegram-v2.ps1" -AlertFile $AlertFile
+    # Send alert using v5 (enhanced with recommendations)
+    & "$WorkingDir\polymarket-alert-telegram-v5.ps1" -AlertFile $AlertFile
     
     Write-Host "Done!"
 } else {
