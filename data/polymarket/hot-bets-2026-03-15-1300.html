@@ -1,0 +1,537 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polymarket Hot Bets - 2026-03-15-1300</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+            background: #0a0a0a; 
+            color: #fff; 
+            padding: 16px;
+            line-height: 1.5;
+        }
+        .header { 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+            padding: 20px; 
+            border-radius: 12px; 
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .header h1 { font-size: 24px; margin-bottom: 8px; }
+        .header p { opacity: 0.9; font-size: 14px; }
+        .stats { 
+            display: flex; 
+            justify-content: space-around; 
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .stat { 
+            background: #1a1a1a; 
+            padding: 15px; 
+            border-radius: 8px; 
+            text-align: center;
+            margin: 5px;
+            flex: 1;
+            min-width: 100px;
+        }
+        .stat-value { font-size: 28px; font-weight: bold; color: #667eea; }
+        .stat-label { font-size: 12px; opacity: 0.7; margin-top: 5px; }
+        .bet { 
+            background: #1a1a1a; 
+            border-left: 4px solid #667eea;
+            padding: 16px; 
+            margin-bottom: 12px; 
+            border-radius: 8px;
+        }
+        .bet-category { 
+            display: inline-block; 
+            background: #667eea; 
+            color: #fff; 
+            padding: 4px 12px; 
+            border-radius: 20px; 
+            font-size: 11px; 
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+        .bet-name { font-size: 16px; font-weight: 600; margin-bottom: 8px; }
+        .bet-outcome { font-size: 14px; opacity: 0.8; margin-bottom: 8px; }
+        .bet-odds { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        .odds-value { font-size: 20px; font-weight: bold; color: #4ade80; }
+        .edge-type { 
+            background: #374151; 
+            padding: 4px 12px; 
+            border-radius: 4px; 
+            font-size: 12px;
+        }
+        .bet-link { 
+            display: block; 
+            background: #667eea; 
+            color: #fff; 
+            text-align: center; 
+            padding: 12px; 
+            border-radius: 8px; 
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .bet-link:active { background: #5a67d8; }
+        .footer { 
+            text-align: center; 
+            margin-top: 30px; 
+            padding: 20px; 
+            opacity: 0.6;
+            font-size: 12px;
+        }
+        .filter-btn {
+            background: #374151;
+            border: none;
+            color: #fff;
+            padding: 8px 16px;
+            margin: 4px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        .filter-btn.active {
+            background: #667eea;
+        }
+        .filters {
+            text-align: center;
+            margin-bottom: 20px;
+            position: sticky;
+            top: 0;
+            background: #0a0a0a;
+            padding: 10px 0;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>ðŸ”¥ Polymarket Hot Bets</h1>
+        <p>2026-03-15-1300 | 40 Opportunities</p>
+    </div>
+    
+    <div class="stats">
+        <div class="stat">
+            <div class="stat-value">40</div>
+            <div class="stat-label">Total</div>
+        </div>
+        <div class="stat">
+            <div class="stat-value" id="closeCalls">0</div>
+            <div class="stat-label">Close Calls</div>
+        </div>
+        <div class="stat">
+            <div class="stat-value" id="categories">0</div>
+            <div class="stat-label">Categories</div>
+        </div>
+    </div>
+
+    <div class="filters">
+        <button class="filter-btn active" onclick="filterBets('all')">All</button>
+        <button class="filter-btn" onclick="filterBets('sports')">Sports</button>
+        <button class="filter-btn" onclick="filterBets('politics')">Politics</button>
+        <button class="filter-btn" onclick="filterBets('crypto')">Crypto</button>
+        <button class="filter-btn" onclick="filterBets('finance')">Finance</button>
+        <button class="filter-btn" onclick="filterBets('entertainment')">Entertainment</button>
+    </div>
+
+    <div id="bets-container">        <div class="bet" data-category="entertainment">
+            <div class="bet-category">ENTERTAINMENT</div>
+            <div class="bet-name">Club Atl├⌐tico de Madrid vs. FK Bod├╕/Glimt - More Markets</div>
+            <div class="bet-outcome">ðŸŽ¯ Various outcomes (check link)</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 50%</span>
+                <span class="edge-type" style="background: #f59e0b; color: #000;">CLOSE_CALL</span>
+            </div>
+            <a href="https://polymarket.com/event/ucl-atm-bog1-2026-01-28-more-markets" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="entertainment">
+            <div class="bet-category">ENTERTAINMENT</div>
+            <div class="bet-name">FCSB vs. Fenerbah├ºe SK - More Markets</div>
+            <div class="bet-outcome">ðŸŽ¯ Various outcomes (check link)</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 50%</span>
+                <span class="edge-type" style="background: #f59e0b; color: #000;">CLOSE_CALL</span>
+            </div>
+            <a href="https://polymarket.com/event/uel-ste-fen1-2026-01-29-more-markets" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="entertainment">
+            <div class="bet-category">ENTERTAINMENT</div>
+            <div class="bet-name">Atalanta BC vs. Athletic Club - More Markets</div>
+            <div class="bet-outcome">ðŸŽ¯ Various outcomes (check link)</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 50%</span>
+                <span class="edge-type" style="background: #f59e0b; color: #000;">CLOSE_CALL</span>
+            </div>
+            <a href="https://polymarket.com/event/ucl-ata-ath1-2026-01-21-more-markets" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="entertainment">
+            <div class="bet-category">ENTERTAINMENT</div>
+            <div class="bet-name">KRC Genk vs. Malm├╢ FF - More Markets</div>
+            <div class="bet-outcome">ðŸŽ¯ Various outcomes (check link)</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 50%</span>
+                <span class="edge-type" style="background: #f59e0b; color: #000;">CLOSE_CALL</span>
+            </div>
+            <a href="https://polymarket.com/event/uel-gnk-mal2-2026-01-29-more-markets" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="entertainment">
+            <div class="bet-category">ENTERTAINMENT</div>
+            <div class="bet-name">Athletic Club vs. Real Sociedad de F├║tbol - More Markets</div>
+            <div class="bet-outcome">ðŸŽ¯ Various outcomes (check link)</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 50%</span>
+                <span class="edge-type" style="background: #f59e0b; color: #000;">CLOSE_CALL</span>
+            </div>
+            <a href="https://polymarket.com/event/lal-bil-rso-2026-02-01-more-markets" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="entertainment">
+            <div class="bet-category">ENTERTAINMENT</div>
+            <div class="bet-name">FC Barcelona vs. FC K├╕benhavn - More Markets</div>
+            <div class="bet-outcome">ðŸŽ¯ Various outcomes (check link)</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 50%</span>
+                <span class="edge-type" style="background: #f59e0b; color: #000;">CLOSE_CALL</span>
+            </div>
+            <a href="https://polymarket.com/event/ucl-fcb1-kob1-2026-01-28-more-markets" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="entertainment">
+            <div class="bet-category">ENTERTAINMENT</div>
+            <div class="bet-name">Telstar 1963 vs. AZ - More Markets</div>
+            <div class="bet-outcome">ðŸŽ¯ Various outcomes (check link)</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 50%</span>
+                <span class="edge-type" style="background: #f59e0b; color: #000;">CLOSE_CALL</span>
+            </div>
+            <a href="https://polymarket.com/event/ere-tel-az-2026-01-25-more-markets" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="entertainment">
+            <div class="bet-category">ENTERTAINMENT</div>
+            <div class="bet-name">Arsenal FC vs. Qairat FK - More Markets</div>
+            <div class="bet-outcome">ðŸŽ¯ Various outcomes (check link)</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 50%</span>
+                <span class="edge-type" style="background: #f59e0b; color: #000;">CLOSE_CALL</span>
+            </div>
+            <a href="https://polymarket.com/event/ucl-ars-kai1-2026-01-28-more-markets" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="entertainment">
+            <div class="bet-category">ENTERTAINMENT</div>
+            <div class="bet-name">Aston Villa FC vs. FC Red Bull Salzburg - More Markets</div>
+            <div class="bet-outcome">ðŸŽ¯ Various outcomes (check link)</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 50%</span>
+                <span class="edge-type" style="background: #f59e0b; color: #000;">CLOSE_CALL</span>
+            </div>
+            <a href="https://polymarket.com/event/uel-ast4-rbs1-2026-01-29-more-markets" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="trending">
+            <div class="bet-category">TRENDING</div>
+            <div class="bet-name">Robinhood (HOOD) Up or Down on March 16?</div>
+            <div class="bet-outcome">ðŸŽ¯ Check market for outcomes</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 50%</span>
+                <span class="edge-type" style="background: #f59e0b; color: #000;">CLOSE_CALL</span>
+            </div>
+            <a href="https://polymarket.com/event/hood-up-or-down-on-march-16-2026" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="entertainment">
+            <div class="bet-category">ENTERTAINMENT</div>
+            <div class="bet-name">FC Utrecht vs. KRC Genk - More Markets</div>
+            <div class="bet-outcome">ðŸŽ¯ Various outcomes (check link)</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 50%</span>
+                <span class="edge-type" style="background: #f59e0b; color: #000;">CLOSE_CALL</span>
+            </div>
+            <a href="https://polymarket.com/event/uel-utr1-gnk-2026-01-22-more-markets" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="sports">
+            <div class="bet-category">SPORTS</div>
+            <div class="bet-name">NBA Western Conference Champion </div>
+            <div class="bet-outcome">ðŸŽ¯ Check market for outcomes</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 48%</span>
+                <span class="edge-type" style="background: #f59e0b; color: #000;">CLOSE_CALL</span>
+            </div>
+            <a href="https://polymarket.com/event/nba-western-conference-champion-933" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="finance">
+            <div class="bet-category">FINANCE</div>
+            <div class="bet-name">Will Palantir (PLTR) finish week of March 16 above___?</div>
+            <div class="bet-outcome">ðŸŽ¯ YES: Palantir (PLTR) finish week of March 16 above___</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 48%</span>
+                <span class="edge-type" style="background: #f59e0b; color: #000;">CLOSE_CALL</span>
+            </div>
+            <a href="https://polymarket.com/event/pltr-above-on-march-20-2026" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="sports">
+            <div class="bet-category">SPORTS</div>
+            <div class="bet-name">F1 Drivers' Champion</div>
+            <div class="bet-outcome">ðŸŽ¯ Check market for outcomes</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 57%</span>
+                <span class="edge-type" style="background: #f59e0b; color: #000;">CLOSE_CALL</span>
+            </div>
+            <a href="https://polymarket.com/event/2026-f1-drivers-champion" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="crypto">
+            <div class="bet-category">CRYPTO</div>
+            <div class="bet-name">Did a crypto hedge fund blow up?</div>
+            <div class="bet-outcome">ðŸŽ¯ Check market for outcomes</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 42%</span>
+                <span class="edge-type" style="background: #f59e0b; color: #000;">CLOSE_CALL</span>
+            </div>
+            <a href="https://polymarket.com/event/did-a-crypto-hedge-fund-blow-up" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="crypto">
+            <div class="bet-category">CRYPTO</div>
+            <div class="bet-name">Hyperliquid listed on Binance in 2026?</div>
+            <div class="bet-outcome">ðŸŽ¯ Check market for outcomes</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 40%</span>
+                <span class="edge-type" style="background: #f59e0b; color: #000;">CLOSE_CALL</span>
+            </div>
+            <a href="https://polymarket.com/event/hyperliquid-listed-on-binance-in-2026" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="crypto">
+            <div class="bet-category">CRYPTO</div>
+            <div class="bet-name">Will Bitcoin kimchi premium hit 8% in 2026?</div>
+            <div class="bet-outcome">ðŸŽ¯ YES: Bitcoin kimchi premium hit 8% in 2026</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 63%</span>
+                <span class="edge-type" style="background: #22c55e;">FAVORITE</span>
+            </div>
+            <a href="https://polymarket.com/event/will-bitcoin-kimchi-premium-hit-8-in-2026" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="trending">
+            <div class="bet-category">TRENDING</div>
+            <div class="bet-name">Will GBP/USD hit __ in 2026?</div>
+            <div class="bet-outcome">ðŸŽ¯ YES: GBP/USD hit __ in 2026</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 36%</span>
+                <span class="edge-type" style="background: #ef4444;">UNDERDOG</span>
+            </div>
+            <a href="https://polymarket.com/event/will-gbpusd-hit-in-2026" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="sports">
+            <div class="bet-category">SPORTS</div>
+            <div class="bet-name">2026 NBA Champion</div>
+            <div class="bet-outcome">ðŸŽ¯ Check market for outcomes</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 35%</span>
+                <span class="edge-type" style="background: #ef4444;">UNDERDOG</span>
+            </div>
+            <a href="https://polymarket.com/event/2026-nba-champion" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="sports">
+            <div class="bet-category">SPORTS</div>
+            <div class="bet-name">Crystal Palace FC vs. Leeds United FC</div>
+            <div class="bet-outcome">ðŸŽ¯ Likely: Leeds United FC wins or specific outcome</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 34%</span>
+                <span class="edge-type" style="background: #ef4444;">UNDERDOG</span>
+            </div>
+            <a href="https://polymarket.com/event/epl-cry-lee-2026-03-15" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="sports">
+            <div class="bet-category">SPORTS</div>
+            <div class="bet-name">Sharks vs. Senators</div>
+            <div class="bet-outcome">ðŸŽ¯ Likely: Senators wins or specific outcome</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 66%</span>
+                <span class="edge-type" style="background: #22c55e;">FAVORITE</span>
+            </div>
+            <a href="https://polymarket.com/event/nhl-sj-ott-2026-03-15" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="trending">
+            <div class="bet-category">TRENDING</div>
+            <div class="bet-name">How high will inflation get in 2026?</div>
+            <div class="bet-outcome">ðŸŽ¯ Check market for outcomes</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 33%</span>
+                <span class="edge-type" style="background: #ef4444;">UNDERDOG</span>
+            </div>
+            <a href="https://polymarket.com/event/how-high-will-inflation-get-in-2026" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="sports">
+            <div class="bet-category">SPORTS</div>
+            <div class="bet-name">UEFA Europa Conference League: Top Scorer (Club)</div>
+            <div class="bet-outcome">ðŸŽ¯ Check market for outcomes</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 33%</span>
+                <span class="edge-type" style="background: #ef4444;">UNDERDOG</span>
+            </div>
+            <a href="https://polymarket.com/event/uefa-europa-conference-league-top-scorer-club" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="trending">
+            <div class="bet-category">TRENDING</div>
+            <div class="bet-name">SpaceX or OpenAI higher IPO Market Cap?</div>
+            <div class="bet-outcome">ðŸŽ¯ Check market for outcomes</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 69%</span>
+                <span class="edge-type" style="background: #22c55e;">FAVORITE</span>
+            </div>
+            <a href="https://polymarket.com/event/spacex-or-openai-higher-ipo-closing-market-cap" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="trending">
+            <div class="bet-category">TRENDING</div>
+            <div class="bet-name">South Korea Annual Inflation 2026</div>
+            <div class="bet-outcome">ðŸŽ¯ Check market for outcomes</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 29%</span>
+                <span class="edge-type" style="background: #ef4444;">UNDERDOG</span>
+            </div>
+            <a href="https://polymarket.com/event/south-korea-annual-inflation-2026" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="finance">
+            <div class="bet-category">FINANCE</div>
+            <div class="bet-name">Will Meta (META) finish week of March 16 above___?</div>
+            <div class="bet-outcome">ðŸŽ¯ YES: Meta (META) finish week of March 16 above___</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 29%</span>
+                <span class="edge-type" style="background: #ef4444;">UNDERDOG</span>
+            </div>
+            <a href="https://polymarket.com/event/meta-above-on-march-20-2026" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="entertainment">
+            <div class="bet-category">ENTERTAINMENT</div>
+            <div class="bet-name">What price will Pump.fun hit in 2026?</div>
+            <div class="bet-outcome">ðŸŽ¯ Check market for outcomes</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 28%</span>
+                <span class="edge-type" style="background: #ef4444;">UNDERDOG</span>
+            </div>
+            <a href="https://polymarket.com/event/what-price-will-pumpfun-hit-before-2027" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="finance">
+            <div class="bet-category">FINANCE</div>
+            <div class="bet-name">Bitcoin vs. Gold vs. S&P 500 in 2026</div>
+            <div class="bet-outcome">ðŸŽ¯ Likely: Gold vs. S&P 500 in 2026 wins or specific outcome</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 27%</span>
+                <span class="edge-type" style="background: #ef4444;">UNDERDOG</span>
+            </div>
+            <a href="https://polymarket.com/event/bitcoin-vs-gold-vs-sp-500-in-2026" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="entertainment">
+            <div class="bet-category">ENTERTAINMENT</div>
+            <div class="bet-name">What will Bitcoin outperform in March?</div>
+            <div class="bet-outcome">ðŸŽ¯ Specific date/time outcome</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 74%</span>
+                <span class="edge-type" style="background: #22c55e;">FAVORITE</span>
+            </div>
+            <a href="https://polymarket.com/event/what-will-bitcoin-outperform-in-march" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="trending">
+            <div class="bet-category">TRENDING</div>
+            <div class="bet-name">Will US crude oil reserves fall to __ by May 1?</div>
+            <div class="bet-outcome">ðŸŽ¯ YES: US crude oil reserves fall to __ by May 1</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 26%</span>
+                <span class="edge-type" style="background: #ef4444;">UNDERDOG</span>
+            </div>
+            <a href="https://polymarket.com/event/will-us-crude-oil-reserves-fall-to-by-may-1" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="trending">
+            <div class="bet-category">TRENDING</div>
+            <div class="bet-name">Will EUR/USD hit __ in 2026?</div>
+            <div class="bet-outcome">ðŸŽ¯ YES: EUR/USD hit __ in 2026</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 25%</span>
+                <span class="edge-type" style="background: #ef4444;">UNDERDOG</span>
+            </div>
+            <a href="https://polymarket.com/event/will-eurusd-hit-in-2026" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="trending">
+            <div class="bet-category">TRENDING</div>
+            <div class="bet-name">What price will Kinetiq hit in 2026?</div>
+            <div class="bet-outcome">ðŸŽ¯ Check market for outcomes</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 24%</span>
+                <span class="edge-type" style="background: #ef4444;">UNDERDOG</span>
+            </div>
+            <a href="https://polymarket.com/event/what-price-will-kinetiq-hit-in-2026" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="crypto">
+            <div class="bet-category">CRYPTO</div>
+            <div class="bet-name">What will Based prediction market revenue hit before 2027?</div>
+            <div class="bet-outcome">ðŸŽ¯ Specific date/time outcome</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 24%</span>
+                <span class="edge-type" style="background: #ef4444;">UNDERDOG</span>
+            </div>
+            <a href="https://polymarket.com/event/what-will-based-prediction-market-revenue-hit-before-2027" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="sports">
+            <div class="bet-category">SPORTS</div>
+            <div class="bet-name">Dota 2: BetBoom Team vs Team Liquid (BO3) - PGL Wallachia Playoffs</div>
+            <div class="bet-outcome">ðŸŽ¯ Likely: Team Liquid (BO3) wins or specific outcome</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 77%</span>
+                <span class="edge-type" style="background: #22c55e;">FAVORITE</span>
+            </div>
+            <a href="https://polymarket.com/event/dota2-bb4-liquid-2026-03-15" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="trending">
+            <div class="bet-category">TRENDING</div>
+            <div class="bet-name">SCOTUS accepts sports event contract case by...?     </div>
+            <div class="bet-outcome">ðŸŽ¯ Check market for outcomes</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 23%</span>
+                <span class="edge-type" style="background: #ef4444;">UNDERDOG</span>
+            </div>
+            <a href="https://polymarket.com/event/scotus-accepts-sports-event-contract-case-by-july-31-2026" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="trending">
+            <div class="bet-category">TRENDING</div>
+            <div class="bet-name">FDA approves Retatrutide this year?</div>
+            <div class="bet-outcome">ðŸŽ¯ Check market for outcomes</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 23%</span>
+                <span class="edge-type" style="background: #ef4444;">UNDERDOG</span>
+            </div>
+            <a href="https://polymarket.com/event/fda-approves-retatrutide-this-year" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="sports">
+            <div class="bet-category">SPORTS</div>
+            <div class="bet-name">How much will be wagered on US sports betting in 2026?</div>
+            <div class="bet-outcome">ðŸŽ¯ Check market for outcomes</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 77%</span>
+                <span class="edge-type" style="background: #22c55e;">FAVORITE</span>
+            </div>
+            <a href="https://polymarket.com/event/how-much-will-be-wagered-on-us-sports-betting-in-2026" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="sports">
+            <div class="bet-category">SPORTS</div>
+            <div class="bet-name">Timberwolves vs. Thunder</div>
+            <div class="bet-outcome">ðŸŽ¯ Likely: Thunder wins or specific outcome</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 78%</span>
+                <span class="edge-type" style="background: #22c55e;">FAVORITE</span>
+            </div>
+            <a href="https://polymarket.com/event/nba-min-okc-2026-03-15" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="trending">
+            <div class="bet-category">TRENDING</div>
+            <div class="bet-name">Will Monero hit $1000 in 2026?</div>
+            <div class="bet-outcome">ðŸŽ¯ YES: Monero hit $1000 in 2026</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 20%</span>
+                <span class="edge-type" style="background: #ef4444;">UNDERDOG</span>
+            </div>
+            <a href="https://polymarket.com/event/will-monero-hit-1000-in-2026" class="bet-link" target="_blank">View Market â†’</a>
+        </div>        <div class="bet" data-category="entertainment">
+            <div class="bet-category">ENTERTAINMENT</div>
+            <div class="bet-name">Avatar 4 greenlit by March 31?</div>
+            <div class="bet-outcome">ðŸŽ¯ Check market for outcomes</div>
+            <div class="bet-odds">
+                <span class="odds-value">Odds: 20%</span>
+                <span class="edge-type" style="background: #ef4444;">UNDERDOG</span>
+            </div>
+            <a href="https://polymarket.com/event/avatar-4-greenlit-by-march-31" class="bet-link" target="_blank">View Market â†’</a>
+        </div>    </div>
+
+    <div class="footer">
+        <p>Generated by Roo Intelligence System</p>
+        <p>Data refreshes hourly</p>
+    </div>
+
+    <script>
+        // Update stats
+        document.getElementById('closeCalls').textContent = '16';
+        document.getElementById('categories').textContent = '5';
+
+        // Filter functionality
+        function filterBets(category) {
+            const bets = document.querySelectorAll('.bet');
+            const buttons = document.querySelectorAll('.filter-btn');
+            
+            buttons.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            bets.forEach(bet => {
+                if (category === 'all' || bet.dataset.category === category) {
+                    bet.style.display = 'block';
+                } else {
+                    bet.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>

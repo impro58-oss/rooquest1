@@ -1,5 +1,5 @@
 # Polymarket Complete Hourly Scan + Smart Money Detection
-# Runs scanner, detects smart money, sends alerts
+# Runs scanner, generates HTML, detects smart money, sends alerts
 
 $WorkingDir = "C:\Users\impro\.openclaw\workspace\scripts"
 $Timestamp = Get-Date -Format "yyyy-MM-dd-HHmm"
@@ -13,10 +13,16 @@ $AlertFile = & "$WorkingDir\polymarket-hourly-scanner-v4.ps1"
 
 if ($AlertFile -and (Test-Path $AlertFile)) {
     Write-Host ""
+    Write-Host "Generating HTML version..."
+    
+    # Generate HTML for mobile viewing
+    $HtmlUrl = & "$WorkingDir\export-polymarket-html.ps1" -InputFile $AlertFile
+    
+    Write-Host ""
     Write-Host "Sending Telegram alert..."
     
-    # Send regular alert using v5
-    & "$WorkingDir\polymarket-alert-telegram-v5.ps1" -AlertFile $AlertFile
+    # Send alert with HTML link
+    & "$WorkingDir\polymarket-alert-telegram-v6.ps1" -AlertFile $AlertFile -HtmlUrl $HtmlUrl
     
     # Export to GitHub for dashboard
     Write-Host "Exporting to GitHub..."
@@ -35,6 +41,7 @@ $SmartMoneyFile = & "$WorkingDir\smart-money-detector.ps1"
 if ($SmartMoneyFile -and (Test-Path $SmartMoneyFile)) {
     Write-Host ""
     Write-Host "Sending Smart Money alert..."
+    
     & "$WorkingDir\smart-money-alert-telegram.ps1" -AlertFile $SmartMoneyFile
     
     Write-Host "Smart Money alert sent!"

@@ -1,11 +1,11 @@
 ﻿{
     "markets_with_movement":  0,
-    "timestamp":  "2026-03-15 12:25:13",
-    "scan_file":  "markets-2026-03-15-1213.json",
+    "timestamp":  "2026-03-15 13:00:16",
+    "scan_file":  "markets-2026-03-15-1300.json",
     "top_opportunities":  {
 
                           },
-    "total_markets":  120,
+    "total_markets":  100,
     "threshold":  5,
     "movements":  [
 
