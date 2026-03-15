@@ -1,5 +1,5 @@
 # Roo Intelligence Dashboard - UNIFIED
-# Shows both Crypto and Polymarket data on one page
+# Shows Crypto, Smart Money, and Polymarket data on one page
 
 import streamlit as st
 import pandas as pd
@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 st.title("📊 Roo Intelligence Dashboard")
-st.markdown("*Crypto + Polymarket opportunities in one view*")
+st.markdown("*Crypto + Smart Money + Polymarket opportunities in one view*")
 
 # Data URLs
 CRYPTO_URL = "https://raw.githubusercontent.com/impro58-oss/rooquest1/master/data/crypto/crypto_latest.json"
@@ -45,9 +45,21 @@ def load_polymarket_data():
     except:
         return None
 
-# Load both datasets
+@st.cache_data(ttl=300)
+def load_smart_money_data():
+    """Load smart money detection data."""
+    try:
+        response = requests.get(SMART_MONEY_URL, timeout=15)
+        response.raise_for_status()
+        content = response.content.decode('utf-8-sig')
+        return json.loads(content)
+    except:
+        return None
+
+# Load all datasets
 crypto_data = load_crypto_data()
 poly_data = load_polymarket_data()
+smart_data = load_smart_money_data()
 
 # Sidebar info
 st.sidebar.header("Data Status")
@@ -56,6 +68,11 @@ if crypto_data:
     st.sidebar.info(f"Last update: {crypto_data.get('scan_timestamp', 'Unknown')}")
 else:
     st.sidebar.warning("⚠️ Crypto data unavailable")
+
+if smart_data:
+    st.sidebar.success("✅ Smart Money data loaded")
+else:
+    st.sidebar.warning("⚠️ Smart Money data unavailable")
 
 if poly_data:
     st.sidebar.success("✅ Polymarket data loaded")
@@ -106,6 +123,56 @@ if crypto_data:
             st.dataframe(df_crypto, use_container_width=True)
 else:
     st.error("Crypto data unavailable. Check back later.")
+
+# ==================== SMART MONEY SECTION ====================
+st.markdown("---")
+st.header("🔥 Smart Money Detection")
+
+if smart_data:
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.metric("Markets Tracked", smart_data.get('total_markets', 0))
+    with col2:
+        st.metric("Movements Detected", smart_data.get('markets_with_movement', 0))
+    with col3:
+        st.metric("Smart Money Alerts", smart_data.get('smart_money_alerts', 0))
+    
+    movements = smart_data.get('movements', [])
+    if len(movements) > 0:
+        st.subheader("📊 Recent Odds Movements")
+        
+        df_movements = pd.DataFrame(movements)
+        
+        # Show top movements
+        for _, move in df_movements.head(10).iterrows():
+            with st.container():
+                col1, col2 = st.columns([3, 1])
+                with col1:
+                    emoji = "🔥" if move['Confidence'] == "HIGH" else "⚡" if move['Confidence'] == "MEDIUM" else "📊"
+                    st.markdown(f"{emoji} **[{move['Confidence']}]** {move['Market']}")
+                    st.markdown(f"   Odds: {move['PreviousOdds']}% → {move['CurrentOdds']}% ({move['Direction']} {move['MovementPercent']}%)")
+                    st.markdown(f"   Category: {move['Category']}")
+                with col2:
+                    st.markdown(f"[View Market]({move['Url']})")
+                st.markdown("---")
+        
+        # Movement chart
+        st.subheader("📈 Movement Distribution")
+        fig = px.bar(
+            df_movements.head(20),
+            x='Market',
+            y='MovementPercent',
+            color='Confidence',
+            title="Top 20 Odds Movements"
+        )
+        st.plotly_chart(fig, use_container_width=True)
+        
+        with st.expander("View All Movements"):
+            st.dataframe(df_movements, use_container_width=True)
+    else:
+        st.info("No significant odds movements detected yet. Will populate after next scan cycle.")
+else:
+    st.warning("Smart Money data not available yet. Will populate after next scan cycle.")
 
 # ==================== POLYMARKET SECTION ====================
 st.markdown("---")
@@ -194,78 +261,11 @@ if poly_data:
 else:
     st.error("Polymarket data unavailable. Check back later.")
 
-# ==================== SMART MONEY SECTION ====================
-st.markdown("---")
-st.header("🔥 Smart Money Detection")
-
-SMART_MONEY_URL = "https://raw.githubusercontent.com/impro58-oss/rooquest1/master/data/polymarket/smart_money_latest.json"
-
-@st.cache_data(ttl=300)
-def load_smart_money_data():
-    """Load smart money detection data."""
-    try:
-        response = requests.get(SMART_MONEY_URL, timeout=15)
-        response.raise_for_status()
-        content = response.content.decode('utf-8-sig')
-        return json.loads(content)
-    except:
-        return None
-
-smart_data = load_smart_money_data()
-
-if smart_data:
-    st.sidebar.success("✅ Smart Money data loaded")
-    
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        st.metric("Markets Tracked", smart_data.get('total_markets', 0))
-    with col2:
-        st.metric("Movements Detected", smart_data.get('markets_with_movement', 0))
-    with col3:
-        st.metric("Smart Money Alerts", smart_data.get('smart_money_alerts', 0))
-    
-    movements = smart_data.get('movements', [])
-    if len(movements) > 0:
-        st.subheader("📊 Recent Odds Movements")
-        
-        df_movements = pd.DataFrame(movements)
-        
-        # Show top movements
-        for _, move in df_movements.head(10).iterrows():
-            with st.container():
-                col1, col2 = st.columns([3, 1])
-                with col1:
-                    emoji = "🔥" if move['Confidence'] == "HIGH" else "⚡" if move['Confidence'] == "MEDIUM" else "📊"
-                    st.markdown(f"{emoji} **[{move['Confidence']}]** {move['Market']}")
-                    st.markdown(f"   Odds: {move['PreviousOdds']}% → {move['CurrentOdds']}% ({move['Direction']} {move['MovementPercent']}%)")
-                    st.markdown(f"   Category: {move['Category']}")
-                with col2:
-                    st.markdown(f"[View Market]({move['Url']})")
-                st.markdown("---")
-        
-        # Movement chart
-        st.subheader("📈 Movement Distribution")
-        fig = px.bar(
-            df_movements.head(20),
-            x='Market',
-            y='MovementPercent',
-            color='Confidence',
-            title="Top 20 Odds Movements"
-        )
-        st.plotly_chart(fig, use_container_width=True)
-        
-        with st.expander("View All Movements"):
-            st.dataframe(df_movements, use_container_width=True)
-    else:
-        st.info("No significant odds movements detected yet. Run detector again after next scan.")
-else:
-    st.warning("Smart Money data not available yet. Will populate after next scan cycle.")
-
 # Footer
 st.markdown("---")
 st.markdown(
     "<div style='text-align: center; color: #666;'>"
-    "Crypto: TrojanLogic4H | Polymarket: Hourly Scanner | Data: GitHub"
+    "Crypto: TrojanLogic4H | Smart Money: Odds Movement Tracker | Polymarket: Hourly Scanner | Data: GitHub"
     "</div>",
     unsafe_allow_html=True
 )
