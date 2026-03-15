@@ -137,14 +137,44 @@ if poly_data:
         )
         st.plotly_chart(fig, use_container_width=True)
         
-        # Top Polymarket opportunities
-        st.subheader("🎯 Top Polymarket Opportunities")
+        # Top Polymarket opportunities - ALL with filters
+        st.subheader("🎯 All Polymarket Opportunities")
         
-        # Sort by closest to 50% (most uncertain/opportunity)
-        df_poly['distance_from_50'] = abs(df_poly['OddsNum'] - 50)
-        top_poly = df_poly.sort_values('distance_from_50').head(10)
+        # Add filters
+        col1, col2 = st.columns(2)
+        with col1:
+            selected_category = st.selectbox(
+                "Filter by Category",
+                ["All"] + list(df_poly['Category'].unique())
+            )
+        with col2:
+            sort_by = st.selectbox(
+                "Sort by",
+                ["Best Value (closest to 50%)", "Highest Odds", "Lowest Odds", "Category"]
+            )
         
-        for _, bet in top_poly.iterrows():
+        # Filter data
+        if selected_category != "All":
+            filtered_df = df_poly[df_poly['Category'] == selected_category]
+        else:
+            filtered_df = df_poly
+        
+        # Sort data
+        if sort_by == "Best Value (closest to 50%)":
+            filtered_df['distance_from_50'] = abs(filtered_df['OddsNum'] - 50)
+            filtered_df = filtered_df.sort_values('distance_from_50')
+        elif sort_by == "Highest Odds":
+            filtered_df = filtered_df.sort_values('OddsNum', ascending=False)
+        elif sort_by == "Lowest Odds":
+            filtered_df = filtered_df.sort_values('OddsNum', ascending=True)
+        elif sort_by == "Category":
+            filtered_df = filtered_df.sort_values(['Category', 'OddsNum'])
+        
+        # Show count
+        st.markdown(f"**Showing {len(filtered_df)} of {len(df_poly)} opportunities**")
+        
+        # Display all filtered opportunities
+        for _, bet in filtered_df.iterrows():
             with st.container():
                 col1, col2 = st.columns([3, 1])
                 with col1:
