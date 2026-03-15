@@ -17,14 +17,21 @@ $JsonFile = "$FullPath\markets-$Timestamp.json"
 
 Write-Host "Scanning Polymarket at $Timestamp..."
 
-# Categories to scan (ALL categories)
+# Categories to scan (ALL categories including new ones)
 $Categories = @(
     @{Url="https://polymarket.com/predictions/trending-markets"; Name="trending"},
     @{Url="https://polymarket.com/predictions/politics"; Name="politics"},
     @{Url="https://polymarket.com/predictions/crypto"; Name="crypto"},
     @{Url="https://polymarket.com/predictions/sports"; Name="sports"},
     @{Url="https://polymarket.com/predictions/finance"; Name="finance"},
-    @{Url="https://polymarket.com/predictions/entertainment"; Name="entertainment"}
+    @{Url="https://polymarket.com/predictions/entertainment"; Name="entertainment"},
+    @{Url="https://polymarket.com/weather-science"; Name="weather-science"},
+    @{Url="https://polymarket.com/breaking"; Name="breaking"},
+    @{Url="https://polymarket.com/iran"; Name="iran"},
+    @{Url="https://polymarket.com/geopolitics"; Name="geopolitics"},
+    @{Url="https://polymarket.com/tech"; Name="tech"},
+    @{Url="https://polymarket.com/pop-culture"; Name="pop-culture"},
+    @{Url="https://polymarket.com/economy"; Name="economy"}
 )
 
 function Get-OutcomeDescription {
