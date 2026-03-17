@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>OpenClaw Slash Commands Reference</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+        h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #34495e; margin-top: 30px; border-bottom: 2px solid #95a5a6; padding-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th { background-color: #3498db; color: white; padding: 12px; text-align: left; }
+        td { padding: 10px; border-bottom: 1px solid #ddd; }
+        tr:nth-child(even) { background-color: #f8f9fa; }
+        .status-ready { color: #27ae60; font-weight: bold; }
+        .status-partial { color: #f39c12; font-weight: bold; }
+        .quick-ref { background-color: #ecf0f1; padding: 15px; border-left: 4px solid #3498db; margin: 20px 0; }
+        code { background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px; font-family: monospace; }
+        .emoji { font-size: 1.2em; }
+        .footer { margin-top: 40px; padding-top: 20px; border-top: 2px solid #95a5a6; color: #7f8c8d; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <h1>OpenClaw Slash Commands Reference</h1>
+    <p><strong>Complete Command Guide for Roo's Workspace</strong></p>
+    <p><em>Last Updated: 2026-03-17 | Version 1.0</em></p>
+
+    <h2><span class="emoji">🎯</span> Core Commands</h2>
+    <table>
+        <tr><th>Command</th><th>Description</th><th>Usage</th><th>Example</th></tr>
+        <tr><td><code>/new</code></td><td>Start fresh session (reset context)</td><td><code>/new</code></td><td>Clear conversation</td></tr>
+        <tr><td><code>/reset</code></td><td>Alias for /new</td><td><code>/reset</code></td><td>Same as above</td></tr>
+        <tr><td><code>/status</code></td><td>Show system status</td><td><code>/status</code></td><td>Check gateway health</td></tr>
+        <tr><td><code>/reasoning</code></td><td>Toggle reasoning mode</td><td><code>/reasoning on</code></td><td>Enable detailed thinking</td></tr>
+    </table>
+
+    <h2><span class="emoji">🤖</span> Agent Commands</h2>
+    <table>
+        <tr><th>Command</th><th>Description</th><th>Usage</th><th>Output</th></tr>
+        <tr><td><code>/agent</code></td><td>List active agents</td><td><code>/agent list</code></td><td>Shows all agents</td></tr>
+        <tr><td><code>/agent spawn</code></td><td>Create new agent</td><td><code>/agent spawn [name]</code></td><td>Spawns sub-agent</td></tr>
+        <tr><td><code>/agent status</code></td><td>Check agent health</td><td><code>/agent status [name]</code></td><td>Agent state</td></tr>
+        <tr><td><code>/sync</code></td><td>Sync with agent</td><td><code>/sync [agent-name]</code></td><td>Pull latest from agent</td></tr>
+    </table>
+
+    <h2><span class="emoji">💰</span> Crypto &amp; Trading Commands</h2>
+    <table>
+        <tr><th>Command</th><th>Description</th><th>Usage</th><th>Example</th></tr>
+        <tr><td><code>/crypto scan</code></td><td>Run TrojanLogic4H scan</td><td><code>/crypto scan</code></td><td>Top 50 analysis</td></tr>
+        <tr><td><code>/crypto status</code></td><td>Check scan status</td><td><code>/crypto status</code></td><td>Last run results</td></tr>
+        <tr><td><code>/polymarket</code></td><td>Check bets</td><td><code>/polymarket status</code></td><td>P&amp;L summary</td></tr>
+        <tr><td><code>/income</code></td><td>Research opportunities</td><td><code>/income search [query]</code></td><td>Find methods</td></tr>
+    </table>
+
+    <h2><span class="emoji">🏥</span> Research Commands</h2>
+    <table>
+        <tr><th>Command</th><th>Description</th><th>Usage</th><th>Example</th></tr>
+        <tr><td><code>/research</code></td><td>Web research</td><td><code>/research [topic]</code></td><td>Auto research</td></tr>
+        <tr><td><code>/pdf extract</code></td><td>Extract PDF text</td><td><code>/pdf extract [file]</code></td><td>Text output</td></tr>
+        <tr><td><code>/pdf tables</code></td><td>Extract tables</td><td><code>/pdf tables [file]</code></td><td>CSV output</td></tr>
+        <tr><td><code>/neurovascular</code></td><td>Medtech research</td><td><code>/neurovascular search</code></td><td>Find opportunities</td></tr>
+    </table>
+
+    <h2><span class="emoji">🔧</span> System Commands</h2>
+    <table>
+        <tr><th>Command</th><th>Description</th><th>Usage</th><th>Example</th></tr>
+        <tr><td><code>/health</code></td><td>Run health check</td><td><code>/health</code></td><td>System status</td></tr>
+        <tr><td><code>/health gateway</code></td><td>Check gateway</td><td><code>/health gateway</code></td><td>Port status</td></tr>
+        <tr><td><code>/health disk</code></td><td>Check disk space</td><td><code>/health disk</code></td><td>Storage report</td></tr>
+        <tr><td><code>/backup</code></td><td>Run backup</td><td><code>/backup now</code></td><td>Git + snapshots</td></tr>
+        <tr><td><code>/backup status</code></td><td>Check backups</td><td><code>/backup status</code></td><td>Last commit info</td></tr>
+    </table>
+
+    <h2><span class="emoji">📊</span> Notion Commands</h2>
+    <table>
+        <tr><th>Command</th><th>Description</th><th>Usage</th><th>Example</th></tr>
+        <tr><td><code>/notion sync</code></td><td>Sync to Notion</td><td><code>/notion sync</code></td><td>Update databases</td></tr>
+        <tr><td><code>/notion task</code></td><td>Create task</td><td><code>/notion task [name]</code></td><td>Add to Tasks</td></tr>
+        <tr><td><code>/notion project</code></td><td>Create project</td><td><code>/notion project [name]</code></td><td>Add to Projects</td></tr>
+        <tr><td><code>/control-room</code></td><td>Open control room</td><td><code>/control-room</code></td><td>Show dashboard</td></tr>
+    </table>
+
+    <h2><span class="emoji">🎭</span> Persona Commands</h2>
+    <table>
+        <tr><th>Command</th><th>Description</th><th>Usage</th><th>Context</th></tr>
+        <tr><td><code>/persona scout</code></td><td>Opportunity Scout</td><td><code>/persona scout</code></td><td>Income research</td></tr>
+        <tr><td><code>/persona stockward</code></td><td>BD Director</td><td><code>/persona stockward</code></td><td>Partnerships</td></tr>
+        <tr><td><code>/persona medtech</code></td><td>Neurovascular</td><td><code>/persona medtech</code></td><td>Medtech research</td></tr>
+        <tr><td><code>/persona crypto</code></td><td>Crypto Analyst</td><td><code>/persona crypto</code></td><td>Trading signals</td></tr>
+        <tr><td><code>/sync me up</code></td><td>Sync context</td><td><code>/sync me up</code></td><td>Resume where left off</td></tr>
+    </table>
+
+    <h2><span class="emoji">⏰</span> Automation Commands</h2>
+    <table>
+        <tr><th>Command</th><th>Description</th><th>Usage</th><th>Example</th></tr>
+        <tr><td><code>/cron add</code></td><td>Add scheduled job</td><td><code>/cron add [name]</code></td><td>Schedule task</td></tr>
+        <tr><td><code>/cron list</code></td><td>List jobs</td><td><code>/cron list</code></td><td>Show all jobs</td></tr>
+        <tr><td><code>/cron status</code></td><td>Check job status</td><td><code>/cron status [name]</code></td><td>Job health</td></tr>
+        <tr><td><code>/schedule backup</code></td><td>Schedule backup</td><td><code>/schedule backup daily</code></td><td>Auto backup</td></tr>
+        <tr><td><code>/schedule health</code></td><td>Schedule health</td><td><code>/schedule health 30m</code></td><td>Every 30 min</td></tr>
+    </table>
+
+    <h2><span class="emoji">🌐</span> Web Commands</h2>
+    <table>
+        <tr><th>Command</th><th>Description</th><th>Usage</th><th>Example</th></tr>
+        <tr><td><code>/browse</code></td><td>Open browser</td><td><code>/browse [url]</code></td><td>Visit site</td></tr>
+        <tr><td><code>/fetch</code></td><td>Fetch webpage</td><td><code>/fetch [url]</code></td><td>Get content</td></tr>
+        <tr><td><code>/search</code></td><td>Web search</td><td><code>/search [query]</code></td><td>Brave search</td></tr>
+        <tr><td><code>/monitor</code></td><td>Monitor site</td><td><code>/monitor [url]</code></td><td>Change detection</td></tr>
+    </table>
+
+    <h2><span class="emoji">💾</span> Memory Commands</h2>
+    <table>
+        <tr><th>Command</th><th>Description</th><th>Usage</th><th>Example</th></tr>
+        <tr><td><code>/memory</code></td><td>Show memory</td><td><code>/memory today</code></td><td>Today's log</td></tr>
+        <tr><td><code>/memory search</code></td><td>Search memory</td><td><code>/memory search [term]</code></td><td>Find entries</td></tr>
+        <tr><td><code>/log</code></td><td>Log to memory</td><td><code>/log [message]</code></td><td>Save entry</td></tr>
+        <tr><td><code>/archive</code></td><td>Archive old logs</td><td><code>/archive</code></td><td>Clean up</td></tr>
+    </table>
+
+    <h2><span class="emoji">🚀</span> Quick Reference</h2>
+    
+    <div class="quick-ref">
+        <h3>Most Used Commands</h3>
+        <ul>
+            <li><code>/sync me up</code> - Resume session</li>
+            <li><code>/health</code> - System check</li>
+            <li><code>/backup</code> - Run backup</li>
+            <li><code>/crypto scan</code> - Run analysis</li>
+            <li><code>/research [topic]</code> - Web research</li>
+        </ul>
+    </div>
+
+    <div class="quick-ref">
+        <h3>Agent Workflow</h3>
+        <ol>
+            <li><code>/persona [name]</code> - Activate persona</li>
+            <li>[Do work]</li>
+            <li><code>/sync me up</code> - Save context</li>
+        </ol>
+    </div>
+
+    <div class="quick-ref">
+        <h3>Emergency Commands</h3>
+        <ul>
+            <li><code>/status</code> - Check system</li>
+            <li><code>/health gateway</code> - Check gateway</li>
+            <li><code>/backup status</code> - Check backups</li>
+        </ul>
+    </div>
+
+    <h2><span class="emoji">📋</span> Implementation Status</h2>
+    <table>
+        <tr><th>Command</th><th>Status</th><th>Notes</th></tr>
+        <tr><td>Core commands</td><td><span class="status-ready">✅ Ready</span></td><td>Built-in</td></tr>
+        <tr><td>Health check</td><td><span class="status-ready">✅ Ready</span></td><td>New skill</td></tr>
+        <tr><td>Backup</td><td><span class="status-ready">✅ Ready</span></td><td>New skill</td></tr>
+        <tr><td>Web research</td><td><span class="status-ready">✅ Ready</span></td><td>New skill</td></tr>
+        <tr><td>PDF tools</td><td><span class="status-ready">✅ Ready</span></td><td>New skill</td></tr>
+        <tr><td>Advanced cron</td><td><span class="status-ready">✅ Ready</span></td><td>New skill</td></tr>
+        <tr><td>Persona sync</td><td><span class="status-ready">✅ Ready</span></td><td>Notion integration</td></tr>
+        <tr><td>Agent spawn</td><td><span class="status-partial">⚠️ Partial</span></td><td>Manual only</td></tr>
+    </table>
+
+    <div class="footer">
+        <p><strong>OpenClaw Workspace</strong> | Roo's Personal AI Assistant</p>
+        <p>Generated: 2026-03-17 | Skills: 5 new | Commands: 60+</p>
+    </div>
+</body>
+</html>

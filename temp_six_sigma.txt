@@ -1,0 +1,295 @@
+=== Page 1 ===
+The
+S
+IX
+S
+IGMA
+Memory
+Jogger
+TM
+II
+A Pocket Guide of Tools for
+Six Sigma Improvement Teams
+Michael Brassard
+Brassard & Ritter, LLC
+Lynda Finn
+Oriel Inc.
+Dana Ginn
+Oriel Inc.
+Diane Ritter
+Brassard & Ritter, LLC
+First Edition
+GOAL/QPC
+SSGR Frontmatter 1 10/7/03, 9:42 AM
+
+=== Page 2 ===
+The Six Sigma Memory Jogger™ II
+© 1994, 2002 by GOAL/QPC
+All rights reserved.
+Reproduction of any part of this publication without
+the written permission of GOAL/QPC is prohibited.
+Six Sigma is a federally registered trademark of
+Motorola, Inc.
+Cathy Kingery, Editor
+Deborah Crovo, Judi Glidden, Michele Kierstead, Graphics
+Michele Kierstead, Cover Design, Layout
+Bob Page, Project Manager, GOAL/QPC
+Christine Jersild, Project Manager, Oriel Inc.
+GOAL/QPC
+12B Manor Parkway, Salem, NH 03079-2862
+800-643-4316 or 603-893-1944
+Fax: 603-870-9122
+E-mail: service@goalqpc.com
+Web site: www.goalqpc.com
+Printed in the United States of America
+First Edition 10 9 8 7 6 5 4 3 2 1
+ISBN 1-57681-044-5
+SSGR Frontmatter 2 10/7/03, 9:42 AM
+
+=== Page 3 ===
+Acknowledgments
+Our thanks and gratitude go to the people and
+organizations who offered encouragement and
+suggestions for this book or who gave us permission to
+use their examples, graphs, and charts.
+Special thanks to Patricia Klossner, president of Oriel
+Inc., who generously and graciously enabled us to
+access the wealth of experience she and her team have
+gained in working to develop Six Sigma leaders and
+team members. Since 1995, when we collaborated to
+produce The Team Memory JoggerTM, Pat has been a
+model partner and a great friend.
+Thanks also to Kristi Brown, Wal-Mart; and Ruth Fattori,
+Conseco Inc., who reviewed and critiqued draft copy to
+ensure that the book met their expectations, and to
+everyone who helped with the original Memory JoggerTM II:
+Bryce Colburne, AT&T Technologies; Robert Brodeur,
+Bell Canada; Karen Tate, BGP; Rip Stauffer, BlueFire
+Partners; Weston F. Milliken, CUE Consulting; Raymond
+A. Kach, Ford Motor Company; Paula McIntosh, Georgia
+State Dept. of Human Resources, Division of Rehabilitation
+Services; Donald Botto, Goodyear Tire & Rubber Company;
+Tony Borgen and Paul Hearn, Hamilton Standard; Lloyd
+S. Nelson, Nashua Corp.; Jack Waddell, Novacor Chemicals;
+Kirk Kochenberger, Parkview Episcopal Medical Center;
+Marie Sinioris, Rush-Presbyterian-St. Luke's Medical
+Center; Tim Barnes, Smith-Kline Beecham; Dennis
+Crowley, St. John Fisher College; Buzz Stapczynski, Town
+of Andover, MA; Kemper Watkins, MSgt., U.S. Air Force,
+Air Combat Command; Capt. T. C. Splitgerber, U.S. Navy,
+Naval Dental Center, San Diego, CA.
+SSGR Frontmatter 3 10/7/03, 9:42 AM
+
+=== Page 4 ===
+Foreword
+Published in 1994, the original Memory JoggerTM II
+introduced many of the quality tools commonly used
+for process improvement, planning, and problem
+solving, but it lacked specific information on how
+and when these tools should be used in support of
+Six Sigma.
+In the late 1990s, many leading Six Sigma organiza-
+tions began asking us to create customized versions
+of The Memory JoggerTM II. In additon to the quality
+tools, these books also contained company-specific
+Six Sigma material. In time, we concluded that a
+widespread need existed that would be met if we
+created The Six Sigma Memory JoggerTM II.
+To that end, we enlisted the help of Oriel Inc. of
+Madison, Wisconsin, to ensure that this book’s con-
+tent is appropriate for Six Sigma team members.
+Oriel has extensive experience in training and coach-
+ing Six Sigma teams and project leaders.
+We believe that the insights contained in this book,
+which we have gathered from many sources, com-
+bine to create a valuable resource for helping Six
+Sigma teams to learn and apply these powerful qual-
+ity tools. We trust you will agree.
+Bob Page
+GOAL/QPC
+SSGR Frontmatter 4 10/7/03, 9:42 AM
+
+=== Page 5 ===
+Table of Contents
+Six Sigma Overview....................................................1
+DMAIC.........................................................................11
+Activity Network Diagram (AND).........................27
+Affinity Diagram........................................................38
+Brainstorming.............................................................45
+Cause & Effect/Fishbone Diagram.........................49
+Charter.........................................................................59
+Commitment Scale.....................................................67
+Communication Plan.................................................70
+Control Charts............................................................75
+Critical To Quality (CTQ) Tree................................91
+Data Collection...........................................................95
+Data Points................................................................101
+Design of Experiments (DOE)...............................105
+Failure Mode and Effects Analysis (FMEA)........111
+Flowchart...................................................................116
+Focused Problem Statement...................................124
+Histogram..................................................................129
+Stratifying Frequency Diagrams....................139
+Box Plot...............................................................140
+Hypothesis Testing..................................................142
+Interrelationship Digraph.......................................147
+Involvement Matrix................................................156
+Kano Model...............................................................158
+Matrix Diagram........................................................162
+SSGR Frontmatter 5 10/7/03, 9:42 AM
+
+=== Page 6 ===
+Measurement Systems Analysis (MSA)...............168
+Operational Definitions..........................................176
+Pareto Chart..............................................................178
+Pareto Chart Stratification...............................182
+Prioritization Matrices............................................189
+Process Management Chart...................................199
+Process Sigma...........................................................204
+Regression.................................................................214
+Run Chart..................................................................221
+Scatter Diagram........................................................228
+SIPOC.........................................................................235
+Six Sigma Storyboard..............................................239
+Taguchi Loss Function............................................244
+Tollgate Review........................................................247
+Tree Diagram............................................................249
+Voice of the Customer (VOC)
+Data-Collection System....................................258
+y = f (x) Formula.......................................................263
+SSGR Frontmatter 6 10/7/03, 9:42 AM
+
+=== Page 7 ===
+Six Sigma Overview
+What is Six Sigma?
+Sigma is a statistical concept that represents the
+amount of variation present in a process relative to
+customer requirements or specifications. When a
+process operates at the six sigma level, the variation
+is so small that the resulting products and services
+are 99.9997% defect free.
+“Six Sigma” is commonly denoted in several
+different ways. You might see it written as “6σ,” “6
+Sigma,” or “6s.”
+In addition to being a statistical measure of variation,
+the term Six Sigma also refers to a business philosophy
+of focusing on continuous improvement by
+understanding customers’ needs, analyzing business
+processes, and instituting proper measurement
+methods. Furthermore, it is a methodology that an
+organization uses to ensure that it is improving its
+key processes.
+While Six Sigma corresponds to being 99.9997%
+defect free, not all business processes need to attain
+this high a goal. Companies can also use the Six
+Sigma methodology to identify which of their key
+business processes would benefit most from
+improvement and then focus their improvement
+efforts there.
+In this book, we often use the more generic terms
+sigma or process sigma to refer to the current capability
+of a process (i.e., how well the process is performing
+relative to customer specifications).
+©2002 GOAL/QPC Six Sigma Overview 1
+SSGR Overview 1 10/7/03, 9:44 AM
+
+=== Page 8 ===
+Process Capability
+Amount Effect Sigma Value
+of Variation
+Too much Hard to produce output Low (0–2)
+within customer requirements
+or specifications
+Moderate Most output meets Middle (2–4.5)
+customer requirements
+Very little Virtually all output meets High (4.5–6)
+customer requirements
+(less than four parts per
+million not meeting
+specifications)
+To increase your organization’s process-sigma
+level, you must decrease the amount of variation
+that occurs. Having less variation gives you the
+following benefits:
+•Greater predictability in the process.
+•Less waste and rework, which lowers costs.
+•Products and services that perform better and last
+longer.
+•Happier customers who value you as a supplier.
+The simple example below illustrates the concept
+of Six Sigma. Note that the amount of data in this
+example is limited, but it serves to describe the
+concept adequately.
+Two companies deliver pizza to your house. You want
+to determine which one can better meet your needs.
+You always want your pizza delivered at 6 p.m. but are
+willing to tolerate a delivery anytime between 5:45 p.m.
+and 6:15 p.m. In this example, the target is 6 p.m. and the
+customer specifications are 5:45 p.m. on the low side
+and 6:15 p.m. on the high side.
+2 Six Sigma Overview ©2002 GOAL/QPC
+SSGR Overview 2 10/7/03, 9:44 AM
+
+=== Page 9 ===
+You decide to order two pizzas at the same time
+every night for ten days—one pizza from Company
+A, and one from Company B. You track the delivery
+times for ten days and collect the following data:
+Comparison of Delivery Times
+Company A Company B
+Day Delivery Time Day Delivery Time
+1 5:58 1 5:51
+2 6:20 2 6:04
+3 5:49 3 5:59
+4 6:05 4 6:00
+5 6:10 5 6:10
+6 5:42 6 5:56
+7 6:01 7 6:02
+8 5:53 8 6:11
+9 6:12 9 5:59
+10 6:05 10 6:09
+As the chart above shows, Company A had two
+occurrences—on Day 2 and Day 6—of pizza arrival
+times that were outside of your tolerance window
+of between 5:45 and 6:15. In Six Sigma terminology,
+these two occurrences are called defects. This
+performance can also be described visually with
+the following graphs:
+©2002 GOAL/QPC Six Sigma Overview 3
+SSGR Overview 3 10/7/03, 9:44 AM
+
+=== Page 10 ===
+Defects and Variation
+Too early TToooo llaattee Too early TToooo llaattee
+Defect Defect
+A Reduce B
+variation
+5:42 Delivery 6:20 Delivery
+Time Time
+To become
+more competitive,
+Spread of variation Company A Spread of variation
+too wide compared would need to narrow compared
+to specifications reduce its to specifications
+variation.
+Company A Company B
+Lower sigma score Higher sigma score
+As mentioned above, a process variation of no greater
+than Six Sigma is equivalent to being 99.9997% defect
+free. Although a 99.9% defect-free level of quality (which
+is equivalent to a sigma level greater than four) sounds
+adequate, in a world operating at this sigma level, the
+following situations would occur:
+•At least 20,000 wrong drug prescriptions dis-
+pensed per year.
+•Unsafe drinking water for almost one hour a month.
+•No telephone service or television transmission
+for nearly ten minutes each week.
+•Ninety-six crashes per 100,000 airline flights.
+Experts believe that the quality levels for most busi-
+nesses today fall within the three- to four-sigma range.
+Six Sigma terminology
+Organizations that adopt a Six Sigma philosophy and
+methodology employ a commonly used and understood
+4 Six Sigma Overview ©2002 GOAL/QPC
+SSGR Overview 4 10/7/03, 9:44 AM

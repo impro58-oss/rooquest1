@@ -1,0 +1,225 @@
+=== Page 2 ===
+MEDICAL LEADERSHIP
+Today’s healthcare systems need doctors and consultants to act as leaders, within the
+multi-disciplinary team, in addition to carrying out their clinical role. This book identifies
+the key elements of successful leadership through ‘medically led’ service development and
+system transformation and shows how this can benefit patient care, particularly when patients
+become partners in the process.
+The authors provide a conceptual framework of medical leadership and a set of scientific
+methods and tools that make a significant contribution to advancing quality and transforming
+services in healthcare. On top of this, they present analytical tools which medical professionals
+can use to support their own improvement or system transformation strategy, including ways
+of measuring improvement and the returns on investment of medical leadership.
+Weaved throughout the book are real-life case studies from medical leaders across the
+world, providing students with valuable practical insights. Chapter summaries and reflections
+are provided to support learning.
+Medical Leadership will be essential reading for students on medical and clinical leadership
+courses internationally as well as for all practising doctors, consultants and General Practitioners.
+Jill Aylott is Consultant in Autism and CEO at the International Academy of Medical
+Leadership (IAML) and Head of Programmes for Medical Leadership, Social Care and
+Quality Improvement.
+Jeff Perring is Consultant Intensivist and Medical Director, Sheffield Children’s NHS
+Foundation Trust.
+Ann LN Chapman is Consultant in Infectious Diseases and General Medicine, and Clinical
+Director for Medicine, NHS Lanarkshire; Honorary Clinical Associate Professor, University
+of Glasgow.
+Ahmed Nassef is Consultant Vascular Surgeon at Sheffield Teaching Hospitals Foundation
+NHS Trust, Council member & Deputy Convener of Exams for the Royal College of
+Surgeons Edinburgh, Lead of Communication Skills for the Intercollegiate Board of Surgical
+Exams, UK, and Medical Director, International Academy of Medical Leadership.
+
+=== Page 4 ===
+MEDICAL LEADERSHIP
+A Toolkit for Service Development
+and System Transformation
+Edited by Jill Aylott, Jeff Perring,
+Ann LN Chapman and Ahmed Nassef
+
+=== Page 5 ===
+First published 2019
+by Routledge
+2 Park Square, Milton Park, Abingdon, Oxon OX14 4RN
+and by Routledge
+711 Third Avenue, New York, NY 10017
+Routledge is an imprint of the Taylor & Francis Group, an informa business
+© 2019 selection and editorial matter, Jill Aylott, Jeff Perring, Ann LN Chapman
+and Ahmed Nassef; individual chapters, the contributors
+The right of Jill Aylott, Jeff Perring, Ann LN Chapman and Ahmed Nassef
+to be identified as the authors of the editorial material, and of the authors
+for their individual chapters, has been asserted in accordance with
+sections 77 and 78 of the Copyright, Designs and Patents Act 1988.
+All rights reserved. No part of this book may be reprinted or reproduced or
+utilised in any form or by any electronic, mechanical, or other means, now
+known or hereafter invented, including photocopying and recording, or in
+any information storage or retrieval system, without permission in writing
+from the publishers.
+Trademark notice: Product or corporate names may be trademarks or
+registered trademarks, and are used only for identification and explanation
+without intent to infringe.
+British Library Cataloguing-in-Publication Data
+A catalogue record for this book is available from the British Library
+Library of Congress Cataloging-in-Publication Data
+Names: Aylott, Jill, editor. | Perring, Jeff, editor. | Chapman, Ann, Dr.,
+editor. | Nassef, Ahmed, editor.
+Title: Medical leadership : a toolkit for service development and system
+transformation / edited by Jill Aylott, Jeff Perring, Ann Chapman and
+Ahmed Nassef.
+Description: Abingdon, Oxon ; New York, NY : Routledge, 2019. |
+Includes bibliographical references and index.
+Identifiers: LCCN 2018020299 | ISBN 9781138217348 (hbk.) |
+ISBN 9781138217355 (pbk.) | ISBN 9781315440880 (ebk.)
+Subjects: MESH: Leadership | Health Services Administration |
+Delivery of Health Care | Physician’s Role | Organizational
+Case Studies
+Classification: LCC RA971 | NLM W 84.1 | DDC 362.1068—dc23
+LC record available at https://lccn.loc.gov/2018020299
+ISBN: 978-1-138-21734-8 (hbk)
+ISBN: 978-1-138-21735-5 (pbk)
+ISBN: 978-1-315-44088-0 (ebk)
+Typeset in Bembo
+by Apex CoVantage, LLC
+
+=== Page 6 ===
+CONTENTS
+Foreword ix
+Contributor bios xi
+PART 1
+A global emergent context for medical leadership 1
+1 An introduction 3
+Ahmed Nassef, Mathew Fortnam and Jill Aylott
+2 ‘Leadership’ and ‘medical leadership’ 8
+Bolarinde Ola and Aishin Lok
+3 Quality improvement as the goal of medical leadership 16
+Rachael Baines
+4 Understanding patient experience as a clinical leader 22
+Suvira Madan
+5 Primary care and general practice: medical leadership for all 33
+Mathew Fortnam
+6 A theoretical model to engage doctors in medical leadership 38
+Ahmed Nassef
+
+=== Page 7 ===
+vi Contents
+PART 2
+Medical leadership 57
+7 An introduction 59
+Ann LN Chapman
+8 Medical leadership and reducing health inequalities 61
+Gilly Ennals
+9 Medical leadership and reducing variation in healthcare 65
+Ravishanka Sargur
+10 Developing and analysing effective teams 79
+Walaa Al-Safi
+11 A strategy for engaging primary and secondary care
+doctors in medical leadership 86
+Simon Boyes
+12 Medical engagement – strategies for engagement from the
+‘grass roots’ 95
+Paddy Dobbs and Alix Fonfe
+13 Leadership diagnostics and reflections on personal
+leadership development 106
+Michael Robinson and Eleni Lekoudis
+PART 3
+Improvement science, medical leadership and
+measurement for improvement 127
+14 An introduction 129
+Jill Aylott
+15 Data analysts building capability in partnership with
+medical leaders 132
+Lisa Fox
+16 Root cause analysis and simulation to improve quality 137
+Adam Burns
+
+=== Page 8 ===
+Contents vii
+17 Leadership diagnostics for self-awareness and bespoke
+course design 141
+Prosenjit Giri
+18 Medical leadership and the use of data for a continuous
+quality improvement collaborative (CQIC) in an accident
+and emergency department 153
+Prakash Subedi, Jill Aylott, Prosenjit Giri,
+Martha Zaluaga Quintero, Sanjay Sinha, Sanjai Subramanian
+and Sathi Permaul
+19 Developing a human transplantation health service in
+Nepal with ethical and moral medical leadership 163
+Pukar C. Shrestha
+PART 4
+Service development 173
+20 An introduction 175
+Jeff Perring
+21 ‘Patient reported outcome measures’: we have barely
+started to walk let alone run 176
+Fiona Kew
+22 Service improvement to reduce early deaths of children in
+hospital: the design of an electronic observation system 189
+Victoria Hemming
+23 Innovations in person-centred service redesign for
+young carers 197
+Samantha Wong
+24 Service improvement in paediatric dentistry 203
+Halla Zaitoun
+25 Reflections on service improvement by medical leaders 210
+Jeff Perring, Fiona Kew, Victoria Hemming, Samantha Wong and
+Halla Zaitoun
+
+=== Page 9 ===
+viii Contents
+PART 5
+System transformation 223
+26 Introduction to critical issues in health system transformation 225
+Jill Aylott and Ahmed Nassef
+27 System transformation for health and social care 229
+Branko Perunovic
+28 A strategy for engaging teams and motivating staff through
+system transformation 232
+Rachael Baines and Prasad Godbole
+29 Transforming operating theatre services with medical leadership 238
+Ahmed Othman, Jayarama Mohan, Prabhakar Motkur, Salma
+Noor, Milind Rao, Adam Wolverson, Amit Shukla, Gurdip Singh
+Samra, Mohit Gupta, Chloe Scruton, Jill Aylott, Karen Kilner
+and Prasad Godbole
+30 Transforming the emergency medicine medical workforce:
+a new ‘hybrid’ doctor with integrated speciality
+training and a competency-based Fellowship in Quality
+Improvement (FQim) 244
+Prakash Subedi, Jill Aylott, Naushad Khan, Prosenjit Giri
+and Lesley Hammond
+31 Quality improvement and system transformation in
+emergency medicine 251
+Elizabeth Hutchinson
+32 Transforming the quality of hospital care through advocacy
+for people with a learning disability and/or autism 257
+Jonathan Sahu
+33 Transforming services for patients with spinal cord injury –
+a national review of standards and practice 263
+Pradeep Thumbikat
+Index 279
+
+=== Page 10 ===
+FOREWORD
+Medical leadership: a toolkit for service development and
+system transformation
+In 2008, during my time as health minister, I produced the report High Quality
+Care for All, in which I addressed leadership as a fundamental component of the
+NHS. The report focused on the importance of encouraging clinicians to not only
+be practitioners but also to be partners and leaders with patients within the NHS.
+With empowered leaders comes a motivated workforce who will drive forward
+the quality and safety agenda. I previously highlighted the need for a stronger role
+for clinical leadership and management throughout the healthcare system. Since
+2008, we have seen some drive towards this with national leadership schemes,
+courses and frameworks. However, leadership is not just about individuals, but also
+about teams, and there is still a long way to go to empowering staff to fully take
+on these roles. We need to encourage staff to step up and make a case for change.
+As I once said – “It is relatively easy to set out a vision, much harder to make it a
+reality”.
+This insightful book offers a toolkit that can be applied for those wanting to
+develop their medical leadership skills in order to see service development and
+system transformation.
+The book covers the key principles of leadership, developing a strong foundation
+of the role of medical leadership in various settings, and the fundamental principle
+of ensuring that care remains patient-centric. The second part of the book builds on
+the foundations laid out by the first part, discussing more specific aspects of leader-
+ship such as how it can reduce variation in quality of healthcare and help to reduce
+health inequalities. The latter parts of the book delve deeper into how we measure
+improvement to ensure we see service transformation and system development.

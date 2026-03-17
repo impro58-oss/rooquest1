@@ -1,0 +1,74 @@
+[2026-03-14 18:43:56] [INFO] === Starting PDF Organization from E:\All ===
+[2026-03-14 18:43:56] [INFO] Created: E:\2025 Development Merge\2- Journal Papers\01-Neurovascular-Engineering
+[2026-03-14 18:43:56] [INFO] Created: E:\2025 Development Merge\2- Journal Papers\02-Medical-Devices
+[2026-03-14 18:43:56] [INFO] Created: E:\2025 Development Merge\2- Journal Papers\03-Quality-Regulatory
+[2026-03-14 18:43:56] [INFO] Created: E:\2025 Development Merge\2- Journal Papers\04-Manufacturing
+[2026-03-14 18:43:56] [INFO] Created: E:\2025 Development Merge\2- Journal Papers\05-Statistics-Methods
+[2026-03-14 18:43:56] [INFO] Created: E:\2025 Development Merge\2- Journal Papers\06-Business-Management
+[2026-03-14 18:43:56] [INFO] Created: E:\2025 Development Merge\2- Journal Papers\07-Academic-Research
+[2026-03-14 18:43:56] [INFO] Scanning for PDFs...
+[2026-03-14 18:43:58] [INFO] Found 7568 PDFs total
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: 33409.pdf -> E:\2025 Development Merge\2- Journal Papers\00-Uncategorized-Papers
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: Freakonomics.pdf -> E:\2025 Development Merge\1- Reading\00-Uncategorized
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: Microvention Terumo Neurovascular Access Product Reference Guide (002).pdf -> E:\2025 Development Merge\1- Reading\00-Uncategorized
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: Super Brain Unleashing the Explosive Power of Your Mind to Maximize Health, Happiness, and S.pdf -> E:\2025 Development Merge\1- Reading\00-Uncategorized
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: TR-19-030A Anhang 2.pdf -> E:\2025 Development Merge\2- Journal Papers\00-Uncategorized-Papers
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: TR-19-030A.pdf -> E:\2025 Development Merge\2- Journal Papers\00-Uncategorized-Papers
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: ucm070337.pdf -> E:\2025 Development Merge\2- Journal Papers\00-Uncategorized-Papers
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: VISION & GOALS - Template.pdf -> E:\2025 Development Merge\2- Journal Papers\00-Uncategorized-Papers
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: 16DIA CLAMP ASSEMBLY.PDF -> E:\2025 Development Merge\2- Journal Papers\04-Manufacturing
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: 24DIA CLAMP ASSEMBLY.PDF -> E:\2025 Development Merge\2- Journal Papers\04-Manufacturing
+[2026-03-14 18:43:58] [INFO] Progress: 10 / 7568 processed
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: 80 X 61 X 10 PLATE.PDF -> E:\2025 Development Merge\2- Journal Papers\00-Uncategorized-Papers
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: V-BLOCK ASSEMBLY.PDF -> E:\2025 Development Merge\2- Journal Papers\04-Manufacturing
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: WIRE HOLDER ASSEMBLY.PDF -> E:\2025 Development Merge\2- Journal Papers\04-Manufacturing
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: Gauge R&R notes.pdf -> E:\2025 Development Merge\2- Journal Papers\04-Manufacturing
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: ISO 13485 (2003).pdf -> E:\2025 Development Merge\2- Journal Papers\03-Quality-Regulatory
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: pNOVUS 21 Catheter Workmanship Standards_Draft 2.pdf -> E:\2025 Development Merge\2- Journal Papers\01-Neurovascular-Engineering
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: SOP014 - Figure01.pdf -> E:\2025 Development Merge\2- Journal Papers\05-Statistics-Methods
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: Training Cert Fusion - Robert Ward.pdf -> E:\2025 Development Merge\2- Journal Papers\00-Uncategorized-Papers
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: TrainingSampleMeasurementSystemsMTB16EN.pdf -> E:\2025 Development Merge\2- Journal Papers\05-Statistics-Methods
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: TrainingTTest16EN.pdf -> E:\2025 Development Merge\2- Journal Papers\00-Uncategorized-Papers
+[2026-03-14 18:43:58] [INFO] Progress: 20 / 7568 processed
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: Weaver, Bruce_Stats.pdf -> E:\2025 Development Merge\2- Journal Papers\00-Uncategorized-Papers
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: Zwick Training docs.pdf -> E:\2025 Development Merge\2- Journal Papers\00-Uncategorized-Papers
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: MD19 2484 Advant Medical EN ISO 13485 2012.pdf -> E:\2025 Development Merge\2- Journal Papers\03-Quality-Regulatory
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: Phenox Declaration signed.pdf -> E:\2025 Development Merge\2- Journal Papers\02-Medical-Devices
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: bsi. cert of registration.pdf -> E:\2025 Development Merge\2- Journal Papers\00-Uncategorized-Papers
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: Quality - ISO 9001 2008 certificate.pdf -> E:\2025 Development Merge\2- Journal Papers\03-Quality-Regulatory
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: Supplier Information and Quality Agreement.pdf -> E:\2025 Development Merge\2- Journal Papers\03-Quality-Regulatory
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: ISO 9001 2013-2016.pdf -> E:\2025 Development Merge\2- Journal Papers\03-Quality-Regulatory
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: SKMBT_C28016070513120.pdf -> E:\2025 Development Merge\2- Journal Papers\00-Uncategorized-Papers
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: ISO 9001 2013-2016.pdf -> E:\2025 Development Merge\2- Journal Papers\03-Quality-Regulatory
+[2026-03-14 18:43:58] [INFO] Progress: 30 / 7568 processed
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: SKMBT_C28016070513120.pdf -> E:\2025 Development Merge\2- Journal Papers\00-Uncategorized-Papers
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: Calibration Specialists - Accreditation Cert.pdf -> E:\2025 Development Merge\2- Journal Papers\03-Quality-Regulatory
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: PURSOP002F02_01 C.S.L 31.08.2016.pdf -> E:\2025 Development Merge\2- Journal Papers\05-Statistics-Methods
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: COMPANY DATA ON HEADED PAPER.pdf -> E:\2025 Development Merge\2- Journal Papers\07-Academic-Research
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: Current Insurance Cert Valid until 23 Feb 2017.PDF -> E:\2025 Development Merge\2- Journal Papers\06-Business-Management
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: ORGANISATION CHART AS PER QUALITY MANUAL.pdf -> E:\2025 Development Merge\2- Journal Papers\00-Uncategorized-Papers
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: Phenox Supplier form .PDF -> E:\2025 Development Merge\2- Journal Papers\02-Medical-Devices
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: 108T.pdf -> E:\2025 Development Merge\2- Journal Papers\00-Uncategorized-Papers
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: FDA Approval Letter.pdf -> E:\2025 Development Merge\2- Journal Papers\03-Quality-Regulatory
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: IMB-HPRA Accreditation August 2014.pdf -> E:\2025 Development Merge\2- Journal Papers\03-Quality-Regulatory
+[2026-03-14 18:43:58] [INFO] Progress: 40 / 7568 processed
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: Phenox Supplier Information Questionnaire.pdf -> E:\2025 Development Merge\2- Journal Papers\02-Medical-Devices
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: TA 068_1.0 signed.pdf -> E:\2025 Development Merge\2- Journal Papers\00-Uncategorized-Papers
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: 160131_Coveris_Statement_Communication-Changes.pdf -> E:\2025 Development Merge\2- Journal Papers\00-Uncategorized-Papers
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: 2014_Coveris_ISO9001_en.pdf -> E:\2025 Development Merge\2- Journal Papers\00-Uncategorized-Papers
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: 2015_Coveris_ISO14001_en.pdf -> E:\2025 Development Merge\2- Journal Papers\00-Uncategorized-Papers
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: 2015_Coveris_ISO50001_en.pdf -> E:\2025 Development Merge\2- Journal Papers\00-Uncategorized-Papers
+[2026-03-14 18:43:58] [INFO] WOULD MOVE: Additional Information_Latex_04.2016.pdf -> E:\2025 Development Merge\2- Journal Papers\00-Uncategorized-Papers
+[2026-03-14 18:43:59] [INFO] WOULD MOVE: Additional Information_Miscellaneous_01.2016.pdf -> E:\2025 Development Merge\2- Journal Papers\00-Uncategorized-Papers
+[2026-03-14 18:43:59] [INFO] WOULD MOVE: Additional Information_Plasticiser_04.2016.pdf -> E:\2025 Development Merge\2- Journal Papers\00-Uncategorized-Papers
+[2026-03-14 18:43:59] [INFO] WOULD MOVE: supplier inform. and quality agreement.pdf -> E:\2025 Development Merge\2- Journal Papers\03-Quality-Regulatory
+[2026-03-14 18:43:59] [INFO] Progress: 50 / 7568 processed
+[2026-03-14 18:43:59] [INFO] 
+[2026-03-14 18:43:59] [INFO] === BATCH PROCESSING COMPLETE ===
+[2026-03-14 18:43:59] [INFO] Processed: 50
+[2026-03-14 18:43:59] [INFO] Books: 3
+[2026-03-14 18:43:59] [INFO] Journal Papers: 24
+[2026-03-14 18:43:59] [INFO] Uncategorized: 23
+[2026-03-14 18:43:59] [INFO] 
+[2026-03-14 18:43:59] [INFO] Remaining: 7518
+[2026-03-14 18:43:59] [INFO] Run again to process next batch

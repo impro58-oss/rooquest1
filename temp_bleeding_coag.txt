@@ -1,0 +1,318 @@
+=== Page 5 ===
+Handbook of Bleeding and Coagulation
+for Neurosurgery
+Mark G. Hamilton, MDCM, FRCSC
+Professor of Neurosurgery
+Division of Neurosurgery
+Department of Clinical Neurosciences
+University of Calgary
+Calgary, Alberta, Canada
+John G. Golfinos, MD
+Associate Professor of Neurosurgery
+Department of Neurosurgery
+New York University Langone Medical Center
+New York, New York
+Graham F. Pineo MD, FRCPC, FAFP
+Emeritus Professor of Medicine
+University of Calgary
+Calgary, Alberta, Canada
+William T. Couldwell, MD, PhD
+Professor of Neurosurgery
+Department of Neurosurgery
+University of Utah School of Medicine
+Salt Lake City, Utah
+Thieme
+New York • Stuttgart • Delhi • Rio de Janeiro
+
+=== Page 6 ===
+Executive Editor: Timothy Hiscock Important note: Medicine is an ever-changing
+Managing Editor: Elizabeth Palumbo science undergoing continual development. Re-
+Editorial Assistant: Nikole Connors search and clinical experience are continually
+Production Editor: Barbara A. Chernow expanding our knowledge, in particular our
+International Production Director: Andreas Schabert knowledge of proper treatment and drug ther-
+Senior Vice President, Editorial and E-Product apy. Insofar as this book mentions any dosage or
+Development: Cornelia Schulze application, readers may rest assured that the
+authors, editors, and publishers have made
+International Marketing Director: Fiona Henderson
+every effort to ensure that such references are in
+Director of Sales, North America: Mike Roseman
+accordance with the state of knowledge at the
+Senior Vice President and Chief Operating Officer:
+time of production of the book.
+Sarah Vanderbilt Nevertheless, this does not involve, imply, or
+President: Brian D. Scanlan express any guarantee or responsibility on the
+Compositor: Carol Pierson, Chernow Editorial part of the publishers in respect to any dosage
+Services, Inc. instructions and forms of applications stated in
+the book. Every user is requested to examine
+Library of Congress Cataloging-in-Publication Data carefully the manufacturers’ leaflets accompa-
+Handbook of bleeding and coagulation for nying each drug and to check, if necessary in
+consultation with a physician or specialist,
+neurosurgery / [edited by] Mark G. Hamilton,
+whether the dosage schedules mentioned
+John G. Golfinos, Graham F. Pineo, William T.
+therein or the contraindications stated by the
+Couldwell.
+manufacturers differ from the statements made
+p. ; cm. in the present book. Such examination is partic-
+Includes bibliographical references and index. ularly important with drugs that are either
+ISBN 978-1-60406-544-2 (alk. paper) — ISBN rarely used or have been newly released on the
+978-1-60406-843-6 (eISBN) market. Every dosage schedule or every form of
+I. Hamilton, Mark G., editor. II. Couldwell, application used is entirely at the user’s own risk
+William T., editor. III. Golfinos, John G., editor. and responsibility. The authors and publishers
+IV. Pineo, Graham F., editor. request every user to report to the publishers
+[DNLM: 1. Neurosurgery—methods. any discrepancies or inaccuracies noticed. If er-
+2. Neurosurgical Procedures—methods. 3. Blood rors in this work are found after publication, er-
+Coagulation. 4. Hematologic Agents. rata will be posted at www.thieme.com on the
+5. Hemorrhage—prevention & control. product description page.
+6. Thrombosis—prevention & control. WL 368] Some of the product names, patents, and
+registered designs referred to in this book are in
+RD593
+fact registered trademarks or proprietary names
+617.4'8—dc23 2014035612
+even though specific reference to this fact is not
+always made in the text. Therefore, the appear-
+ance of a name without designation as propri-
+etary is not to be construed as a representation
+by the publisher that it is in the public domain.
+© 2015 Thieme Medical Publishers, Inc.
+Thieme Publishers New York
+333 Seventh Avenue, New York, NY 10001
+USA +1 800 782 3488, customerservice@thieme.com
+Thieme Publishers Stuttgart
+Rüdigerstrasse 14, 70469 Stuttgart, Germany
++49 [0]711 8931 421, customerservice@thieme.de
+Thieme Publishers Delhi
+A-12, Second Floor, Sector-2, Noida-201301
+Uttar Pradesh, India
++91 120 45 566 00, customerservice@thieme.in
+Thieme Publishers Rio, Thieme Publicações Ltda.
+Argentina Building 16th floor, Ala A,
+228 Praia do Botafogo
+Rio de Janeiro 22250-040 Brazil
++55 21 3736-3631 This book, including all parts thereof, is legally
+protected by copyright. Any use, exploitation, or
+Printed in the United States of America commercialization outside the narrow limits set
+by Sheridan Books 5 4 3 2 1 by copyright legislation without the publisher’s
+consent is illegal and liable to prosecution. This
+ISBN 978-1-60406-544-2 applies in particular to photostat reproduction,
+copying, mimeographing or duplication of any
+Also available as an e-book: kind, translating, preparation of microfilms, and
+eISBN 978-1-60406-843-6 electronic data processing and storage.
+
+=== Page 7 ===
+We dedicate this book to our wives and children in recognition of
+the hours stolen and to our patients who entrust us with their care.
+
+=== Page 9 ===
+Contents
+Foreword ..................................................................................................................xi
+Preface .....................................................................................................................xiii
+Contributors ...........................................................................................................xv
+Pharmaceuticals: Generic and Trademark Names ......................................xix
+I Evidence-Based Medicine
+1 The Role of Evidence-Based Medicine in Bleeding and
+Coagulation Management in the Neurosurgical Patient ..................................3
+Alexander A. Leung and William A. Ghali
+II Hemostasis and Coagulation
+2 Coagulation and Platelet Plug Formation ....................................................17
+George M. Rodgers
+3 Preoperative Coagulation Assessment for the
+Neurosurgical Patient .................................................................................................26
+Venkatesh K. Rudrapatna and George M. Rodgers
+4 Clinical Disorders of Coagulation and Platelet Function ...........................38
+Justin D. Thomas and George M. Rodgers
+5 Drugs Affecting Coagulation and Platelet Function .....................................47
+Amir Assel and Kenneth B. Hymes
+6 Herbal Products and Supplements Affecting Coagulation .......................62
+Omar Tanweer, Shaun David Rodgers, and John G. Golfinos
+III Blood Loss and Replacement
+7 Principles of Blood Loss .............................................................................................71
+Tsinsue Chen, Rami O. Almefty, and Peter Nakaji
+8 Principles of Blood and Volume Replacement ...............................................85
+Rami O. Almefty, Tsinsue Chen, and Peter Nakaji
+9 Blood Replacement ......................................................................................................99
+Kenneth B. Hymes
+IV M anagement of Venous Thrombosis
+in Neurosurgical Conditions
+10 Venous Thromboembolism (DVT and PE):
+Diagnosis and Treatment ..............................................................................117
+Graham F. Pineo and Mark G. Hamilton
+11 Venous Thromboembolism (DVT and PE): Prophylaxis .........................153
+Ryan Morton and Samuel R. Browd
+
+=== Page 10 ===
+viii Contents
+12 Role of Anticoagulants in Common, Nonneurosurgical,
+Non-VTE Conditions .................................................................................................167
+Christian A. Bowers and Robert C. Pendleton
+13 Cranial Venous Sinus Thrombosis Diagnosis
+and Management .......................................................................................................184
+Andrew Demchuk and Jose Andres Venegas-Torres
+V Management of Bleeding and Coagulation in the
+Neurosurgical Perioperative Period
+14 Specific Anticoagulant and Antiplatelet Agent Reversal
+Strategies for Neurosurgical Patients...............................................................199
+Shahid M. Nimjee and Gerald A. Grant
+15 Postoperative Strategies for Resumption of Anticoagulants
+and Antiplatelet Agents in Neurosurgical Patients ...................................208
+Douglas W. Sborov and George M. Rodgers
+16 Preoperative Non-Hematologic Adjuvant Methods for
+Preventing Blood Loss .............................................................................................219
+Alejandro Santillan, Walter Zink, Lewis Leng,
+Shaun David Rodgers, and Howard A . Riina
+17 Intraoperative Non-Hematologic Adjuvant Methods for
+Preventing Blood Loss .............................................................................................241
+Ian Y. Lee, Raymond Sawaya, and Nicholas B. Levine
+VI Management of Bleeding, Coagulation, and Venous
+Thrombosis in Specific Neurosurgical Conditions
+18 Risk of Anticoagulants and Antiplatelet Agents in
+Brain Tumor Patients ...............................................................................................259
+David J. Daniels and Ian F. Parney
+19 Risk of Anticoagulants and Antiplatelet Agents in Common
+Neurovascular Conditions .....................................................................................269
+Benjamin W.Y. Lo and R. Loch Macdonald
+20 Ischemic Stroke Diagnosis and Management ..............................................291
+Michael D. Hill
+21 Neuroendovascular Issues .....................................................................................307
+Alim P. Mitha, Michael K. Tso, Felipe C. Albuquerque,
+Cameron G. McDougall, and John H. Wong
+22 Neuroendovascular-Specific Patient/Case Examples ...............................318
+Alim P. Mitha, Michael K. Tso, Felipe C. Albuquerque,
+Cameron G. McDougall, and John H. Wong
+23 Risk of Anticoagulants and Antiplatelet Agents in
+Trauma Patients ..........................................................................................................331
+Michael C. Huang, Mathieu Laroche, and Geoffrey T. Manley
+
+=== Page 11 ===
+Contents ix
+24 Intraoperative Cranial-Specific Patient/Case Examples .........................343
+Mark G. Hamilton, John G. Golfinos, Graham F. Pineo,
+and William T. Couldwell
+25 Risk of Anticoagulants and Antiplatelet Agents in
+Spine Surgery Patients ............................................................................................353
+Aaron Hockley, Perry Dhaliwal, and W. Bradley Jacobs
+26 Intraoperative Spine Surgery–Specific
+Patient/Case Examples ............................................................................................367
+W. Bradley Jacobs
+27 Risk of Anticoagulants and Antiplatelet Agents in Patients
+with Brain and Spinal Catheters.........................................................................375
+Benjamin A. Rubin and Jeffrey H. Wisoff
+28 Hematologic Adjuvant Treatment for Preventing and
+Treating Blood Loss in Pediatric Neurosurgery ...........................................384
+Julia Sharma, John R.W. Kestle, and Ash Singhal
+29 Pediatric Neurosurgery–Specific Patient/Case Examples ......................395
+Mark G. Hamilton and John R.W. Kestle
+Index .......................................................................................................................405
+
+=== Page 13 ===
+Foreword
+The history of techniques and efforts used to stop bleeding and to promote coag-
+ulation is as old as the history of surgery itself. Without demonstrated success in
+these areas, the specialty of neurosurgery would not have progressed as quickly
+nor as effectively as it has. To this end, we owe a great debt of gratitude to those
+pioneers in our specialty—and other disciplines, who have helped us overcome the
+challenges of surgical bleeding when it occurs, and who have defined the throm-
+bolytic pathways leading to optimum control of prothrombotic conditions.
+As a trainee in neurosurgery, I can recall the difficulty encountered in trying
+to stop the profound blood loss from a metastatic spinal hemangiopericytoma in
+a 67-year-old women undergoing a decompressive thoracic laminectomy—this
+was my introduction to the true value of packing with topical hemostatic agents. I
+remember the calls to the neurosurgical wards to examine postoperative patients
+with calf pain complaining of acute shortness of breath; these patients were pre-
+cariously positioned between having good outcomes from their procedures and
+suffering severe morbidity depending on how swiftly the diagnosis of deep venous
+thrombosis and pulmonary embolus was made and the administration of anti-
+coagulation agents was given. I have witnessed acute presentations of significant
+intracranial and spinal hemorrhages in patients either spontaneously or following
+mild or minimal trauma—only to diagnose one of the coagulation factor deficiency
+syndromes in the postoperative period. And, as with all neurosurgeons who have
+practiced these past 25 years or more, I have been the beneficiary of the innova-
+tions in hand-held electrocoagulation devices which have come to my rescue in
+more situations than I can bear to recount over the course of my career. I daresay
+that, as neurosurgeons, all of us are obsessed with the topics of hemostasis and
+coagulation, given the unique and unforgiving substrate that is the human central
+nervous system.
+Now, for the first time, Hamilton and colleagues have provided us with a com-
+prehensive, multiauthored textbook that provides neurosurgeons with the defin-
+itive resource to which to refer for all aspects of bleeding and coagulation in
+neurosurgery. While there may have been previous publications and reviews on
+topics contained within this Handbook, the compilation of materials herein is not
+only timely given the many recent advances in our understanding of the coagula-
+tion cascade in neurosurgical patients, but also highly informative given the case-
+based chapter format and the practical “hands-on” approach to solving bleeding
+and coagulation problems in our patients. In addition, each chapter is highlighted
+with “Key Points” that succinctly summarize the authors’ main messages and
+“Review Questions” that test the reader in a highly constructive and educational
+manner.
+Perhaps the most attractive feature of this Handbook is the logical sequence in
+which information is presented. The basic science, pathophysiology, and pharma-
+cology of the coagulation system are followed by highly practical topics that will
+assist all neurosurgeons in caring for their patients better. In a sense, in reading
+through these materials, I felt as though I were immersed in an intensive course on
+bleeding and hemostasis, yet at the same time being “fast-tracked” for information
+gathering, review, and understanding. Our world as neurosurgeons has changed,
+and we can succeed now where previously it was impossible, thanks to the tre-
+mendous advances that have taken place in our understanding of the management
+
+=== Page 14 ===
+xii Foreword
+of bleeding and coagulation in our patients. I applaud the editors of this unique
+textbook for their insights into the organization of the information and for pre-
+senting it in a manner which is accessible, comprehensive, and highly informative.
+It is doubtful that another text on this topic will be required for quite some time.
+James T. Rutka, MD, PhD, FRCSC
+RS McLaughlin Professor and Chair
+Division of Neurosurgery, Department of Surgery
+University of Toronto
+Toronto, Ontario, Canada
+
+=== Page 15 ===
+Preface
+The topic of this book is fundamental to all of neurosurgical care. We, as neurosur-
+geons, are challenged every day with the task of mitigating the risks of bleeding
+and thrombosis in our patients. It is the very nature of neurosurgery that this com-
+plicated dual-edged sword is encountered in all of our patients, of all ages, in all
+neurosurgical subspecialties and in all aspects of neurosurgical care. It is therefore
+puzzling that no dedicated resource has developed that would pull all of these
+difficult elements together to provide a comprehensive reference that can provide
+management recommendations for neurosurgeons. With this book, we undertook
+the task to fill this void.
+The chapters are presented so that you can easily find background information
+or go directly to a specific patient-care relevant topic. The authors of each of the
+core chapters have provided a list of “key points” and some questions to help you
+evaluate your understanding of the material. In addition to these core chapters,
+there are four case-based chapters (cranial, neuroendovascular, spinal, and pediat-
+ric) that allow an opportunity to demonstrate the real practice of these patient-
+care recommendations.
+The first section reviews and reminds us of the importance of an evidence-based
+approach while sorting through the medical literature that exists regarding this
+complex topic. This tool allows us to move beyond our potentially biased and sub-
+jective strategies and use the best quality information that is available for patient
+management recommendations. The expert authors of the chapters in this section
+were frequently challenged by the lack of good clinical trials of the type that can
+lead to high-grade recommendations. However, with this tool of evidence-based
+medicine, they are able to convey the strength of the recommendations they are
+providing to help guide your interpretation.
+Section II provides the hematological background required to understand the
+clinical aspects of bleeding and coagulation. These five chapters will guide you
+through the coagulation system, how to assess the coagulation system in the pre-
+operative patient, and the effects of the various drugs and herbal products that
+affect coagulation. All of these topics have significant impact on preoperative, in-
+traoperative, and postoperative care.
+Section III includes three chapters that review principles of blood loss and blood
+and volume replacement. They provide a comprehensive and practical review of
+this important and clinically relevant topic.
+The next two sections introduce and provide a broad overview of thrombosis
+and bleeding in the neurosurgical patient. Section IV tackles both prevention and
+management of both deep venous thrombosis (DVT) and pulmonary embolism
+(PE) and management of cranial venous sinus thrombosis. We also examine the
+challenges associated with managing antiplatelet and anticoagulant medications
+in patients with cardiac disease. Neurosurgeons are frequently faced with evaluat-
+ing not just the effects of these medications on the neurosurgical condition, but
+also the consequences of the underlying cardiac disease issues associated with dis-
+continuing or reversing the effect of these drugs.
+Section V in has four chapters that establish the groundwork for prevention and
+management of bleeding in the neurosurgical perioperative period. These authors
+examine strategies for reversal and resumption of anticoagulant and antiplatelet
+agents in neurosurgical patients and provide preoperative and intraoperative
+strategies for preventing blood loss. The chapters in Sections IV and V are “meaty”

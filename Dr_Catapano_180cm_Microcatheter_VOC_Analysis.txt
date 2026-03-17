@@ -1,0 +1,48 @@
+Dr. Catapano VOC – 180cm Microcatheter / Soft Supportive Delivery System
+
+Executive Summary of Call
+Dr. Catapano identified a critical safety gap for distal M2/M3 thrombectomy: the absence of a sufficiently long, supportive microcatheter prevents safe telescoping and forces the use of large, unsupported wires—raising serious vessel injury risk. He reports weekly clinical need and routine radial access usage. He would adopt a 180–185cm supportive microcatheter as default in MeVO/DVO cases—and sees increased adoption if safety is improved.
+
+Date: 19 February 2026 / 9am (28 mins)
+Attendees: Dr. Catapano, E. Bardsley, M. Guertin, T. May, G. Sydnor, R. Ward
+Devices Mentioned:
+    - Microcatheters: pNovus 17 (160cm), pNovus 17 XR, Trevo Track 167cm, Balt Magic 176cm, Phenom 27
+    - Aspiration Systems: Zoom 35, Esperance
+    - Guidewires: 0.024” Aristotle, 0.018” Aristotle, 0.014” Synchro
+    - Adjuncts: 8cm RHVs, Onyx, DMSO
+    - Other: MMA embolization context
+
+Core Unmet Need (VOC Intelligence)
+- Primary: 180–185cm supportive microcatheter, enabling safe telescoping mechanical thrombectomy in distal M2/M3 with 160cm catheters—removing reliance on unsupported large wires.
+- Safety Pain Point: Explicit vessel injury and perforation risk from large unsupported wires; recent real-world perforation events cited.
+- Functional Requirements:
+   1. Length: 180–185cm
+   2. Stiff proximal (0.021”), soft distal (0.017”)
+   3. Guide/support Zoom 35, Esperance 3F devices
+   4. Compatible with radial workflow and 8cm RHVs
+   5. Works with 145/160cm guide catheters
+
+Adoption & Signals from the Call
+- “I would use it for every MeVO and DVO.”
+- Heard from colleagues/peers; not an isolated need.
+- Weekly minimum volume, likely higher as safety paradigm improves
+- Paradigm: If safety delta is demonstrated, expects pendulum to swing toward treating more distal lesions.
+
+Clinical Translation to Design & Workflow
+- Tactics: Telescoping for safety; avoid naked wire distal vessel navigation. 0.014” Synchro preferred but not rail/supportive without matching catheter.
+- Context: Target: MeVO, DVO, distal M2/M3; 99% radial access; must work with current radial techniques; supports occasional MMA embolization
+- Pain Points: Vessel perforation from wire, insufficient working length, workaround limits (e.g., removing RHVs), regulatory friction on indication change and current RCT safety climate
+
+Strategic & Technical Implications
+1. Safety Perception Blocking Market: Adoption slowed post-RCTs due to risk. Engineering fix could drive revival.
+2. Wire-driven Complications: Core issue is lack of supportive microcatheter, not devices.
+3. Routine Use, Not Niche: Would shift from “bailout” tool to new clinical standard for distal access.
+4. Radial Alignment: Highest strategic fit for centers moving towards radial access.
+5. Platform Leverage: Device could support registry, generate before/after safety study and strong commercial argument.
+6. Regulatory Friction Risk: Major risk: regulatory scrutiny on new length/indication. Preparation and early engagement required.
+
+Assessment/Call to Action
+- The VOC is robust, recurring, and actionable—NOT speculative. The problem is clear and mechanical/engineering solvable.
+- Gating risks: regulatory path and execution quality.
+- Next: Prototype extension, multi-center VOC testing, regulatory scoping now.
+- Ask: Map willingness to pay, enumerate potential EU/APAC operator input, clarify any further clinical workflows that would benefit.
