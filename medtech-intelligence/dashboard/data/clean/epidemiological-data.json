@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "lastUpdated": "2026-03-20",
+    "totalRegions": 7,
+    "dataQuality": {
+      "journal": "Verified from peer-reviewed sources",
+      "extrapolated": "Projected based on trends",
+      "estimated": "Modeled where data unavailable"
+    }
+  },
+  "summary": {
+    "global2024": {
+      "annualStrokes": 12200000,
+      "strokeDeaths": 6500000,
+      "prevalence": 101000000,
+      "lvoPrevalence": 38,
+      "mevoPrevalence": 25
+    },
+    "global2030": {
+      "projectedStrokes": 15100000,
+      "projectedDeaths": 7200000,
+      "projectedPrevalence": 125000000,
+      "cagr": 3.6
+    }
+  },
+  "regions": [
+    {
+      "id": "china",
+      "name": "China",
+      "flag": "🇨🇳",
+      "population": 1412000000,
+      "region": "Asia",
+      "priority": "high",
+      "data": {
+        "annualStrokes2024": 3300000,
+        "strokeDeaths2024": 1500000,
+        "prevalence2024": 17800000,
+        "projectedStrokes2030": 4200000,
+        "ivTpaAccess": 25,
+        "mtAccess": 8,
+        "dataQuality": "journal",
+        "keyInsight": "Highest absolute stroke burden globally. Rural-urban disparity in treatment access."
+      }
+    },
+    {
+      "id": "usa",
+      "name": "United States",
+      "flag": "🇺🇸",
+      "population": 335000000,
+      "region": "North America",
+      "priority": "high",
+      "data": {
+        "annualStrokes2024": 795000,
+        "strokeDeaths2024": 160000,
+        "prevalence2024": 4500000,
+        "projectedStrokes2030": 920000,
+        "ivTpaAccess": 40,
+        "mtAccess": 25,
+        "dataQuality": "journal",
+        "keyInsight": "Highest MT adoption rate globally (25%)."
+      }
+    },
+    {
+      "id": "eu",
+      "name": "European Union",
+      "flag": "🇪🇺",
+      "population": 447000000,
+      "region": "Europe",
+      "priority": "medium",
+      "data": {
+        "annualStrokes2024": 1100000,
+        "strokeDeaths2024": 450000,
+        "prevalence2024": 9000000,
+        "projectedStrokes2030": 1350000,
+        "ivTpaAccess": 35,
+        "mtAccess": 18,
+        "dataQuality": "journal",
+        "keyInsight": "High variance between member states (5-45% for MT). EU Stroke Action Plan targets 30% reduction by 2030."
+      }
+    },
+    {
+      "id": "japan",
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "population": 125000000,
+      "region": "Asia",
+      "priority": "medium",
+      "data": {
+        "annualStrokes2024": 280000,
+        "strokeDeaths2024": 110000,
+        "prevalence2024": 2200000,
+        "projectedStrokes2030": 310000,
+        "ivTpaAccess": 45,
+        "mtAccess": 20,
+        "dataQuality": "journal",
+        "keyInsight": "Declining population may offset aging effects. 30% of nursing care costs."
+      }
+    },
+    {
+      "id": "germany",
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "population": 84000000,
+      "region": "Europe",
+      "priority": "medium",
+      "data": {
+        "annualStrokes2024": 195000,
+        "strokeDeaths2024": 65000,
+        "prevalence2024": null,
+        "projectedStrokes2030": 230000,
+        "ivTpaAccess": 50,
+        "mtAccess": 30,
+        "dataQuality": "journal",
+        "keyInsight": "Among highest treatment access in Europe (50% IV tPA, 30% MT)."
+      }
+    },
+    {
+      "id": "india",
+      "name": "India",
+      "flag": "🇮🇳",
+      "population": 1400000000,
+      "region": "Asia",
+      "priority": "high",
+      "data": {
+        "annualStrokes2024": null,
+        "strokeDeaths2024": null,
+        "prevalence2024": null,
+        "projectedStrokes2030": null,
+        "ivTpaAccess": null,
+        "mtAccess": null,
+        "dataQuality": "missing",
+        "keyInsight": "Data pending - need Indian stroke registry data."
+      }
+    },
+    {
+      "id": "brazil",
+      "name": "Brazil",
+      "flag": "🇧🇷",
+      "population": 215000000,
+      "region": "South America",
+      "priority": "low",
+      "data": {
+        "annualStrokes2024": null,
+        "strokeDeaths2024": null,
+        "prevalence2024": null,
+        "projectedStrokes2030": null,
+        "ivTpaAccess": null,
+        "mtAccess": null,
+        "dataQuality": "missing",
+        "keyInsight": "Data pending - need Brazilian stroke data."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "feigin-2025",
+      "title": "World Stroke Organization Global Stroke Statistics 2025",
+      "authors": "Feigin et al.",
+      "year": 2025,
+      "type": "journal"
+    },
+    {
+      "id": "zhao-2022",
+      "title": "China Stroke Statistics 2019",
+      "authors": "Zhao et al.",
+      "year": 2022,
+      "type": "journal"
+    },
+    {
+      "id": "safe-2017",
+      "title": "Burden of Stroke in Europe",
+      "authors": "Wafa et al.",
+      "year": 2017,
+      "type": "journal"
+    }
+  ]
+}

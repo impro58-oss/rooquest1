@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "lastUpdated": "2026-03-20",
+    "totalCompanies": 11,
+    "categories": ["Coils", "Flow Diverters", "Stents", "Aspiration", "Intrasaccular", "Stenosis Stents"]
+  },
+  "companies": [
+    {
+      "id": "medtronic",
+      "name": "Medtronic",
+      "hq": "USA",
+      "marketPosition": "Leader",
+      "threatLevel": "high",
+      "portfolio": {
+        "coils": ["Axium", "Axium MicroFX", "Axium Prime"],
+        "flowDiverters": ["Pipeline Flex", "Pipeline Shield"],
+        "stents": ["Solitaire AB"],
+        "aspiration": ["React 68"],
+        "intrasaccular": ["Artisse"],
+        "stenosisStents": []
+      },
+      "gaps": [],
+      "strengths": ["Market leader", "Complete portfolio", "Strong MT position"]
+    },
+    {
+      "id": "stryker",
+      "name": "Stryker",
+      "hq": "USA",
+      "marketPosition": "Major Threat",
+      "threatLevel": "high",
+      "portfolio": {
+        "coils": ["Target XXL", "Target XL", "Target 360", "Target 3D", "Target Nano", "Target Tetra"],
+        "flowDiverters": ["Surpass Evolve", "Surpass Streamline"],
+        "stents": ["Neuroform Atlas", "Neuroform EZ"],
+        "aspiration": ["AXS Universal"],
+        "intrasaccular": ["Contour", "Trenza"],
+        "stenosisStents": ["Wingspan"]
+      },
+      "gaps": [],
+      "strengths": ["Complete portfolio", "Strong coils", "Has intrasaccular"]
+    },
+    {
+      "id": "microvention",
+      "name": "Microvention/Terumo",
+      "hq": "Japan",
+      "marketPosition": "Strong",
+      "threatLevel": "high",
+      "portfolio": {
+        "coils": ["Cosmos", "Hypersoft", "HydroFrame", "Hydrosoft", "VFC", "Hydrofill"],
+        "flowDiverters": ["FRED", "FRED Jr"],
+        "stents": ["LVIS", "LVIS Jr"],
+        "aspiration": ["Sofia"],
+        "intrasaccular": ["WEB", "Contour"],
+        "stenosisStents": []
+      },
+      "gaps": [],
+      "strengths": ["WEB intrasaccular - market leader", "Complete portfolio"]
+    },
+    {
+      "id": "cerenovus",
+      "name": "Cerenovus (J&J)",
+      "hq": "USA",
+      "marketPosition": "Strong",
+      "threatLevel": "medium",
+      "portfolio": {
+        "coils": ["Spectra", "MICRUSFRAME", "GALAXY G3", "DELTAFILL"],
+        "flowDiverters": [],
+        "stents": ["Enterprise 2", "ENTERPRISE"],
+        "aspiration": ["EMBOTRAP"],
+        "intrasaccular": [],
+        "stenosisStents": []
+      },
+      "gaps": ["No flow diverters", "No intrasaccular"],
+      "strengths": ["Strong coils", "EMBOTRAP stent retriever"]
+    },
+    {
+      "id": "penumbra",
+      "name": "Penumbra",
+      "hq": "USA",
+      "marketPosition": "Aspiration Leader",
+      "threatLevel": "medium",
+      "portfolio": {
+        "coils": ["PC400", "POD400", "PAC400", "Smart"],
+        "flowDiverters": [],
+        "stents": [],
+        "aspiration": ["ACE", "RED", "ENGINE", "Pump"],
+        "intrasaccular": [],
+        "stenosisStents": []
+      },
+      "gaps": ["No flow diverters", "No intrasaccular", "No stents"],
+      "strengths": ["Aspiration leader", "ENGINE pump sets standard"]
+    },
+    {
+      "id": "wallaby",
+      "name": "Wallaby Phenox",
+      "hq": "Germany",
+      "marketPosition": "Niche Player",
+      "threatLevel": "low",
+      "portfolio": {
+        "coils": ["Avenir", "PICO"],
+        "flowDiverters": ["p64", "p47"],
+        "stents": ["pEGASUS", "pCONUS2"],
+        "aspiration": ["Esperance"],
+        "intrasaccular": [],
+        "stenosisStents": []
+      },
+      "gaps": ["No intrasaccular", "Limited stenosis stents", "No aspiration pump"],
+      "strengths": ["pCONUS2 - unique bifurcation", "pEGASUS platform", "Growing coil portfolio"]
+    }
+  ],
+  "categoryComparison": {
+    "coils": {
+      "marketLeader": "Stryker/Microvention",
+      "wallabyPosition": "Growing (Avenir)",
+      "innovationLevel": "low",
+      "crowded": true
+    },
+    "flowDiverters": {
+      "marketLeader": "Medtronic",
+      "wallabyPosition": "Present (p64/p47)",
+      "innovationLevel": "medium",
+      "crowded": true
+    },
+    "intrasaccular": {
+      "marketLeader": "Microvention (WEB)",
+      "wallabyPosition": "MISSING - Critical Gap",
+      "innovationLevel": "high",
+      "crowded": false,
+      "priority": "high"
+    },
+    "stenosisStents": {
+      "marketLeader": "Stryker (Wingspan), Acandis (CREDO)",
+      "wallabyPosition": "Limited",
+      "innovationLevel": "medium",
+      "crowded": false
+    }
+  }
+}
