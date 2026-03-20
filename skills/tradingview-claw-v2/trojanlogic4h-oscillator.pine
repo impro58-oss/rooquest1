@@ -1,0 +1,183 @@
+// This Pine Script™ code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+// © rooquest_trading
+
+//@version=5
+indicator("TrojanLogic4H — Composite Score Oscillator", shorttitle="CS RSI MTF", timeframe="", timeframe_gaps=true)
+
+// ═════════════════════════════════════════════════════════════════════════════
+// INPUT SETTINGS
+// ═════════════════════════════════════════════════════════════════════════════
+
+// RSI Settings
+rsiLength = input.int(14, "RSI Length", minval=2, maxval=50, group="RSI Settings")
+rsiSource = input.source(close, "RSI Source", group="RSI Settings")
+
+// Multi-Timeframe Settings
+groupMTF = "Multi-Timeframe Settings"
+enableMTF1 = input.bool(true, "Enable MTF 1", group=groupMTF)
+mtf1Period = input.string("60", "MTF 1 Period", options=["15", "30", "60", "240", "D", "W"], group=groupMTF)
+weightMTF1 = input.int(25, "MTF 1 Weight %", minval=0, maxval=100, group=groupMTF)
+
+enableMTF2 = input.bool(true, "Enable MTF 2", group=groupMTF)
+mtf2Period = input.string("240", "MTF 2 Period", options=["15", "30", "60", "240", "D", "W"], group=groupMTF)
+weightMTF2 = input.int(15, "MTF 2 Weight %", minval=0, maxval=100, group=groupMTF)
+
+enableMTF3 = input.bool(true, "Enable MTF 3", group=groupMTF)
+mtf3Period = input.string("D", "MTF 3 Period", options=["60", "240", "D", "W"], group=groupMTF)
+weightMTF3 = input.int(10, "MTF 3 Weight %", minval=0, maxval=100, group=groupMTF)
+
+// Signal Thresholds
+groupSignals = "Signal Thresholds"
+longThreshold = input.int(65, "LONG Signal Threshold", minval=50, maxval=90, group=groupSignals)
+shortThreshold = input.int(35, "SHORT Signal Threshold", minval=10, maxval=50, group=groupSignals)
+showSignals = input.bool(true, "Show Signal Arrows", group=groupSignals)
+
+// Visual Settings
+groupVisual = "Visual Settings"
+colorscheme = input.string("Classic", "Color Scheme", options=["Classic", "Modern", "Minimal"], group=groupVisual)
+showZones = input.bool(true, "Show Overbought/Oversold Zones", group=groupVisual)
+showMA = input.bool(true, "Show Moving Average", group=groupVisual)
+maLength = input.int(9, "MA Length", minval=2, maxval=50, group=groupVisual)
+
+// ═════════════════════════════════════════════════════════════════════════════
+// RSI CALCULATIONS
+// ═════════════════════════════════════════════════════════════════════════════
+
+// Calculate primary RSI
+rsiPrimary = ta.rsi(rsiSource, rsiLength)
+
+// MTF RSI Functions
+getRSI(tf) =>
+    request.security(syminfo.tickerid, tf, ta.rsi(rsiSource, rsiLength), lookahead=barmerge.lookahead_on)
+
+rsiMTF1 = enableMTF1 ? getRSI(mtf1Period) : na
+rsiMTF2 = enableMTF2 ? getRSI(mtf2Period) : na
+rsiMTF3 = enableMTF3 ? getRSI(mtf3Period) : na
+
+// ═════════════════════════════════════════════════════════════════════════════
+// COMPOSITE SCORE CALCULATION
+// ═════════════════════════════════════════════════════════════════════════════
+
+// Calculate total weight
+totalWeight = 100 + (enableMTF1 ? weightMTF1 : 0) + (enableMTF2 ? weightMTF2 : 0) + (enableMTF3 ? weightMTF3 : 0)
+
+// Calculate weighted composite score
+compositeScore = na
+if enableMTF1 and enableMTF2 and enableMTF3
+    compositeScore := (rsiPrimary * 50 + rsiMTF1 * weightMTF1 + rsiMTF2 * weightMTF2 + rsiMTF3 * weightMTF3) / totalWeight
+else if enableMTF1 and enableMTF2
+    compositeScore := (rsiPrimary * (100 - weightMTF1 - weightMTF2) + rsiMTF1 * weightMTF1 + rsiMTF2 * weightMTF2) / 100
+else if enableMTF1
+    compositeScore := (rsiPrimary * (100 - weightMTF1) + rsiMTF1 * weightMTF1) / 100
+else
+    compositeScore := rsiPrimary
+
+// Moving Average of Composite Score
+compositeMA = showMA ? ta.sma(compositeScore, maLength) : na
+
+// ═════════════════════════════════════════════════════════════════════════════
+// COLOR SCHEMES
+// ═════════════════════════════════════════════════════════════════════════════
+colorPrimary = colorscheme == "Classic" ? color.blue : colorscheme == "Modern" ? color.rgb(0, 150, 255) : color.gray
+colorMA = colorscheme == "Classic" ? color.orange : colorscheme == "Modern" ? color.rgb(255, 100, 0) : color.silver
+colorLong = colorscheme == "Classic" ? color.green : colorscheme == "Modern" ? color.rgb(0, 230, 100) : color.green
+colorShort = colorscheme == "Classic" ? color.red : colorscheme == "Modern" ? color.rgb(255, 50, 50) : color.red
+
+// ═════════════════════════════════════════════════════════════════════════════
+// PLOTTING
+// ═════════════════════════════════════════════════════════════════════════════
+
+// Plot Composite Score
+plotComposite = plot(compositeScore, "Composite Score", color=colorPrimary, linewidth=2)
+
+// Plot Moving Average
+plotMA = showMA ? plot(compositeMA, "CS MA", color=colorMA, linewidth=1) : na
+
+// Overbought/Oversold Zones
+hline(70, "Overbought", color=color.red, linestyle=hline.style_dashed)
+hline(50, "Neutral", color=color.gray, linestyle=hline.style_dotted)
+hline(30, "Oversold", color=color.green, linestyle=hline.style_dashed)
+
+// Fill zones
+bgcolor(showZones and compositeScore > 70 ? color.new(color.red, 90) : showZones and compositeScore < 30 ? color.new(color.green, 90) : na, title="Extreme Zones")
+
+// Signal Arrows
+longSignal = showSignals and ta.crossover(compositeScore, longThreshold)
+shortSignal = showSignals and ta.crossunder(compositeScore, shortThreshold)
+
+plotshape(longSignal, "LONG Signal", shape.triangleup, location.bottom, colorLong, size=size.normal, text="BUY", textcolor=color.white)
+plotshape(shortSignal, "SHORT Signal", shape.triangledown, location.top, colorShort, size=size.normal, text="SELL", textcolor=color.white)
+
+// ═════════════════════════════════════════════════════════════════════════════
+// SIGNAL BACKGROUND ON PRICE CHART (Via bgcolor)
+// ═════════════════════════════════════════════════════════════════════════════
+
+// This requires the indicator to be on the price chart
+// For oscillator pane, we use the table instead
+
+// ═════════════════════════════════════════════════════════════════════════════
+// INFORMATION PANEL
+// ═════════════════════════════════════════════════════════════════════════════
+
+var table infoPanel = table.new(position.top_right, 2, 7, bgcolor=color.new(color.black, 80), frame_width=1, border_color=color.gray)
+
+if barstate.islast
+    // Header
+    table.cell(infoPanel, 0, 0, "TrojanLogic4H", text_color=color.yellow, text_size=size.normal)
+    table.cell(infoPanel, 1, 0, "", text_color=color.yellow, text_size=size.normal)
+    
+    // Primary RSI
+    table.cell(infoPanel, 0, 1, "Primary RSI", text_color=color.white, text_size=size.small)
+    table.cell(infoPanel, 1, 1, str.tostring(rsiPrimary, "#."), 
+               text_color=rsiPrimary > 70 ? color.red : rsiPrimary < 30 ? color.green : color.white, 
+               text_size=size.small)
+    
+    // MTF RSIs
+    row = 2
+    if enableMTF1
+        table.cell(infoPanel, 0, row, "MTF " + mtf1Period, text_color=color.gray, text_size=size.small)
+        table.cell(infoPanel, 1, row, str.tostring(rsiMTF1, "#."), text_color=color.gray, text_size=size.small)
+        row += 1
+    
+    if enableMTF2
+        table.cell(infoPanel, 0, row, "MTF " + mtf2Period, text_color=color.gray, text_size=size.small)
+        table.cell(infoPanel, 1, row, str.tostring(rsiMTF2, "#."), text_color=color.gray, text_size=size.small)
+        row += 1
+    
+    if enableMTF3
+        table.cell(infoPanel, 0, row, "MTF " + mtf3Period, text_color=color.gray, text_size=size.small)
+        table.cell(infoPanel, 1, row, str.tostring(rsiMTF3, "#."), text_color=color.gray, text_size=size.small)
+        row += 1
+    
+    // Composite Score
+    table.cell(infoPanel, 0, row, "Composite", text_color=color.yellow, text_size=size.normal)
+    csColor = compositeScore > longThreshold ? colorLong : compositeScore < shortThreshold ? colorShort : color.yellow
+    table.cell(infoPanel, 1, row, str.tostring(compositeScore, "#."), text_color=csColor, text_size=size.normal)
+    row += 1
+    
+    // Signal
+    signalText = compositeScore > longThreshold ? "LONG" : compositeScore < shortThreshold ? "SHORT" : "HOLD"
+    signalColor = compositeScore > longThreshold ? colorLong : compositeScore < shortThreshold ? colorShort : color.gray
+    table.cell(infoPanel, 0, row, "Signal", text_color=signalColor, text_size=size.normal)
+    table.cell(infoPanel, 1, row, signalText, text_color=signalColor, text_size=size.normal)
+
+// ═════════════════════════════════════════════════════════════════════════════
+// ALERTS
+// ═════════════════════════════════════════════════════════════════════════════
+
+alertcondition(longSignal, title="🟢 LONG Signal", message="CS RSI MTF: LONG signal on {{ticker}} | CS: {{plot_0}} | Time: {{time}}")
+alertcondition(shortSignal, title="🔴 SHORT Signal", message="CS RSI MTF: SHORT signal on {{ticker}} | CS: {{plot_0}} | Time: {{time}}")
+alertcondition(ta.crossover(compositeScore, 70), title="CS Overbought", message="Composite Score crossed above 70 (Overbought)")
+alertcondition(ta.crossunder(compositeScore, 30), title="CS Oversold", message="Composite Score crossed below 30 (Oversold)")
+
+// ═════════════════════════════════════════════════════════════════════════════
+// STRATEGY EXPORT (For Strategy Tester)
+// ═════════════════════════════════════════════════════════════════════════════
+
+// Export signals as boolean values for use in strategies
+// strategy.entry("Long", strategy.long, when=longSignal)
+// strategy.close("Long", when=shortSignal)
+
+// ═════════════════════════════════════════════════════════════════════════════
+// END
+// ═════════════════════════════════════════════════════════════════════════════

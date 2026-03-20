@@ -1,0 +1,192 @@
+// This Pine Script™ code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+// © rooquest_trading
+
+//@version=5
+strategy("TrojanLogic4H — CS RSI MTF Strategy", overlay=true, margin_long=100, margin_short=100, max_lines_count=500, max_labels_count=500, max_bars_back=500)
+
+// ═════════════════════════════════════════════════════════════════════════════
+// STRATEGY SETTINGS
+// ═════════════════════════════════════════════════════════════════════════════
+
+// Risk Management
+maxPositionSize = input.float(5.0, "Max Position Size %", minval=0.5, maxval=100, step=0.5, group="Risk Management")
+stopLossPerc = input.float(5.0, "Stop Loss %", minval=0.5, maxval=20, step=0.5, group="Risk Management")
+takeProfitPerc = input.float(10.0, "Take Profit %", minval=0.5, maxval=50, step=0.5, group="Risk Management")
+trailingStop = input.bool(true, "Use Trailing Stop", group="Risk Management")
+trailingStopPerc = input.float(3.0, "Trailing Stop %", minval=0.5, maxval=10, step=0.5, group="Risk Management")
+
+// Indicator Settings
+groupInd = "Indicator Settings"
+rsiLength = input.int(14, "RSI Length", minval=2, maxval=50, group=groupInd)
+rsiSource = input.source(close, "RSI Source", group=groupInd)
+
+// MTF Settings
+enableMTF1 = input.bool(true, "Enable MTF 1", group=groupInd)
+mtf1Period = input.string("60", "MTF 1", options=["15", "30", "60", "240", "D", "W"], group=groupInd)
+weightMTF1 = input.int(25, "Weight %", minval=0, maxval=100, group=groupInd)
+
+enableMTF2 = input.bool(true, "Enable MTF 2", group=groupInd)
+mtf2Period = input.string("240", "MTF 2", options=["15", "30", "60", "240", "D", "W"], group=groupInd)
+weightMTF2 = input.int(15, "Weight %", minval=0, maxval=100, group=groupInd)
+
+enableMTF3 = input.bool(true, "Enable MTF 3", group=groupInd)
+mtf3Period = input.string("D", "MTF 3", options=["60", "240", "D", "W"], group=groupInd)
+weightMTF3 = input.int(10, "Weight %", minval=0, maxval=100, group=groupInd)
+
+// Signal Thresholds
+longThreshold = input.int(65, "LONG Entry Threshold", minval=50, maxval=90, group=groupInd)
+shortThreshold = input.int(35, "SHORT Entry Threshold", minval=10, maxval=50, group=groupInd)
+exitLongThreshold = input.int(70, "LONG Exit (Overbought)", minval=60, maxval=95, group=groupInd)
+exitShortThreshold = input.int(30, "SHORT Exit (Oversold)", minval=5, maxval=40, group=groupInd)
+
+// RtoM Channel
+useRtoM = input.bool(true, "Use RtoM Filter", group=groupInd)
+rtomLength = input.int(20, "RtoM Length", minval=5, maxval=100, group=groupInd)
+rtomMultiplier = input.float(2.0, "RtoM Multiplier", minval=0.5, maxval=5, step=0.1, group=groupInd)
+
+// Time Filter
+groupTime = "Time Filter"
+useTimeFilter = input.bool(false, "Enable Time Filter", group=groupTime)
+startHour = input.int(9, "Start Hour (UTC)", minval=0, maxval=23, group=groupTime)
+endHour = input.int(17, "End Hour (UTC)", minval=0, maxval=23, group=groupTime)
+
+// ═════════════════════════════════════════════════════════════════════════════
+// INDICATOR CALCULATIONS
+// ═════════════════════════════════════════════════════════════════════════════
+
+// Primary RSI
+rsiPrimary = ta.rsi(rsiSource, rsiLength)
+
+// MTF RSI
+getRSI(tf) =>
+    request.security(syminfo.tickerid, tf, ta.rsi(rsiSource, rsiLength), lookahead=barmerge.lookahead_on)
+
+rsiMTF1 = enableMTF1 ? getRSI(mtf1Period) : na
+rsiMTF2 = enableMTF2 ? getRSI(mtf2Period) : na
+rsiMTF3 = enableMTF3 ? getRSI(mtf3Period) : na
+
+// Composite Score
+compositeScore = na
+if enableMTF1 and enableMTF2 and enableMTF3
+    compositeScore := (rsiPrimary * 50 + rsiMTF1 * weightMTF1 + rsiMTF2 * weightMTF2 + rsiMTF3 * weightMTF3) / (50 + weightMTF1 + weightMTF2 + weightMTF3)
+else if enableMTF1 and enableMTF2
+    compositeScore := (rsiPrimary * (100 - weightMTF1 - weightMTF2) + rsiMTF1 * weightMTF1 + rsiMTF2 * weightMTF2) / 100
+else if enableMTF1
+    compositeScore := (rsiPrimary * (100 - weightMTF1) + rsiMTF1 * weightMTF1) / 100
+else
+    compositeScore := rsiPrimary
+
+// RtoM Channels
+lrValue = useRtoM ? ta.linreg(close, rtomLength, 0) : na
+stdevValue = useRtoM ? ta.stdev(close, rtomLength) : na
+rtomUpper = useRtoM ? lrValue + (rtomMultiplier * stdevValue) : na
+rtomLower = useRtoM ? lrValue - (rtomMultiplier * stdevValue) : na
+
+// ═════════════════════════════════════════════════════════════════════════════
+// ENTRY/EXIT CONDITIONS
+// ═════════════════════════════════════════════════════════════════════════════
+
+// Time filter
+inSession = useTimeFilter ? (hour >= startHour and hour <= endHour) : true
+
+// LONG Conditions
+longCondition = compositeScore > longThreshold and inSession
+if useRtoM
+    longCondition := longCondition and close < lrValue
+
+// SHORT Conditions
+shortCondition = compositeScore < shortThreshold and inSession
+if useRtoM
+    shortCondition := shortCondition and close > lrValue
+
+// Exit Conditions
+exitLong = compositeScore > exitLongThreshold
+exitShort = compositeScore < exitShortThreshold
+
+// ═════════════════════════════════════════════════════════════════════════════
+// POSITION SIZING
+// ═════════════════════════════════════════════════════════════════════════════
+
+// Calculate position size based on equity
+positionSize = (strategy.equity * maxPositionSize / 100) / close
+
+// ═════════════════════════════════════════════════════════════════════════════
+// STRATEGY EXECUTION
+// ═════════════════════════════════════════════════════════════════════════════
+
+// LONG Entry
+if longCondition and strategy.position_size <= 0
+    strategy.entry("Long", strategy.long, qty=positionSize, comment="🟢 LONG")
+
+// SHORT Entry
+if shortCondition and strategy.position_size >= 0
+    strategy.entry("Short", strategy.short, qty=positionSize, comment="🔴 SHORT")
+
+// Exit LONG
+if exitLong and strategy.position_size > 0
+    strategy.close("Long", comment="Exit Long")
+
+// Exit SHORT
+if exitShort and strategy.position_size < 0
+    strategy.close("Short", comment="Exit Short")
+
+// Stop Loss
+strategy.exit("SL Long", "Long", loss=close * stopLossPerc / 100 / syminfo.mintick, comment="SL")
+strategy.exit("SL Short", "Short", loss=close * stopLossPerc / 100 / syminfo.mintick, comment="SL")
+
+// Take Profit
+strategy.exit("TP Long", "Long", profit=close * takeProfitPerc / 100 / syminfo.mintick, comment="TP")
+strategy.exit("TP Short", "Short", profit=close * takeProfitPerc / 100 / syminfo.mintick, comment="TP")
+
+// ═════════════════════════════════════════════════════════════════════════════
+// VISUALIZATION
+// ═════════════════════════════════════════════════════════════════════════════
+
+// Plot RtoM Channels
+if useRtoM
+    p1 = plot(rtomUpper, "RtoM Upper", color=color.new(color.red, 50))
+    p2 = plot(lrValue, "RtoM Middle", color=color.new(color.gray, 30), linewidth=2)
+    p3 = plot(rtomLower, "RtoM Lower", color=color.new(color.green, 50))
+    fill(p1, p3, color=color.new(color.blue, 90), title="RtoM Channel")
+
+// Plot Composite Score as background indicator
+// (Requires separate indicator script for full visualization)
+
+// Position background
+bgcolor(strategy.position_size > 0 ? color.new(color.green, 90) : strategy.position_size < 0 ? color.new(color.red, 90) : na, title="Position Background")
+
+// ═════════════════════════════════════════════════════════════════════════════
+// INFORMATION TABLE
+// ═════════════════════════════════════════════════════════════════════════════
+
+var table infoTable = table.new(position.top_right, 2, 6, bgcolor=color.new(color.black, 80), frame_width=1)
+
+if barstate.islast
+    table.cell(infoTable, 0, 0, "TrojanLogic4H", text_color=color.yellow, text_size=size.normal)
+    table.cell(infoTable, 1, 0, "Strategy", text_color=color.yellow, text_size=size.normal)
+    
+    table.cell(infoTable, 0, 1, "Composite Score", text_color=color.white, text_size=size.small)
+    table.cell(infoTable, 1, 1, str.tostring(compositeScore, "#."), 
+               text_color=compositeScore > longThreshold ? color.green : compositeScore < shortThreshold ? color.red : color.gray,
+               text_size=size.small)
+    
+    table.cell(infoTable, 0, 2, "Position", text_color=color.white, text_size=size.small)
+    posText = strategy.position_size > 0 ? "LONG " + str.tostring(strategy.position_size, "#.###") : 
+              strategy.position_size < 0 ? "SHORT " + str.tostring(strategy.position_size, "#.###") : "FLAT"
+    posColor = strategy.position_size > 0 ? color.green : strategy.position_size < 0 ? color.red : color.gray
+    table.cell(infoTable, 1, 2, posText, text_color=posColor, text_size=size.small)
+    
+    table.cell(infoTable, 0, 3, "Equity", text_color=color.white, text_size=size.small)
+    table.cell(infoTable, 1, 3, "$" + str.tostring(strategy.equity, "#."), text_color=color.white, text_size=size.small)
+    
+    table.cell(infoTable, 0, 4, "P&L", text_color=color.white, text_size=size.small)
+    table.cell(infoTable, 1, 4, "$" + str.tostring(strategy.openprofit, "#."), 
+               text_color=strategy.openprofit > 0 ? color.green : strategy.openprofit < 0 ? color.red : color.gray,
+               text_size=size.small)
+    
+    table.cell(infoTable, 0, 5, "Trades", text_color=color.white, text_size=size.small)
+    table.cell(infoTable, 1, 5, str.tostring(strategy.closedtrades), text_color=color.white, text_size=size.small)
+
+// ═════════════════════════════════════════════════════════════════════════════
+// END
+// ═════════════════════════════════════════════════════════════════════════════

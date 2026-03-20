@@ -1,0 +1,176 @@
+// This Pine Script™ code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+// © rooquest_trading
+
+//@version=5
+indicator("TrojanLogic4H — CS RSI MTF + RtoM Channels", overlay=true, timeframe="", timeframe_gaps=true)
+
+// ═════════════════════════════════════════════════════════════════════════════
+// INPUT SETTINGS
+// ═════════════════════════════════════════════════════════════════════════════
+
+// Timeframe Selection
+tfOptions = input.string("30", "Primary Timeframe", options=["30", "60", "240", "D", "W"])
+currentTf = timeframe.period
+
+// RSI Settings
+rsiLength = input.int(14, "RSI Length", minval=2, maxval=50)
+rsiSource = input.source(close, "RSI Source")
+rsiOverbought = input.int(70, "RSI Overbought", minval=50, maxval=90)
+rsiOversold = input.int(30, "RSI Oversold", minval=10, maxval=50)
+
+// Multi-Timeframe RSI Enable
+enableMTF1 = input.bool(true, "Enable MTF RSI 1")
+mtf1Period = input.string("60", "MTF 1 Period", options=["15", "30", "60", "240", "D", "W"])
+
+enableMTF2 = input.bool(true, "Enable MTF RSI 2")
+mtf2Period = input.string("240", "MTF 2 Period", options=["15", "30", "60", "240", "D", "W"])
+
+enableMTF3 = input.bool(true, "Enable MTF RSI 3")
+mtf3Period = input.string("D", "MTF 3 Period", options=["60", "240", "D", "W"])
+
+// RtoM Channel Settings
+rtomLength = input.int(20, "RtoM Channel Length", minval=5, maxval=100)
+rtomMultiplier = input.float(2.0, "RtoM Multiplier", minval=0.5, maxval=5.0, step=0.1)
+
+// Signal Thresholds
+longThreshold = input.int(65, "LONG Signal Threshold", minval=50, maxval=90)
+shortThreshold = input.int(35, "SHORT Signal Threshold", minval=10, maxval=50)
+
+// ═════════════════════════════════════════════════════════════════════════════
+// RSI CALCULATIONS
+// ═════════════════════════════════════════════════════════════════════════════
+
+// Primary RSI
+rsiPrimary = ta.rsi(rsiSource, rsiLength)
+
+// MTF RSI Functions
+getRSI(timeframePeriod) =>
+    request.security(syminfo.tickerid, timeframePeriod, ta.rsi(rsiSource, rsiLength), lookahead=barmerge.lookahead_on)
+
+rsiMTF1 = enableMTF1 ? getRSI(mtf1Period) : na
+rsiMTF2 = enableMTF2 ? getRSI(mtf2Period) : na
+rsiMTF3 = enableMTF3 ? getRSI(mtf3Period) : na
+
+// ═════════════════════════════════════════════════════════════════════════════
+// COMPOSITE SCORE (CS) CALCULATION
+// ═════════════════════════════════════════════════════════════════════════════
+
+// Calculate Composite Score
+var float compositeScore = na
+
+if enableMTF1 and enableMTF2 and enableMTF3
+    compositeScore := (rsiPrimary * 0.5) + (rsiMTF1 * 0.25) + (rsiMTF2 * 0.15) + (rsiMTF3 * 0.1)
+else if enableMTF1 and enableMTF2
+    compositeScore := (rsiPrimary * 0.6) + (rsiMTF1 * 0.25) + (rsiMTF2 * 0.15)
+else if enableMTF1
+    compositeScore := (rsiPrimary * 0.7) + (rsiMTF1 * 0.3)
+else
+    compositeScore := rsiPrimary
+
+// ═════════════════════════════════════════════════════════════════════════════
+// RtoM CHANNELS (Regression to Mean)
+// ═════════════════════════════════════════════════════════════════════════════
+
+// Linear Regression
+lrSlope = ta.linreg(close, rtomLength, 0) - ta.linreg(close, rtomLength, 1)
+lrIntercept = ta.linreg(close, rtomLength, 0) - (lrSlope * (rtomLength - 1) / 2)
+lrValue = lrIntercept + (lrSlope * (rtomLength - 1) / 2)
+
+// Standard Deviation
+stdevValue = ta.stdev(close, rtomLength)
+
+// Channel Bands
+rtomUpper = lrValue + (rtomMultiplier * stdevValue)
+rtomLower = lrValue - (rtomMultiplier * stdevValue)
+rtomMiddle = lrValue
+
+// ═════════════════════════════════════════════════════════════════════════════
+// SIGNAL GENERATION
+// ═════════════════════════════════════════════════════════════════════════════
+
+// LONG Signal: Composite Score > Threshold AND Price near/below lower channel
+longCondition = compositeScore > longThreshold and close < rtomMiddle
+
+// SHORT Signal: Composite Score < Threshold AND Price near/above upper channel  
+shortCondition = compositeScore < shortThreshold and close > rtomMiddle
+
+// HOLD Signal: Between thresholds
+holdCondition = not longCondition and not shortCondition
+
+// Signal states
+isLong = longCondition
+isShort = shortCondition
+isHold = holdCondition
+
+// ═════════════════════════════════════════════════════════════════════════════
+// VISUALIZATION
+// ═════════════════════════════════════════════════════════════════════════════
+
+// Plot RtoM Channels
+p1 = plot(rtomUpper, "RtoM Upper", color=color.new(color.red, 50), linewidth=1)
+p2 = plot(rtomMiddle, "RtoM Middle", color=color.new(color.gray, 30), linewidth=2)
+p3 = plot(rtomLower, "RtoM Lower", color=color.new(color.green, 50), linewidth=1)
+
+// Fill channel
+fill(p1, p3, color=color.new(color.blue, 90), title="RtoM Channel")
+
+// Signal Background Color
+bgcolor(isLong ? color.new(color.green, 90) : isShort ? color.new(color.red, 90) : color.new(color.gray, 95), title="Signal Background")
+
+// Signal Labels
+plotshape(isLong, "LONG Signal", shape.triangleup, location.belowbar, color.green, size=size.normal, text="LONG", textcolor=color.white)
+plotshape(isShort, "SHORT Signal", shape.triangledown, location.abovebar, color.red, size=size.normal, text="SHORT", textcolor=color.white)
+
+// ═════════════════════════════════════════════════════════════════════════════
+// COMPOSITE SCORE PANEL (Lower)
+// ═════════════════════════════════════════════════════════════════════════════
+
+// Create separate pane for Composite Score
+// Users can add this via Pine Script: csRSIMTF = input.source(...)
+
+// Export values for external use
+plotchar(isLong, "LONG Export", "▲", location.bottom, color.green, size=size.small)
+plotchar(isShort, "SHORT Export", "▼", location.top, color.red, size=size.small)
+
+// ═════════════════════════════════════════════════════════════════════════════
+// ALERTS
+// ═════════════════════════════════════════════════════════════════════════════
+
+alertcondition(isLong, title="LONG Signal", message="TrojanLogic: LONG signal on {{ticker}} at {{close}}")
+alertcondition(isShort, title="SHORT Signal", message="TrojanLogic: SHORT signal on {{ticker}} at {{close}}")
+alertcondition(ta.crossover(compositeScore, longThreshold), title="CS Cross Above Threshold", message="Composite Score crossed above {{longThreshold}}")
+alertcondition(ta.crossunder(compositeScore, shortThreshold), title="CS Cross Below Threshold", message="Composite Score crossed below {{shortThreshold}}")
+
+// ═════════════════════════════════════════════════════════════════════════════
+// INFORMATION TABLE
+// ═════════════════════════════════════════════════════════════════════════════
+
+var table infoTable = table.new(position.top_right, 2, 6, bgcolor=color.new(color.black, 80), border_width=1)
+
+if barstate.islast
+    table.cell(infoTable, 0, 0, "Primary RSI", text_color=color.white, text_size=size.small)
+    table.cell(infoTable, 1, 0, str.tostring(rsiPrimary, "#.##"), text_color=rsiPrimary > 70 ? color.red : rsiPrimary < 30 ? color.green : color.white, text_size=size.small)
+    
+    if enableMTF1
+        table.cell(infoTable, 0, 1, "MTF " + mtf1Period + " RSI", text_color=color.gray, text_size=size.small)
+        table.cell(infoTable, 1, 1, str.tostring(rsiMTF1, "#.##"), text_color=color.gray, text_size=size.small)
+    
+    if enableMTF2
+        table.cell(infoTable, 0, 2, "MTF " + mtf2Period + " RSI", text_color=color.gray, text_size=size.small)
+        table.cell(infoTable, 1, 2, str.tostring(rsiMTF2, "#.##"), text_color=color.gray, text_size=size.small)
+    
+    if enableMTF3
+        table.cell(infoTable, 0, 3, "MTF " + mtf3Period + " RSI", text_color=color.gray, text_size=size.small)
+        table.cell(infoTable, 1, 3, str.tostring(rsiMTF3, "#.##"), text_color=color.gray, text_size=size.small)
+    
+    table.cell(infoTable, 0, 4, "Composite Score", text_color=color.yellow, text_size=size.normal)
+    table.cell(infoTable, 1, 4, str.tostring(compositeScore, "#.##"), text_color=compositeScore > longThreshold ? color.green : compositeScore < shortThreshold ? color.red : color.yellow, text_size=size.normal)
+    
+    signalText = isLong ? "LONG 🟢" : isShort ? "SHORT 🔴" : "HOLD ⚪"
+    signalColor = isLong ? color.green : isShort ? color.red : color.gray
+    table.cell(infoTable, 0, 5, "Signal", text_color=signalColor, text_size=size.normal)
+    table.cell(infoTable, 1, 5, signalText, text_color=signalColor, text_size=size.normal)
+
+// ═════════════════════════════════════════════════════════════════════════════
+// END
+// ═════════════════════════════════════════════════════════════════════════════
